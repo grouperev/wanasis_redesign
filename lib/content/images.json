@@ -1,0 +1,1478 @@
+{
+  "aadl.jpg": {
+    "name": "aadl",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAACQAgCdASoQABAAA4BaJZgCdH8G6AA5G2HTS5iygAD+8Jsih3kS/QmApsrvYQTDriJv0xcxRYg7qY+uyjWPVT/kV0yDShu7o0dE6f/WAUjZGRsglC1ieczsoe1igKWnT5B4dpnh6KBgfi0mKvqG2ndmJE5AAA=="
+  },
+  "abpharmaceutical.jpg": {
+    "name": "abpharmaceutical",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAwAgCdASoQABAAA4BaJZwAAuRK/yGl2PJTAAD+9OEuKsCarguCnDeN3l2f7cK8sxq6RG/00KVp5qoxSeFtHI3j9NSGC69TGnEFVAU2f7f7mraWixQLYbCuj+EUgOnxnwAAAA=="
+  },
+  "acsmed.png": {
+    "name": "acsmed",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADQAQCdASoQABAAA4BaJZQAAuda9jKgAAD++LAuN4wylrxrxdi05j8NiHQ3eoCX5U0QAA=="
+  },
+  "alimedic.jpg": {
+    "name": "alimedic",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAQAgCdASoQABAAA4BaJZwAAuQP6T45/HwAAP736ZIdNqpdkwdXs9ajazfie4lr0yH/C7pMqyQrlrk9hEmT4vINQICUzS73h8wDQnxgM2TVErIQAAA="
+  },
+  "amdp.jpg": {
+    "name": "amdp",
+    "width": 480,
+    "height": 480,
+    "widths": [
+      160,
+      320
+    ],
+    "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAwAgCdASoQABAAA4BaJQBOgMX62/qZute7sAD+8+1es7HmmpmHO6Mwy2LhSNg/VnOSug3A+L8fzslclQX9ZHF9o/QZj0hCekYIhL8jWfnk8N+HtgLBwtFlyVHpOm0vLYMl88XQAAA="
+  },
+  "atmosphere.jpg": {
+    "name": "atmosphere",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAQAgCdASoQABAAA4BaJYgCdH8AFcf4ppuwAP7TnpRb3ihWX551z6P6ylccnwyfcQkP83VQFLDVRIuGXOg/Kqeg2NH7fX1zhPPOB/rSes1QsBOeEjwzRExROKqATxjLpo7EKodAAAA="
+  },
+  "attiryak.jpg": {
+    "name": "attiryak",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAwAgCdASoQABAAA4BaJQBOj+ADAzv2CIMHvAD+9+maULhIynEW6gAZCiGaFh0GZ9CgUtOeKqLW8bqUuDA3VMxBX6GBvO5jMMxzuHpjTNaGBbL01G3ptcguxihmlQC8oAA="
+  },
+  "aylan.jpg": {
+    "name": "aylan",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAABwAQCdASoQABAAA4BaJZwAAXHTAAD+8+nSM5j9fTNyy1cToc571TO084Oy5QFI9Vy+RIjrsdBbeN/7hB5nT9tYEfQsJAbe54/jYAAA"
+  },
+  "ayred-med.jpg": {
+    "name": "ayred-med",
+    "width": 480,
+    "height": 480,
+    "widths": [
+      160,
+      320
+    ],
+    "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAwAgCdASoQABAAA4BaJbACdAEN5Nz/FG13gAD+79M6O5QqyP8wgi7oZT5xEcvkdX4+qCooABD1gRjQfAfy0VtZSfIB/k+/S56n5x9pQwAAAA=="
+  },
+  "bcd-pharma.jpg": {
+    "name": "bcd-pharma",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAQAgCdASoQABAAA4BaJZwAD42NRo42iLcAAP72Glbd/swu6uhMUcL/18aJqztxUwwx8U8nyWtkLpuKRcZXH6/b3aRXPDPrfq9wT7NcncvUn6Hxi6Jpvm57bIiAAA=="
+  },
+  "bcos.png": {
+    "name": "bcos",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAwAgCdASoQABAAA4BaJZQCdAEPBevJrSGuAAD++LAzHasl70l8qunTeA9zEZqqJOUgGa+xz4H/UmY0BPCAAA=="
+  },
+  "bg-avicenne.jpg": {
+    "name": "bg-avicenne",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAABQAgCdASoQABAAA4BaJYwC7AEQ/ZcNcnO1pQAA/vYQfiOIaRh0wD/U9t7FpnzkohETZU2Sim9+Abklo1j27rFEBGPyAAAA"
+  },
+  "bigdis.jpg": {
+    "name": "bigdis",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoQABAAA4BaJZwAAudfJEudbTgA/vi328/6GzQ4PgVafVlVdBI/zzaCzQrH1fQxNlnKRyLk+ZDMM16ehKAAAA=="
+  },
+  "biogalenic.jpg": {
+    "name": "biogalenic",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQAgCdASoQABAAA4BaJbACdAERHxJzb+2AAP7yBDqn1L0ntnqrPjh6tW4wpCuUZlsyezkk4VlB9J9Gxblro0B6hIFJ4WtK855FQ9NjC0ocBIeSEWHG8IeIAAA="
+  },
+  "biomest.png": {
+    "name": "biomest",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAwAgCdASoQABAAA4BaJZQC7G1/Aou0tXieAAD++Lpa+MUElLiiCWf33NvehQoF3B4MTR0srT8ACC3V+ARym/s0W43AwrxLKlddCG8N6wQR+wU3ygFQybqeQAA="
+  },
+  "bnm_parapharm.jpg": {
+    "name": "bnm-parapharm",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAAAQAgCdASoQABAAA4BaJZQCsAEPAFOljVMAAP735+EOrjfmioBRc5/ugXQX1d2QMYVSdJXAAAA="
+  },
+  "bouchama.jpg": {
+    "name": "bouchama",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAADQAgCdASoQABAAA4BaJYgCdH8GJ/gaXsy70C37J08AAP72Qz70bHOEwOg7U5W+PcoBeQu+JgPrwM0LTG4i1fe1PS/av5Mt3Kp6wYHxsBs4I03z2ncRjGUBIm3bcuuZziAAAA=="
+  },
+  "cec.jpg": {
+    "name": "cec",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAQCdASoQABAAA4BaJZwAAuYcjk0vCAAA/u1JFMLKz7gQQp96FO76nBAZxbD05WeDdBcS52ayfFzB8rbigAAA"
+  },
+  "chark-cos.jpg": {
+    "name": "chark-cos",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAQAgCdASoQABAAA4BaJQBOkBsjA16EktgAAP73Bc1NofHKi8BGkjgu3U4eGCZrZUlFfpdGa+z7JS0+/UdYT0myhO7wd6tOAgAAAA=="
+  },
+  "chark-pharm.jpg": {
+    "name": "chark-pharm",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADwAQCdASoQABAAA4BaJQAAXUjanUWzn4AA/vfwXHSn9SpAfKigCaBJK/8mv5XDdkLaiSBORhxBBU/Rk2feqF35uvQ8Y+QMg1qRqitctjz6sgItTme2P41u6OjA3w4ogAA="
+  },
+  "chermedic.jpg": {
+    "name": "chermedic",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAQCdASoQABAAA4BaJYwC7ADslK2m9AD+8jo5G+naKjSzNJW7jwNNc/M1EXBaQ0kBhy3o/61bQeHvWhMyRwuA3gFH/yrf4j6gAA=="
+  },
+  "cne_medic.jpg": {
+    "name": "cne-medic",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAQAgCdASoQABAAA4BaJQBOgCHgQ7cxPqJAAP7xzPECkWt/yLsJsqyq7TxExFkNLUhGui6srA+aSgr4zKZ8oMCAAAA="
+  },
+  "cne_pharm.jpg": {
+    "name": "cne-pharm",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAABwAgCdASoQABAAA4BaJQBOgMYJ1UNTaTTeLiyYAP7TwBot+x1agkFK8RCPjUkfaQPVO/KABVKXg26fBA0FkoFjA7xDwRPo4g2x3liSDo8MyC3kEUt9DI/C9vk1p79LI0lWOQkPs2g0wRb7XhF2jaCDSToOh4R65CAYPyxzgAA="
+  },
+  "cnl.jpg": {
+    "name": "cnl",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAQCdASoQABAAA4BaJYwAApwNmj+EAAD+8BZp6Ssd2+a2zGUY1hoQa5c2sPtFOjGZD2Uktm8kxuLJkpuB3z1sk75LfhUbeAA="
+  },
+  "commune-alger.jpg": {
+    "name": "commune-alger",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoQABAAA4BaJQAAXWUWTkok+gAA/vJekhz8KTWPPjd1KJGVGMqS9iur/359ryRMqhVO7KP1yfPCiK9Gxz7kUxJcBf8b3BAA"
+  },
+  "conceptas.jpg": {
+    "name": "conceptas",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAQCdASoQABAAA4BaJYwCdAEQ/iGsuAAA/vBlxbaPA2g1oqP2X8hvPsYrdbMoII/ulqfuB+soQD/udOChAAAA"
+  },
+  "cpm.jpg": {
+    "name": "cpm",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAABQAgCdASoQABAAA4BaJYwAD5Pvv38Up9YQoAAA/t/qbmldOlRVTYsTD2PNFcQsy2yhGp3Np8NG+evQ8djeGq1Kb9yRXR3pOGNW/wcAzVYTMvuWe+uOPzvJwwazgHhawAA="
+  },
+  "curativa.jpg": {
+    "name": "curativa",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADwAQCdASoQABAAA4BaJZwC7AEPAIBmMQAA/vYGc6TJpl7o4TU8bMrzJP9q/sRFNyWIDoSDUygcAA=="
+  },
+  "cvm.jpg": {
+    "name": "cvm",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAADwAQCdASoQABAAA4BaJZACdAYuHj2stAAA/vYY6fAiBbk24WxJ87qhKhHqaPfKP8r6baHnKr4jY07PX6GVkUKWQfnQ4xy2IWXnO52yS0SjWVionQkgBwIaiy89YVu5kPXwAA=="
+  },
+  "dani-pharm.jpg": {
+    "name": "dani-pharm",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADwAQCdASoQABAAA4BaJQBOgCHgEBQAaAAA/vHyphKzIZvIpoNsawqCbeWur4SwIEf3qG0/cwWX8AAA"
+  },
+  "dermosens.jpg": {
+    "name": "dermosens",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADwAQCdASoQABAAA4BaJZQC7AEO/iIhUwAA/vYJTMEpCukwby4P7zrwrEMK7rvZfyErgLlyQXnjgAAA"
+  },
+  "dvpp.jpg": {
+    "name": "dvpp",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAQAgCdASoQABAAA4BaJZQCdAELZFALTiAAAP7rXCtFOW3dzYpwGKN6CQ1tni8RL/66kCru2zMk/z+PUY4BbTD31EwkrQHx2YOOyy2YPQtskAAA"
+  },
+  "el-thika.jpg": {
+    "name": "el-thika",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAQAgCdASoQABAAA4BaJbACdAEO9bQhf50gAP7zcO5+Ao/o3RHmnN7SgftjPkUS2pqd6PASe7BsWuBFUc/y3Oz3Wb7B6ymw1IpxIEwqZCa1VO8M2hN4ftxaQDkYdr1Lu/Byn8bFAAA="
+  },
+  "elisar.jpg": {
+    "name": "elisar",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAQCdASoQABAAA4BaJZwAApMQPDz9AAD+9hPeFbT+k51s+Hof8oVClg1lFMdCzAGOoridQSG66TL5NiNzAAAA"
+  },
+  "enpi.jpg": {
+    "name": "enpi",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAQAgCdASoQABAAA4BaJYwAD4WwaCQP84kgAP7373NaPuGnIu965nkEML9NtsRVnRbRiqHG1g8D47RR9Knn7Pbznnkc1ZSFqWwC0ZiD8seaeZ5OdsoYxPL+kDiX4SAA"
+  },
+  "epiocare.jpg": {
+    "name": "epiocare",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoQABAAA4BaJZwAAudepwl3QgAA/vcJACuZ/WrePyw+hDg5+ULuemHG1vfvaexBpqLEGuAB0uhCgB5B2hwAAA=="
+  },
+  "esthelab.png": {
+    "name": "esthelab",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACwAQCdASoQABAAA4BaJaQAAuacUEAAAP74sGreQvI0NxTwKTejwRRrCOkxK22evR/LxWIoUaboC/2HpYV1I3lPIAAAAA=="
+  },
+  "ethicare.jpg": {
+    "name": "ethicare",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAABQAgCdASoQABAAA4BaJYwC7H8Agpi/2A9HnugA/vc3ZiV0TEfQkSrmRXAl2H9cJgpOSeNGTZh1oZ4ojP8Y36+nBTZaiXjR6XEJcQcFgAA="
+  },
+  "evexia-logo.png": {
+    "name": "evexia-logo",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoQABAAA4BaJZwAD43waVfPWAAA/viwBVGAsQgft9YUC5H3Ms1DNnvmshOlcFENfFqwOCfUCFyUcvpedgXaPLThAAAAAA=="
+  },
+  "globalDistriMed.jpg": {
+    "name": "globaldistrimed",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAQAgCdASoQABAAA4BaJYgCdAEf/sTgwBIAAP72FSyjNhaNE5I6Ci+YE5GdaQ28t9jAAM5k90hPWKBuIBz+IR5dAmAAAA=="
+  },
+  "gpsk6.png": {
+    "name": "gpsk6",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAABQAgCdASoQABAAA4BaJbAC7AYvhlIC+kVjQAAA/u5b5zKwafSbMj601ty0/Fi6/YvlVJIUXe7v2LND7lC/tb57xwzq+WHcQw2bM6X5Kdwvsp7LJWFaxwpj/2C8B1LjV537cRGZaVnfl9+CFtiA1K0qAAA="
+  },
+  "hbz.jpg": {
+    "name": "hbz",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAABQAgCdASoQABAAA4BaJYwBTAFvm7hV0twrm6gA/vcLmqumxl6FCNeO+thCD8w/g5JkJcP/xZAB0UpPwioU1NQ4YC0d4wOBP5ELlqq/dxGAI7dmKS7bBKmOEUJgBjz71UuAAA=="
+  },
+  "hk.jpg": {
+    "name": "hk",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAwAgCdASoQABAAA4BaJYgCdIDZDlDJWyXbAAD+61x2r0Ho7jTt9l9treeEu2s/bp9tORzJbI2D/VT41CbmJaFCOM4KwaTr7yLrTsqHTac+0tD4UbAAAA=="
+  },
+  "ibn_zohr.jpg": {
+    "name": "ibn-zohr",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAwAgCdASoQABAAA4BaJYgCdAD0Xktdntz4AAD+88Awk5gJ/jruLu224LvlRLrYI5EPcpVY1K8D07rQKDjAJ8W9Kra3Rl74wQGrBQ7lU36jnSkw3w6pTVaekeItz1rEU1AAAA=="
+  },
+  "ilys.jpg": {
+    "name": "ilys",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAABQAgCdASoQABAAA4BaJYgCdH8G6AAzZekk/gAA/vOsJEC08mvXdJRYKzlpO5K92JmcqT4YjAaxjQrq4+3ZqPs7tibvuVc9es04pXMrrc8ppp3+o7HAckKx8fYYenZcKvmkAA=="
+  },
+  "innova-parapharm.png": {
+    "name": "innova-parapharm",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoQABAAA4BaJYwAAuZgIXUGAAD++LBaxRvcNM94RgCE7IFE2Uqbg1cH3/k4V2TXgGOpy11ssbGnlRE54QAAAA=="
+  },
+  "jsm.png": {
+    "name": "jsm",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAwAgCdASoQABAAA4BaJQAB8coL+nlauFjVoAD++LpLoskxC43GlB+Z2dTfZ8r6kzfPFhyplvtfF1+9lsimUl3maquhFPaixvFGT6+O8qZXLE460TJqUv4CdPc1B1Jm6wxIwAAA"
+  },
+  "khawlapharm.jpg": {
+    "name": "khawlapharm",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAABQAgCdASoQABAAA4BaJaACdAEQA7r1OJjPbGAA/u1et6tgEFoR5LlNzKi3NWHwdeu19OxrlS3epmfAEyA4/H3NB8Tg7IrwqWLCakxEh8ApMcWIiWDhokHU2M0AAA=="
+  },
+  "laraba.jpg": {
+    "name": "laraba",
+    "width": 2000,
+    "height": 2000,
+    "widths": [
+      160,
+      320
+    ],
+    "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACwAQCdASoQABAAA4BaJZQAAvcolnvgAP72CnXS3YNpHh7yHR5xalc0dqN6+NUScevhmHf8q/CWKO7sDGwLFHNe7mfi/DXqLS4aeyqAAAA="
+  },
+  "logo-arab.png": {
+    "name": "logo-arab",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAwAgCdASoQABAAA4BaJZACdH8AGBudUgHwAAD++LBh5Iqx/nTtkAaT68a3J/LvhoZTUJTAPfkkdCn7yQ1zqFVgAHxVn+SBlWFfkoN+QgRrO10XSipySuHAAAA="
+  },
+  "logo-bnsd2.png": {
+    "name": "logo-bnsd2",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAwAgCdASoQABAAA4BaJbAC7AEPhx5JaIepWAD++LoGKJtpm+GUVPlKZhzuII+zy9tVUjm13Z+q2FZoyhKABE32vYwEdtDGA8Xff7s9RGA6KJH+JK7NYYMYVjH6okWAAAA="
+  },
+  "logo-genis-1.png": {
+    "name": "logo-genis-1",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAQCdASoQABAAA4BaJQApgAbdPe1aAAD++BnlIKR1e8QVFOegKQheITMV2cmQFG2WGNPL3Yt5s3TVBxUwKnoaE/Z2tDKF/YC0SCGWH1ZAAA=="
+  },
+  "logo-mondo3.png": {
+    "name": "logo-mondo3",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAQCdASoQABAAA4BaJQApgAeiEc2WNGwA/viuL5DgVUjzkMlJIYCAbWP7fVCpwM6XEZD20SdfQxDSJfr6daQqtg8LClwAAAA="
+  },
+  "logo-setifmedic-2.png": {
+    "name": "logo-setifmedic-2",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAADQAQCdASoQABAAA4BaJZwAAudcvoqCAAD++K+yyswTMCNgLccDk/nb0fegAAAA"
+  },
+  "mbn.png": {
+    "name": "mbn",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAQCdASoQABAAA4BaJZwAD4xwbhZQgQAA/viwW6+uRFOoggjnKXs3UBN0K7JRbNSoCIBYv3Cqh9OyE2HxrmUZQfex8j62eSPWQnHrHP31ZSgoAAA="
+  },
+  "medicalsys.png": {
+    "name": "medicalsys",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAACQAgCdASoQABAAA4BaJQBYheDE/wPV9nAs+cxVQAD++LLgnpPRbeQjBx5bI8pWTwzl2yx1TgWCCze5swUKWMZZm0BIM+Qg5NfwxOiaxSe3IvtsMAA="
+  },
+  "milimed.jpg": {
+    "name": "milimed",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAQAgCdASoQABAAA4BaJbACdAD1YJXep6fwAP7WDg7CPVFtK+e+yMGIQOjXLZ5SJwgbJ2zTQZaQqdc2SzV4jpUuAK+XMBUKQiLtW097XA4Qjj77pSsP2mBlgf+AAA=="
+  },
+  "mima-pharm.png": {
+    "name": "mima-pharm",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAACQAgCdASoQABAAA4BaJYwCxC8AglS/0MbCah0dEAD++K/OboOdQW482BDkimyYdteA2pJL6lzWVO4D9XDvwbrzYsnePfAwEwyjnYscTHjBqoSce6r10BnAAAA="
+  },
+  "mimapharm.jpg": {
+    "name": "mimapharm",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAwAgCdASoQABAAA4BaJZQCdAEPCaZ/GRV2oAD+9wkAK5n9iU9W4qcVnLmOIOzFlsLInKdKVeE4AUu+OO9sHbJmhcb5nc8YwaCp6TyHbpT9Uec6MYAAAA=="
+  },
+  "minou-pharm.png": {
+    "name": "minou-pharm",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADQAQCdASoQABAAA4BaJZQAAudDA0hKgAD++LBq1me1G7JORsUCl4dQw05jkzeuYc7paq49vG7bUUkAAAA="
+  },
+  "mounibpharm.jpg": {
+    "name": "mounibpharm",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQAgCdASoQABAAA4BaJbACdAEPhv0OgwfAAP7qdat68SC8WW9JxHopEHUYV15Lnd3tgvdcw0Ju2WO0k4QOujQpxWjHmSVQHR39SmddQbhOAA=="
+  },
+  "nadpharmadic.jpg": {
+    "name": "nadpharmadic",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwAgCdASoQABAAA4BaJYwCdAERH+DbnsPSwAD+9N4JsnDcKoTvdSzuLnozwmEJVEuwu71042NLBAYu+IVp3k0J8qVjbtDFBZWin8b90VjcAAAA"
+  },
+  "nourmedic.jpg": {
+    "name": "nourmedic",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAQAgCdASoQABAAA4BaJYwCxC8AFcHKvCmAAP74uncnF6Eh7phWtVdHKH3e+jG/m3WNRL/KTnYVHUL5K1Y+nXHvZwUtW+4zIfu8IrPOC7EeoWPJgVPsn8y9toAAAA=="
+  },
+  "oleasens.jpg": {
+    "name": "oleasens",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAQAgCdASoQABAAA4BaJZQAAqH3+8dre3cAAP7zrCQuMvh0uYqwPy5Z3M5YalmjxHG3iipdwz6MPeh8AAA="
+  },
+  "optimal.jpg": {
+    "name": "optimal",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAQAgCdASoQABAAA4BaJYwC7AD2OhAeggQAAP7v9dXjHYDgwz8fDGBKdOvRpwx8X05UU2V7EpR/KAXhFHDWGGFAI1Ja9Z8gj6vGUo3YX4J88AAA"
+  },
+  "parashop.jpg": {
+    "name": "parashop",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADQAQCdASoQABAAA4BaJZQAApz/dCUXAAD+9hoeshKWQeuIuOKTk2cHtI1TF0UQXMRCFTouM/Xx+bpIIQAAAA=="
+  },
+  "pharmeline-logo.png": {
+    "name": "pharmeline-logo",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADwAQCdASoQABAAA4BaJZwAAudctRnrIAAA/viwTuUKYU4friO3KcsLX3bS7dhdbTfO2+tDQAA="
+  },
+  "physiopharm.jpg": {
+    "name": "physiopharm",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAQCdASoQABAAA4BaJQAO0vBkGAQKT0AA/vcH5Dhsd5FCoyyZzTrBE0tH3spR2vbxG0Kg6yA6Y2s41tj8zQS4aaU2uqxHvSIN2FMd6K9bsAAA"
+  },
+  "propharma.jpg": {
+    "name": "propharma",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAQCdASoQABAAA4BaJYwAAudm2rAUf2AA/u1dGxMntvnHLEWPfTcK5ou9L4Z4BU4ibArf+/nihnzPofbo8AAA"
+  },
+  "remede-medic.jpg": {
+    "name": "remede-medic",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADwAQCdASoQABAAA4BaJQAAXPEnhGXuezAA/vfqjbgO33wAzGTC4+qb/UwHOe3SGeKPhQAA"
+  },
+  "seif-pharm.jpg": {
+    "name": "seif-pharm",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADQAQCdASoQABAAA4BaJZwAAudgFykBQAD+9NNBZ4aazuCK2RM4rO81cDhWzfptlRBoq09IUejMNC3eXIAAAA=="
+  },
+  "skypharma.jpg": {
+    "name": "skypharma",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAQAgCdASoQABAAA4BaJYwC7AEPDCe9GbAAAP71OJEGY6M3c+2fdKRgOW2cocbCrPMT4aES9PeC2A096jL/5IETs2QAcnq8GyOzQAAA"
+  },
+  "slimane-pharm.jpg": {
+    "name": "slimane-pharm",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACwAQCdASoQABAAA4BaJYwAAu1/r0SAAP7tpn4x6eiETYHSJP2InT5jhjAdMPDsibNYIPyPWJovsIKbeZnZUQzoRgYSI2Lbs9ZwA/dAAAA="
+  },
+  "somedest.jpg": {
+    "name": "somedest",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAABQAgCdASoQABAAA4BaJZQC7AYt9v75S6va9JgA/vHVyhobY1Bj5n1oSsrs6e+B6e88TzZuUtfSBdYgaoBXIBjvveriejSh/ALT5a5KEZBEV2xazez6VyWJvAA="
+  },
+  "sopipharm.jpg": {
+    "name": "sopipharm",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAQCdASoQABAAA4BaJZ12M0JkAADSAAD+8GjyJeHrj1Riq/rSuaMSUYkKZRqg6LkwbT2lmmZzCUVk8PG3ZOgJfSgkIAANQAA="
+  },
+  "soundous-pharm.png": {
+    "name": "soundous-pharm",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoQABAAA4BaJYwAAudQU0hsYAAA/vYJWanmlCGMdhpuJpZPiBxKX/lIpDwANQNJ4UcS0+HMdHb0j10P4RiaukgbSwAAAA=="
+  },
+  "ss.jpg": {
+    "name": "ss",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAwAgCdASoQABAAA4BaJYwCdAEfnN2mwiociAD+9SE2D7tLtlh1nW9Sb+Vh7nZ399q86pRuTVXLEMWER8k2gI1XXjOEZvctgSmKOokEc+y3/Hvy0/urezQAAAA="
+  },
+  "stradib-pharma.jpg": {
+    "name": "stradib-pharma",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAwAgCdASoQABAAA4BaJQBOgCIgYLcoiQdeyAD+9hBsAoE5WRFz4p/dSJF3iaM36L2mTAhofQaxRmbt+/dVbL1pseUQqMhcu6PiGwEc6h5xhU8iX28tFiK7Wa9wAAAA"
+  },
+  "tarros.jpg": {
+    "name": "tarros",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAQCdASoQABAAA4BaJZwAAp1QlLzAAAD+9P3vvL1Mz3IV8WHkvPbIYd1y7/dLjzBcQy7Sew6XZigd6RfdCZ4rbWp0g0dwDegAAA=="
+  },
+  "umc-lab.png": {
+    "name": "umc-lab",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQAgCdASoQABAAA4BaJbACdAEPSYxUM2EgAP7wr8DdXkHeK83qBHFVefsIHJs/2Q3ROtCrvF798Daqg9waU74DhftlEEAPjGyDHPRqoJ6y2pp60E/oRRQAAAA="
+  },
+  "vasco.png": {
+    "name": "vasco",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAQAgCdASoQABAAA4BaJZQCdAELYKc9sdQUAP74uV/eI2G3w8BmaiYYSSpFIXG4baW+LUslIH9ju8NhIY7MSatplavhYgAA"
+  },
+  "vecera.jpg": {
+    "name": "vecera",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAQAgCdASoQABAAA4BaJZQCdAEPBC4HBOQAAP73Bm83DtzJQdTPVDT4eTrUYLiJmREJ5MT6VPy+ovjJTOUWtJPNvACSAAAA"
+  },
+  "veno-pharm2.png": {
+    "name": "veno-pharm2",
+    "width": 2000,
+    "height": 2000,
+    "widths": [
+      160,
+      320
+    ],
+    "lqip": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAwAgCdASoQABAAA4BaJaQAAveE1hN7NkfbAAD+8nOTSpVssevSnCVGuxU9A5vLvdx895cq0kLm+XjPBGLHVjV5TtDGbLqo7f7ajReub1LzoNPWvt/ksXuKD2wWYpbkKPGwAAAA"
+  },
+  "vipro.jpg": {
+    "name": "vipro",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACQAQCdASoQABAAA4BaJZQAAuTdZQAA/vfqRiejXfsqjUBe1qkw4ir3Hj4zLpkdbnB1pQcwvhEtdOe2i4EzAAAA"
+  },
+  "wanacomp.jpg": {
+    "name": "wanacomp",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADQAQCdASoQABAAA4BaJZwAAuR7y5Y00AD+6DoDupmY7lFn2Sc4lGvAGVzxsIHdBIKb7dH2HkAAAA=="
+  },
+  "white-bg.png": {
+    "name": "white-bg",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRiQAAABXRUJQVlA4IBgAAAAwAQCdASoQABAAA4BaJaQAA3AA/vUIAAA="
+  },
+  "yahi-pharm.jpg": {
+    "name": "yahi-pharm",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAACwAQCdASoQABAAA4BaJQAAU3Iq9EOAAP70Auscw4SLwKu37v6B2v9ntadJ4FOiZBldPLIzPzojiRJvrK5s1te1ACRFWJWVubVckkKDWB9J0K6RII0snbeIrSjD1ho3d9gAAA=="
+  },
+  "yazan.jpg": {
+    "name": "yazan",
+    "width": 2000,
+    "height": 2000,
+    "widths": [
+      160,
+      320
+    ],
+    "lqip": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAwAgCdASoQABAAA4BaJZQC7AEPDvwhGH+gAAD+9+6uGHFrwPkFsOY+mdTJWcdFtbHMOsv2xtUKnvIvVPpyE85oODS0Ztcag4b9QjvJCPutMsplJLwGQAAA"
+  },
+  "yougara.png": {
+    "name": "yougara",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAABQAgCdASoQABAAA4BaJYgCdDBOwY7bgGEvd3AA/vi5b7Ky+AhbPltG68MJCuoa1veX5kViZC1HNnJ8nUJKkZlVctOa8HoLPOBR2yRMnr77ZeRESi5Ha7U671zgHIMAAAA="
+  },
+  "zedpharm.jpg": {
+    "name": "zedpharm",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAABQAgCdASoQABAAA4BaJZQCdAEO5Ku3IBgjpYAA/vcO76beKQzwnq/UM2aP1u+Qf8kuJaShfdsEUUFN444XgH1JOUYwlzm3F06XihUG8vqG3uwbeAA="
+  },
+  "zenith.jpg": {
+    "name": "zenith",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAABQAgCdASoQABAAA4BaJYwCdIDZGZ/s+0/L+4AA/vUhPcq52BiIyG5WEQN241Uj5zXadDATZPtFT8RT7vD65XEGs5/x4sJhaGc3K2qfjwTjlYC30uAAAA=="
+  },
+  "aqua-medic.png": {
+    "name": "aqua-medic",
+    "width": 267,
+    "height": 267,
+    "widths": [
+      160,
+      267
+    ],
+    "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAQAgCdASoQABAAA4BaJQBOj+ADA1qgIYOAAP74sCH4t7qqqxjZmm1UTf+JdeWbJb4166ghZxS5OkPi8E3OVwiKT6bf7yQo6XUoAA=="
+  },
+  "Evexia-ERP.jpg": {
+    "name": "evexia-erp",
+    "width": 960,
+    "height": 364,
+    "widths": [
+      480,
+      960
+    ],
+    "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACQAQCdASoQAAYAA4BaJZQAAWSqugAA/vOVIO2Y51QRCInjyRkDowDTmPZvhsE4X5qf5Y2SifN3jvLInEAAAA=="
+  },
+  "ERP-et-Gestion-de-Production.jpg": {
+    "name": "erp-et-gestion-de-production",
+    "width": 2000,
+    "height": 1055,
+    "widths": [
+      480,
+      960,
+      1280
+    ],
+    "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAQAgCdASoQAAgAA4BaJQBOgB6ycwjQXYSAAP6wEGPDlXgVH0JXjtNsGyGR+NhVJONFq829dnPGqPR99HC77Wdd3LizYtKijhMtdAAA"
+  },
+  "ERP-Algerie-Hybride.jpg": {
+    "name": "erp-algerie-hybride",
+    "width": 1500,
+    "height": 857,
+    "widths": [
+      480,
+      960,
+      1280
+    ],
+    "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQAgCdASoQAAkAA4BaJZgCdAEK3yNVt+UAAP7p/TZ9Tftm8TnbVz1g+4MW9DCCVA0lFdZRvxsR8QyavUF2CZrFI4u0gvNHpFGglYSBAAA="
+  },
+  "Analyses-des-donnees-ERP-Algerie.jpg": {
+    "name": "analyses-des-donnees-erp-algerie",
+    "width": 1920,
+    "height": 1198,
+    "widths": [
+      480,
+      960,
+      1280
+    ],
+    "lqip": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAACQAgCdASoQAAoAA4BaJQBOjath4vH1wKLz3nO2AAD8tLCq++XLxWUKpiCOpTy56SFfsDj/JbyhfgdW9SbXthd65lik4/enbqoiryPeHpfzd894YjFPWMG7vfZY8BBjIvSKJaix7mtbbfetIFzP9/G69gTyT3JcAAA="
+  },
+  "Impact-ERP-Algerie-Performances.jpg": {
+    "name": "impact-erp-algerie-performances",
+    "width": 1500,
+    "height": 843,
+    "widths": [
+      480,
+      960,
+      1280
+    ],
+    "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAwAgCdASoQAAkAA4BaJZQAAt4sNZ/c4icgAAD++G9A1Esp39d+S+o5Mx6Qs9VC8CDy7+V0qvX0o3NGuq2SM2KLIe/qb4CUnFiGhpOyaVF9sKgAAAA="
+  },
+  "Quel-ERP-pour-vous-Site.jpg": {
+    "name": "quel-erp-pour-vous-site",
+    "width": 1367,
+    "height": 681,
+    "widths": [
+      480,
+      960,
+      1280
+    ],
+    "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAQCdASoQAAgAA4BaJYgCdACwKoyrgAD+8odsZudDW+vQ/baAR47Gq5Jr+q0oD/PIRLqzHJyygvapayX/RDXYe689MyAA"
+  },
+  "ERP-Algerie-Conformite.png": {
+    "name": "erp-algerie-conformite",
+    "width": 1920,
+    "height": 1080,
+    "widths": [
+      480,
+      960,
+      1280
+    ],
+    "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAABQAgCdASoQAAkAA4BaJYgCdAYtB22A/EYMFyAA/vGGvmfgme0zvubrn2zvIZ6qXfs8goUAv3CSPm7vzqmupv0NNfHWnFF2+eowIJS0XqNRzyqJsYdgAA=="
+  },
+  "ERP-Algerie-Project-Management.jpg": {
+    "name": "erp-algerie-project-management",
+    "width": 2120,
+    "height": 1414,
+    "widths": [
+      480,
+      960,
+      1280
+    ],
+    "lqip": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAABQAgCdASoQAAsAA4BaJYwCdAYuv2eP4ILPqAAA/pcnIIXQZMXhYHMIfx9Wa1M4FWI61iioeh/joIXZFdH35YBx2xx6k899b89uG3pL9uhPyd57ni7Tnmmk4t4fa85V2h/pPMGWSQVAAA=="
+  },
+  "ERP-Algerie-International.jpg": {
+    "name": "erp-algerie-international",
+    "width": 1440,
+    "height": 1058,
+    "widths": [
+      480,
+      960,
+      1280
+    ],
+    "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADwAQCdASoQAAwAA4BaJQBOgCIjotEy0oAA/us2cX/iqYzvFBiq7NjPU2ywekiedlNc0if8CMuh5muhveNZadAn2u4BWAKQW1UfvbsfxJLPkDD2BHDX8VIjX54AHpCUAAA="
+  },
+  "Couts-Caches-ERP-Algerie.jpg": {
+    "name": "couts-caches-erp-algerie",
+    "width": 1536,
+    "height": 622,
+    "widths": [
+      480,
+      960,
+      1280
+    ],
+    "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAQAgCdASoQAAYAA4BaJbACdLoAAZvI3lSAAP5b96SWOENgjVU5A2Ok/Lesiq7uM8363vytE8Wz+C/xkXkIzZ6l92V5asarYYKyUgAA"
+  },
+  "Etapes-Implementation-ERP-Algerie.jpg": {
+    "name": "etapes-implementation-erp-algerie",
+    "width": 1300,
+    "height": 863,
+    "widths": [
+      480,
+      960,
+      1280
+    ],
+    "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAwAgCdASoQAAsAA4BaJZACdAYqNvOni6VNAAD+9NFWbPh70m6waZX+Nv6VMUGOMCapdT0AkHwsa069/ds8vO8eJPyqNK5HWAA="
+  },
+  "5-erreurs-integration-ERP-Algerie.jpg": {
+    "name": "5-erreurs-integration-erp-algerie",
+    "width": 2119,
+    "height": 1414,
+    "widths": [
+      480,
+      960,
+      1280
+    ],
+    "lqip": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAABQAgCdASoQAAsAA4BaJZACdAYtpzWk46cVOgAA/ggoUTI2jiHdfjfZg8TSlmXY7ga2KcrRkb37BjhOc13RQnM0VKNyGA5bPvmfwG0BkDpUI3YXRtvDl6xYKwlkoilYamwAAA=="
+  },
+  "Wanasis-ERP-Gestion-des-Couts.jpg": {
+    "name": "wanasis-erp-gestion-des-couts",
+    "width": 1920,
+    "height": 1080,
+    "widths": [
+      480,
+      960,
+      1280
+    ],
+    "lqip": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAwAgCdASoQAAkAA4BaJZQAu/8WvXgehUMUJAD9v8JFr9s3quTrr5Ii6NqB6Oj9CjTRb7hmkGMp7SIk1WHj+KpmYeRwhcdz56IR5E9xdU/0qgjOOHCx1sVgDAFLEAAQXHboAAAA"
+  },
+  "Wanasis-Agile-ERP-Methode.jpg": {
+    "name": "wanasis-agile-erp-methode",
+    "width": 1920,
+    "height": 1080,
+    "widths": [
+      480,
+      960,
+      1280
+    ],
+    "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAABQAgCdASoQAAkAA4BaJYwCdAYsjySYaf2s/hAA/uoBaO2vBCX7stxUAiZKBCERLrLz2e5hrHSUpV7H6gDPCLGyuJUZc/hN2rdHxfNFISVxsWz6a0TDLOAEcbUrwRDmtPaNRNegAAA="
+  },
+  "ERP-V-Cycle.jpg": {
+    "name": "erp-v-cycle",
+    "width": 1400,
+    "height": 849,
+    "widths": [
+      480,
+      960,
+      1280
+    ],
+    "lqip": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAAAwAgCdASoQAAoAA4BaJZAC7AYt9dwdJE/QgAD+7Q7wuttR9KQlX/t9ba4rk3RJKT4Cu83pRIRFCve0I8c20l3bUpWx4aCbes39MhpmGm7W5vrBm+5v1vaJ3d4QH5yQGqSyCAlbsAAAAA=="
+  },
+  "Role-du-CRM-dans-le-RevOps-Site.jpeg": {
+    "name": "role-du-crm-dans-le-revops-site",
+    "width": 2560,
+    "height": 1416,
+    "widths": [
+      480,
+      960,
+      1280
+    ],
+    "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADwAQCdASoQAAkAA4BaJZACdAD0ZvZQpgAA/myQIq4YZHp88+jRLDb4XZeF4azrsPiGnPa85m33m7Wmo+BVt+TVKvHK0a1YsdTS9pFtPlkk0AxRfG4gBllh/GGMebQAAAA="
+  },
+  "Comment-choisir-lintegrateur-adequat-pour-votre-projet-ERP-Site.jpg": {
+    "name": "comment-choisir-lintegrateur-adequat-pour-votre-projet-erp-site",
+    "width": 2043,
+    "height": 1024,
+    "widths": [
+      480,
+      960,
+      1280
+    ],
+    "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoQAAgAA4BaJQBOgB8nVn4F8AAA/uz3Scn4jGUqBPghYj44Q9x+iEl99Wue9febDew7jTZghUdF6SCVCXI67SHNKJWU9idKAAA="
+  },
+  "Limportance-de-lintegrateur-dans-votre-projet-ERP.png": {
+    "name": "limportance-de-lintegrateur-dans-votre-projet-erp",
+    "width": 2037,
+    "height": 1122,
+    "widths": [
+      480,
+      960,
+      1280
+    ],
+    "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAACwAQCdASoQAAkAA4BaJbACdABrYykAAP7ikWcGw9YJeOiIYeYQwMmDfKyF0TMJCRNafqb1cx3ezl16RdP6wINV+PpADf6nk2zuvGR/A981ZI6a9vtShfX4AAA="
+  },
+  "ERP-Alerie-Etat-Des-Lieux.jpg": {
+    "name": "erp-alerie-etat-des-lieux",
+    "width": 1920,
+    "height": 980,
+    "widths": [
+      480,
+      960,
+      1280
+    ],
+    "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADwAQCdASoQAAgAA4BaJZwC7AEfk171xkgA/vITLKgcVekaBs9aZAxmYRXnwvM77bx+XdDdOv5ikzQA"
+  },
+  "Chef-de-projet-ERP-chez-Wanasis.jpg": {
+    "name": "chef-de-projet-erp-chez-wanasis",
+    "width": 1200,
+    "height": 673,
+    "widths": [
+      480,
+      960,
+      1200
+    ],
+    "lqip": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAQAgCdASoQAAkAA4BaJZQCdH8AFXY4oDQAAPzYXqKlT1fJ9IR/sKqg+InH/1ZhNi3E8d9k6yghLJmcZZrkKSI4zw5kl/IBNJXPc2HZrPAT6OuQ43wF4NYH3wPAlAAA"
+  },
+  "Product-Owner-Chez-Wanasis.png": {
+    "name": "product-owner-chez-wanasis",
+    "width": 1707,
+    "height": 1280,
+    "widths": [
+      480,
+      960,
+      1280
+    ],
+    "lqip": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAADwAQCdASoQAAwAA4BaJQBYdhk86V5rwWAA/OMgy7HhGou9rPY8GVlhDO0bIZ93fuTIalGv7zloI11+/fONYzCo8EG1kcVJhmg49ocESaIWyhivKhbALMmqUtjXwAoLyRxgAAAA"
+  },
+  "MRP-ERP-Wanasis-Algerie.jpg": {
+    "name": "mrp-erp-wanasis-algerie",
+    "width": 1500,
+    "height": 1000,
+    "widths": [
+      480,
+      960,
+      1280
+    ],
+    "lqip": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAQAgCdASoQAAsAA4BaJbACdAYtpnerCNpQAPgpGrLdYJA3jYwC8+geeNYsXqEo2Ss0Hw1phtKESCems19zBcV12Bz3gKigVS3GKi7DL8S+Opd/vEvqmfcmCggpQhbuCIAAAA=="
+  },
+  "ERP-HIS-LIFE.webp": {
+    "name": "erp-his-life",
+    "width": 1280,
+    "height": 720,
+    "widths": [
+      480,
+      960,
+      1280
+    ],
+    "lqip": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAABQAgCdASoQAAkAA4BaJaACdAfwIt4gFdqVSIAA/OXEbYCiIl31t7zdv13rgstO/iHGHG+ZoZM6dkeuXeNt+h2zvh/G072tnPYDvjUmmt+gpizUCr/x/wMXuvN8WOTyRbGSDSt26ZiaUAAA"
+  },
+  "ERP-Invasive-BI.jpg": {
+    "name": "erp-invasive-bi",
+    "width": 1920,
+    "height": 900,
+    "widths": [
+      480,
+      960,
+      1280
+    ],
+    "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAQCdASoQAAcAA4BaJZQC7ACq/bz7AAD+6ACkyHY5Sp6s8JKzKTLos4AGD7IgrmMZySRskX9V3ZUHQBvntPrpqnEAHk6lWhEaXrYK9iPAAA=="
+  },
+  "Chef-de-projet-interne-dun-ERP.jpg": {
+    "name": "chef-de-projet-interne-dun-erp",
+    "width": 1800,
+    "height": 1200,
+    "widths": [
+      480,
+      960,
+      1280
+    ],
+    "lqip": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAQAgCdASoQAAsAA4BaJYwCdADdK/4vpiQAAP7t0BJai5uOZHRBOXrqb2y8ws1E+OW97fpqV+wjUsntfXCd4Aa0fom+TJg//K8dWdKkHrJpCnQwo8OBx68TfjUcGAAA"
+  },
+  "limportance-des-erp-pour-les-commissaires-aux-comptes.jpg": {
+    "name": "limportance-des-erp-pour-les-commissaires-aux-comptes",
+    "width": 1254,
+    "height": 836,
+    "widths": [
+      480,
+      960,
+      1254
+    ],
+    "lqip": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAQAgCdASoQAAsAA4BaJQBOkCYiM6WGgHwAAP7XM/6VhqqM2KqkVjlFZmvWAEFGlX5m++mqKOVt5r2U+Yg89WokEdt5Jy2m20ye9AO4uLUpunTfwioCX7HbcXnFg1nMnP9xQAAA"
+  },
+  "erp-point-de-vue-managerial.webp": {
+    "name": "erp-point-de-vue-managerial",
+    "width": 2048,
+    "height": 1152,
+    "widths": [
+      480,
+      960,
+      1280
+    ],
+    "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoQAAkAA4BaJZACdAEClHWPn8AA/rem5K/IO2XOhbZE6t8gwvwuxwCJxpR75J/wHuEIaQLv8S1y9zSLDp7JCQcoG+VsbI5gAAA="
+  },
+  "le-role-revolutionnaire-de-lintelligence-artificielle-dans-les-erp-du-futur.jpg": {
+    "name": "le-role-revolutionnaire-de-lintelligence-artificielle-dans-les-erp-du-futur",
+    "width": 2048,
+    "height": 1151,
+    "widths": [
+      480,
+      960,
+      1280
+    ],
+    "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAQCdASoQAAkAA4BaJaACdADNCQdJUgAA/To/ER3SgxDg9Dn7x//+f9ILRX6p7ibkINpfj2WiuVooL3+BfrXJkRV21om9tovOmIIURFstqrV8AAA="
+  },
+  "role-des-erp-dans-la-modernisation-des-entreprises-familiales.jpg": {
+    "name": "role-des-erp-dans-la-modernisation-des-entreprises-familiales",
+    "width": 2048,
+    "height": 1365,
+    "widths": [
+      480,
+      960,
+      1280
+    ],
+    "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADQAQCdASoQAAsAA4BaJZQAAuXnCxVqGAD+9+gFfK4rm7jPkRLD4+usuZ0ZVBDgH/ttVCInsuh7T5W40PVOU7gX6rebLWI5jMWLixZZzGbAHpsOgSgAAA=="
+  },
+  "le-bpm-au-service-de-la-competitivite.jpg": {
+    "name": "le-bpm-au-service-de-la-competitivite",
+    "width": 958,
+    "height": 638,
+    "widths": [
+      480,
+      958
+    ],
+    "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAwAgCdASoQAAsAA4BaJQBOgMW51PfrsuIoAAD+5fWZzgz7K20ccfZBpbpCNPoLyfyIHddOhtBPXAaASZmiAyOKppPrFGy3xywbfa8a1HfUa+xMiMZWVHhseQcxaSNM39gnMWI0AAA="
+  },
+  "strategie-erp-a-deux-tiers.jpg": {
+    "name": "strategie-erp-a-deux-tiers",
+    "width": 1600,
+    "height": 909,
+    "widths": [
+      480,
+      960,
+      1280
+    ],
+    "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAQCdASoQAAkAA4BaJaQAAp0uuS6qDAAA/pvuxLOzEU4q/XPdKa8tNw9Cqx0fglFof5xkUY2u+50KQqxApen5ddd5xt84suE4mCHW+5fVHGUG8LAAAA=="
+  },
+  "progiciel-SCM.jpg": {
+    "name": "progiciel-scm",
+    "width": 1600,
+    "height": 900,
+    "widths": [
+      480,
+      960,
+      1280
+    ],
+    "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAQAgCdASoQAAkAA4BaJQBOgMXclEmjudQAAPwGq6XN50k0qp5s8AVeO9mue0BcOPCXVyhYf+M3r8qV+clw+pTZI9aLEhSfJL1dqLi+E1kS/aKAj9EOIJWD/kAAAA=="
+  },
+  "pourquoi-erp.jpg": {
+    "name": "pourquoi-erp",
+    "width": 2048,
+    "height": 1367,
+    "widths": [
+      480,
+      960,
+      1280
+    ],
+    "lqip": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAAAwAgCdASoQAAsAA4BaJZgCdAYstSHiExWygAD+wGX+80hD+fX9mVglcMG846jOu+cfDKqOhYt6F/32TPw7D+9pRZv0gJWjE74hjC1V0l5OyvPzlalOzxBSLCqXCrkofGWrUXOg+a46xQyMoLSAAA=="
+  },
+  "erp-module-crm.jpg": {
+    "name": "erp-module-crm",
+    "width": 5760,
+    "height": 3840,
+    "widths": [
+      640,
+      960,
+      1280,
+      1920
+    ],
+    "lqip": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAABQAgCdASoQAAsAA4BaJYwC7AYtLqfbenuf2XgA/tYLaIS4vO3B2DaDDk1OQsMjTeYCgkUIrdfryS+pCx/HDGVhcf/M94Bd5UtZ0w2brxrLP8OrUF0pFqU0WJ4WICisNTDO5AAA"
+  },
+  "erp-module-vente.jpg": {
+    "name": "erp-module-vente",
+    "width": 1500,
+    "height": 1001,
+    "widths": [
+      640,
+      960,
+      1280,
+      1500
+    ],
+    "lqip": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAAAQAgCdASoQAAsAA4BaJZACdAYwTql6irvAAP7mC1mNpmPn+EhmkYpKTPY80HTcl95z1sMAfHorb07jdhuGeY3sHLqlUXu6D5zz40QMmF6/CXFvyNCsvJU0GFKFmOGlNhsHm8QQRYAAAA=="
+  },
+  "erp-module-SAV.jpg": {
+    "name": "erp-module-sav",
+    "width": 6016,
+    "height": 4016,
+    "widths": [
+      640,
+      960,
+      1280,
+      1920
+    ],
+    "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAQAgCdASoQAAsAA4BaJYwAAlrXHozwO9oAAP6bDs+bWDsMfxcbhRK3ODPq4rzW9kyo4Pt/+AC9udqQYj6lLDFZRpxI7WJdFqQIniUPpT+wikO9NcRYgN/VsrTFW5BKU2GTKEEwCAA="
+  },
+  "erp-module-compta.jpg": {
+    "name": "erp-module-compta",
+    "width": 1030,
+    "height": 687,
+    "widths": [
+      640,
+      960,
+      1030
+    ],
+    "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAQAgCdASoQAAsAA4BaJQBdgB8oIlxLqVfAAP72V7kxtbHnsGvV4jvZtdmUdFyBVfdZWjAtBO4hbnObQKdHqW+npAOHAyYl+//DgJDpBqcuM6ilup4/dUrZQzgUAA=="
+  },
+  "erp-module-tresorerie.jpg": {
+    "name": "erp-module-tresorerie",
+    "width": 2072,
+    "height": 1382,
+    "widths": [
+      640,
+      960,
+      1280,
+      1920
+    ],
+    "lqip": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAwAgCdASoQAAsAA4BaJZQAD40tRkxWxUvbIAD+864no6+QbLgaKQVrVuzqUCDJQqjseXA7OAoAGUva2J2cR9m03BVcSKxD1hxp6R+KZPk79evKsFuDzYe/PCCrZoAA"
+  },
+  "erp-module-gestion-cout.jpg": {
+    "name": "erp-module-gestion-cout",
+    "width": 5760,
+    "height": 3840,
+    "widths": [
+      640,
+      960,
+      1280,
+      1920
+    ],
+    "lqip": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAABQAgCdASoQAAsAA4BaJZwAD4tQda2GMvl2UCAA/vdTbw6jCd6h3GymjWyUoVfP+uZgZD+svTrjTpFQB1JcIrjUFmFIblnom+GDWNfqDDWy23wcATM+AAAA"
+  },
+  "erp-module-production.jpg": {
+    "name": "erp-module-production",
+    "width": 6144,
+    "height": 3456,
+    "widths": [
+      640,
+      960,
+      1280,
+      1920
+    ],
+    "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADQAQCdASoQAAkAA4BaJZgCdAC864iAwADyQWLa2iIqniLbOXT4eBscSpkNH5fBoyxZLAnFL9iCN2jh4+S22pJvMl3C1KRfuP0eg/yIqAOrUtWv+Wnz2X+UcAAAAA=="
+  },
+  "erp-module-BOM.jpg": {
+    "name": "erp-module-bom",
+    "width": 4500,
+    "height": 3003,
+    "widths": [
+      640,
+      960,
+      1280,
+      1920
+    ],
+    "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAQCdASoQAAsAA4BaJaQAD5Go6M26QAAA/vIWZm+nnxRwZtuYbulGCtxy9hoEV1O69bAs3PRtytGi5aiJnT0ydVjji9eDML1zDDP8qukAAA=="
+  },
+  "erp-module-MRP.jpg": {
+    "name": "erp-module-mrp",
+    "width": 7360,
+    "height": 4912,
+    "widths": [
+      640,
+      960,
+      1280,
+      1920
+    ],
+    "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAQAgCdASoQAAsAA4BaJZQCdAEe5150E5yAAP70OpsjLcXZT5T8wUAl0xxrPeMQaVeBIdS25kLoUFrDapa4IPsHiZ7uBBnPEGT4kh4xE8uiItmAGZyXgAnugEYHADkgAAA="
+  },
+  "erp-module-maintenance.jpg": {
+    "name": "erp-module-maintenance",
+    "width": 5040,
+    "height": 3360,
+    "widths": [
+      640,
+      960,
+      1280,
+      1920
+    ],
+    "lqip": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAABwAgCdASoQAAsAA4BaJZQC7AYvXqiqeP8qXt+gAP5sy3JM10qeiRkWUKF6iuvVmCebg7dnLyb0lJ8jchX3Ul66PdC0vpUC+C8dn4j75Z3v/CDUPQxzpQbY/VSBMAAA"
+  },
+  "erp-module-achat.jpg": {
+    "name": "erp-module-achat",
+    "width": 5040,
+    "height": 3360,
+    "widths": [
+      640,
+      960,
+      1280,
+      1920
+    ],
+    "lqip": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAADwAQCdASoQAAsAA4BaJZwAD4iuynn+tAAA/u9o29MxjSc/jch3LGUTuGcdO0+LnfTQjkdjIxKkWxRe0XQ9cbKcijQVAOBuY2OUUr+4EuNGvGTWpwY8Zsung2r6UHyEmze5zfrVRymgAA=="
+  },
+  "erp-module-importation.jpg": {
+    "name": "erp-module-importation",
+    "width": 1540,
+    "height": 969,
+    "widths": [
+      640,
+      960,
+      1280,
+      1540
+    ],
+    "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAACQAgCdASoQAAoAA4BaJbACdGuAtiXJAAT0u98AiAD2YKRQ+urvO9GcVryyLtCGT6QHNx28EMiuosgQ5YN9y8I6srl7yRONFpOztYDg0jgmpXxz0HjLvz/xQIAAAA=="
+  },
+  "erp-module-logistique.jpg": {
+    "name": "erp-module-logistique",
+    "width": 7900,
+    "height": 5267,
+    "widths": [
+      640,
+      960,
+      1280,
+      1920
+    ],
+    "lqip": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAwAgCdASoQAAsAA4BaJZACdAD7FsqOX8UIAADOPx2S/bjNPp5R8DaerQuS2K/NoEzU67rATFUnpd7bfT3UYITeZkq9QczY5IdZLLwnqog/hskIjsqUhyxQKEhR9dAA"
+  },
+  "app-view-img.jpg": {
+    "name": "app-view-img",
+    "width": 750,
+    "height": 390,
+    "widths": [
+      480,
+      750
+    ],
+    "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAAAQAgCdASoQAAgAA4BaJYwCsAEfB1SPMV/AAP6a1sthMMVnb88hmQIS+g6fICjAF2he3hWhcLSuKXPxMeRbOoAA"
+  },
+  "app-link-img.jpg": {
+    "name": "app-link-img",
+    "width": 750,
+    "height": 390,
+    "widths": [
+      480,
+      750
+    ],
+    "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADQAQCdASoQAAgAA4BaJQBOgCFfAUaEgAD+4XIbMt+E/+qLhZ3uYZKX0JkhlTur+qtKQVWizvv7+pZHs7AAAA=="
+  },
+  "app-pick-img.jpg": {
+    "name": "app-pick-img",
+    "width": 750,
+    "height": 390,
+    "widths": [
+      480,
+      750
+    ],
+    "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAwAgCdASoQAAgAA4BaJYwCdAYs3gK740/qQAD5Tq/StdPiUQ7xp2fZSNXQ4TQL81hWIz1NjkVgIpWJ40LmqH3X2p05sj9aMZdAF5JoAKH4BH8FcAAAAA=="
+  },
+  "app-ship-img.jpg": {
+    "name": "app-ship-img",
+    "width": 750,
+    "height": 390,
+    "widths": [
+      480,
+      750
+    ],
+    "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAQAgCdASoQAAgAA4BaJQBWECYjHObDxZMQAP7x4PMnzGvknLmOIsVvbUcREskZGH6tw8mCCDQXxajprDY2XRk18g1h+EUUpYZOU5F82KU0w2PB6u6+DYwwh2LAAA=="
+  }
+}

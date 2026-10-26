@@ -1,0 +1,280 @@
+{
+  "hero": {
+    "title": "Vous êtes unique,",
+    "tagline": "c’est pourquoi Fusion ERP est riche, flexible et entièrement modulaire.",
+    "intro": "Wanasis Fusion ERP est, aujourd’hui, la référence des Progiciels de Gestion Intégrée pour les PME/PMI du secteur pharmaceutiques. Grâce à ses modules spécialisés, il vous offre une solide alternative aux solutions existantes dans le secteur. Sa robustesse, sa souplesse et son ouverture vous procurent un avantage de taille pour un système d’information fiable, performant et évolutif. Il vous permet, également, de fédérer l’ensemble des outils de gestion, d’offrir un référentiel logiciel unique et d’assurer une sécurité optimale de vos données et de vos procédures . Avec sa large panoplie de modules fonctionnelles et techniques, Fusion ERP vous offre une très large couverture fonctionnelle. Quasiment, tous les domaines de la gestion d’entreprise sont couverts. Vous offrant ainsi, une solution complète dans le domaine de la distribution et de la production des produits pharmaceutiques. De par sa longue expérience, de plus de 20 ans et de ses 30 implémentations dans le secteur pharmaceutique, Fusion ERP vous permet de traiter vos flux de gestion en profondeur, dans les plus fins détails et en toute sécurité. Formant la pierre angulaire de la Wanasis Business suite, Fusion ERP est accompagné d’un ensemble de solutions qui le rehausse au niveau d’un système d’information global. L’inclusion de tous les participants et parties prenantes du système d’information font de Wanasis Business Suite l’offre la plus complète et la plus experte du secteur de la distribution des produits pharmaceutiques."
+  },
+  "complete": {
+    "title": "Une Solution Complète et Modulaire",
+    "body": "Wanasis Fusion ERP est une plateforme complète conçue pour répondre aux spécificités uniques du marché local tout en offrant une flexibilité inégalée pour accompagner la croissance de votre entreprise. Notre approche modulaire permet une évolutivité sans heurts, vous permettant d’intégrer de nouveaux modules au fur et à mesure de la croissance de votre entreprise."
+  },
+  "brochure": {
+    "text": "Demandez notre brochure",
+    "url": "/demande-de-brochure/"
+  },
+  "families": [
+    {
+      "id": "commercial",
+      "label": "Commercial"
+    },
+    {
+      "id": "finance",
+      "label": "Finance"
+    },
+    {
+      "id": "supply",
+      "label": "Production & Supply"
+    },
+    {
+      "id": "rh",
+      "label": "RH & Admin"
+    },
+    {
+      "id": "digital",
+      "label": "Digital & Mobile"
+    }
+  ],
+  "modules": [
+    {
+      "slug": "crm",
+      "name": "CRM",
+      "family": "commercial",
+      "chip": "#E46C0A",
+      "photo": "erp-module-crm.jpg",
+      "body": "Grace à l’intégration native du module de CRM de Fusion ERP aux fonctions ERP, traitez les demandes de vos clients de bout en bout jusqu’à satisfaction. Ainsi, ses outils de CRM puissants permettent un suivi intégré de la relation client. Ceci, depuis les actions marketing en passant par la gestion des ventes et de la facturation et jusqu’au service après vente. Avec Fusion ERP vous avez une vue 360 degrés sur l’ensemble des activité liées à vos clients et produits."
+    },
+    {
+      "slug": "vente",
+      "name": "Vente",
+      "family": "commercial",
+      "chip": "#FFC000",
+      "photo": "erp-module-vente.jpg",
+      "body": "Fusion ERP est doté d’un processus de vente complet ce qui vous permet d’exécuter vos flux d’une manière intégrée du devis jusqu’à la facturation. Le processus débute par un devis ou une commande de vente et s’appuie sur l’ensemble du paramétrage réalisé ainsi que sur les éléments de paramétrage saisis dans les fiches tiers et articles Le processus de vente peu débuter à tous les stades : devis, commande, expédition sans commande ou facture immédiate, tout en conservant la cohérence des différentes positions de stocks. Tous les contrôles sont réalisés au moment de l’enregistrement du document : en-cours client, niveau de stock, prix, etc… Par ailleurs, toute la traçabilité est assurée, il est en effet facile en se positionnant sur une commande de voir l’ensemble des expéditions réalisées ainsi que les factures et les paiements. A l’inverse il est possible, à partir d’une facture, de revenir sur les expéditions ou les commandes ayants permis son émission."
+    },
+    {
+      "slug": "sav",
+      "name": "SAV",
+      "family": "commercial",
+      "chip": "#D99694",
+      "photo": "erp-module-SAV.jpg",
+      "body": "Grace au module SAV de Fusion ERP répondez mieux aux exigences de vos clients en matière de service après-vente. Augmentez la performance et la qualité de votre SAV et bénéficiez de son impact sur votre chiffre d’affaires et sur la fidélité de vos clients. La qualité du service après-vente aillant une influence importante sur la décision d’achat, notamment pour les gros achats et les clients récurrents. Le module SAV vous permet d’exécuter un processus rapide et efficace de prise en compte des demandes et des réclamations et vous permet de les traiter du point de vue commercial, financier et logistique"
+    },
+    {
+      "slug": "appels-d-offre",
+      "name": "Appels d’offre",
+      "family": "commercial",
+      "chip": "#376092",
+      "photo": null,
+      "body": null
+    },
+    {
+      "slug": "distribution",
+      "name": "Distribution",
+      "family": "commercial",
+      "chip": "#93CDDD",
+      "photo": null,
+      "body": null
+    },
+    {
+      "slug": "e-commerce",
+      "name": "E-Commerce",
+      "family": "commercial",
+      "chip": "#4F6228",
+      "photo": null,
+      "body": null
+    },
+    {
+      "slug": "comptabilite",
+      "name": "Comptabilité",
+      "family": "finance",
+      "chip": "#604A7B",
+      "photo": "erp-module-compta.jpg",
+      "body": "Le module de gestion comptable et financière est au cœur de Fusion ERP, il est totalement intégré aux fonctions de gestion commerciale et constitue le réceptacle de tous les documents saisies; il vous assure, et en une seule séquence, leur traduction comptable selon un ou plusieurs plans et un ou plusieurs axes analytiques. Ce module assure la traçabilité et la sécurité de vos flux financiers parallèlement aux flux physiques et à vos flux d’information. Il gère la comptabilité client, fournisseur, générale, analytique, budgétaire ainsi que les rapprochements bancaires. Il vous permet, également, de générer votre liasse fiscale complète, d’une manière instantanée et conforme à la législation locale. Le module comptabilité Fusion ERP s’adapte à la structure de votre entreprise et au niveau des détails que vous souhaitez gérer."
+    },
+    {
+      "slug": "tresorerie",
+      "name": "Trésorerie",
+      "family": "finance",
+      "chip": null,
+      "photo": "erp-module-tresorerie.jpg",
+      "body": "Fusion ERP vous permet de gérer vos créances de bout en bout. Ceci depuis la naissance de la créance et jusqu’à son encaissement. Ceci, dans un processus qui débute par la gestions des échéances de paiements, passant par les relances clients, les affectations, la remise à la banque et jusqu’aux rapprochements. Aussi, il vous permet de faire de même pour vos dettes. Cette traçabilité vous permet d’avoir une idée claire et détaillée sur l’état de votre trésorerie et d’avoir les prévisions indispensables à votre prise de décision"
+    },
+    {
+      "slug": "gestion-des-couts",
+      "name": "Gestion des coûts",
+      "family": "finance",
+      "chip": "#948A54",
+      "photo": "erp-module-gestion-cout.jpg",
+      "body": "Afin de maitriser votre profitabilité d’une manière précise et efficace, la gestion des coûts de Fusion ERP vous permet d’avoir la maitrise sur vos coûts au niveau transactionnel et par produit. Les coûts ( coût d’achat, transport, services logistiques, taxes d’importations, variations de change, etc,… ) sont, ainsi, traqués, collectés et ventilés par produit. Dans Fusion ERP il vous est possible de distribuer vos coûts de la manière la plus adaptée à vos politiques et à la nature de vos activités (Par volume, par quantité, par valeur, etc…). Le calcul des coûts est totalement automatisé. Il est exécuté périodiquement, à chaque réception et à chaque retour de marchandise."
+    },
+    {
+      "slug": "immo",
+      "name": "Immo.",
+      "family": "finance",
+      "chip": "#558ED5",
+      "photo": null,
+      "body": null
+    },
+    {
+      "slug": "production",
+      "name": "Production",
+      "family": "supply",
+      "chip": "#77933C",
+      "photo": "erp-module-production.jpg",
+      "body": "Ce module s’adresse aux entreprises procédant à une fabrication à la commande ou sur stock. Il gère les flux physiques (matières premières, pièces, accessoires et produits finis), les flux d’informations ( gammes, heures machines, état de la production, stocks, suivi des commandes), les flux de décision (planification des charges, ordres de fabrication) et les flux financiers (achats, ventes et coûts de production); Ainsi que les ressources (machines, outillage, matériel de manutention et de transport, emplacements). Il a été particulièrement adapté à la production pharmaceutique afin de vous permettre de gérer et de contrôler vos opérations de production de la manière la plus simple et la plus souple."
+    },
+    {
+      "slug": "bom",
+      "name": "BOM",
+      "family": "supply",
+      "chip": "#4A452A",
+      "photo": "erp-module-BOM.jpg",
+      "body": null
+    },
+    {
+      "slug": "mrp",
+      "name": "MRP",
+      "family": "supply",
+      "chip": "#9BBB59",
+      "photo": "erp-module-MRP.jpg",
+      "body": "Le Module MRP (Material Requirement planning) est le système de planification des besoins le plus utilisé en gestion de la production. Il vous aide à anticiper vos besoins en stocks tout en gardant l’équilibre entre l’approvisionnement en matières premières et la demande sur vos produits. Le système MRP vous permet de gérer vos stocks de manière optimale et de planifier votre production afin de fournir le produit qu’il faut à temps et au meilleur coût de l’entreprise. A partir des commandes fermes et du plan de production vous serez capable d’exécuter des simulations et affiner vos décisions de planification de production et d’approvisionnement. Ceci, jusqu’à l’élaboration du plan final qui optimise toutes les activités concernées. Achats, production, finance et promesses de livraison. Le MRP générera pour vous, d’une manière automatique, les réquisitions d’achats, les commandes d’achats et les ordres de fabrication."
+    },
+    {
+      "slug": "maintenance",
+      "name": "Maintenance",
+      "family": "supply",
+      "chip": "#215968",
+      "photo": "erp-module-maintenance.jpg",
+      "body": "Avec ce module vous pouvez aussi bien gérer la maintenance préventive que curative de vos équipements; qu’il soient mobiles (Autobus, camions, engins, voitures, etc…) ou immobiles (Machines, convoyeurs, presses, etc…). Vous pouvez ainsi planifier vos opérations de maintenance ponctuelles ou périodiques et prévoir les machines et outils requis, ainsi que toute ressource nécessaires. Le planificateur vous permettra de générer une programmation périodique de la maintenance et de prévoir ainsi quand auront lieu les interventions, sur quels équipements, par quel intervenant et par quel moyen. Ce processus sera responsable de la génération des Ordres de Maintenance qui seront pris en compte dans la planification MRP, à capacité finie, comme étant des temps d’arrêt planifiés des ressources de production."
+    },
+    {
+      "slug": "achat",
+      "name": "Achat",
+      "family": "supply",
+      "chip": "#002060",
+      "photo": "erp-module-achat.jpg",
+      "body": "Le module Achat de Fusion ERP vous permet de gérer la totalité de vos flux d’achats : articles de production et nomenclatures, consommables de production, consommables hors production, pièces de rechange, achats immobilisés, prestation de service. Le paramétrage du référentiel articles définit non seulement la nature de chaque article, mais aussi son mode de gestion (gestion à la commande, achats immobilisés, stockés, non stockés,…). Chacun de vos processus est géré dans son intégralité depuis la demande d’achats, la gestion des offres avec pièces jointes, les envois par e-mail, la réception et le paiement des fournisseurs. L’intégration avec la comptabilité génère automatiquement vos écritures comptables différentiées, associées à chacune des étapes du flux."
+    },
+    {
+      "slug": "importation",
+      "name": "Importation",
+      "family": "supply",
+      "chip": "#953735",
+      "photo": "erp-module-importation.jpg",
+      "body": "Le processus de gestion des importations vous permet de suivre vos achats depuis l’étranger, de les organiser par dossier d’importation et de gérer vos documents bancaires et administratifs. Il est parfaitement intégré au processus d’achat standard et vous permet ainsi de suivre vos opérations d’importation depuis les demandes d’achats, en passant par les appels d’offres, les cotations fournisseurs, les commandes d’achats, les factures fournisseurs et jusqu’aux lettres de crédit. La gestion multidevises de Fusion ERP vous permet de gérer vos document commerciaux et vos listes de prix dans la devise de vos fournisseurs. Les contraintes réglementaires exigées par les programmes d’importation gouvernementaux sont prises en charge par le module importation de Fusion ERP afin de vous permettre de les prendre en compte afin d’optimiser vos opérations."
+    },
+    {
+      "slug": "logistique",
+      "name": "Logistique",
+      "family": "supply",
+      "chip": "#31859C",
+      "photo": "erp-module-logistique.jpg",
+      "body": "Ce processus vous offre la possibilité de configurer vos dépôts en plusieurs magasins et de mettre en œuvre une gestion spéciale de vos espaces de stockage par un adressage en 3D. Vous pouvez gérer vos réceptions, expéditions, transferts et inventaires de la manière la plus claire et avec une grande traçabilité. Les différentes politiques de prélèvement qui vous sont offertes par ce module vous permette d’organiser vos expédition de la manière la plus adaptée à la nature de vos produits et à celle de vos stocks. Les fonctions de gestion de stocks couvrent la gestion des articles, lots, tarifs, réceptions, expéditions, transferts au sein de votre entreprise, de vos filiales et de votre réseau de clients et fournisseurs. Fusion ERP gère les flux matière en parfaite isolation des autres flux et offres une gestion granulaire des emplacements de stockage et un suivi détaillé des SKU."
+    },
+    {
+      "slug": "parc-roulant",
+      "name": "Parc roulant",
+      "family": "supply",
+      "chip": "#7F7F7F",
+      "photo": null,
+      "body": null
+    },
+    {
+      "slug": "grh",
+      "name": "GRH",
+      "family": "rh",
+      "chip": "#C4BD97",
+      "photo": null,
+      "body": null
+    },
+    {
+      "slug": "paie",
+      "name": "Paie",
+      "family": "rh",
+      "chip": "#B3A2C7",
+      "photo": null,
+      "body": null
+    },
+    {
+      "slug": "projet",
+      "name": "Projet",
+      "family": "rh",
+      "chip": "#376092",
+      "photo": null,
+      "body": null
+    },
+    {
+      "slug": "generateur-d-etats",
+      "name": "Générateur d’états",
+      "family": "rh",
+      "chip": "#4BACC6",
+      "photo": null,
+      "body": null
+    },
+    {
+      "slug": "edi",
+      "name": "EDI",
+      "family": "digital",
+      "chip": "#F79646",
+      "photo": null,
+      "body": null
+    },
+    {
+      "slug": "messaging",
+      "name": "Messaging",
+      "family": "digital",
+      "chip": "#0D0D0D",
+      "photo": null,
+      "body": null
+    },
+    {
+      "slug": "web",
+      "name": "Web",
+      "family": "digital",
+      "chip": "#7F7F7F",
+      "photo": null,
+      "body": null
+    },
+    {
+      "slug": "mobile",
+      "name": "Mobile",
+      "family": "digital",
+      "chip": "#A6A6A6",
+      "photo": null,
+      "body": null
+    }
+  ],
+  "apps": {
+    "title": "Applications mobiles pour Fusion ERP",
+    "items": [
+      {
+        "slug": "view",
+        "name": "View",
+        "href": "/mobile-view/",
+        "body": "En tant que décideur, vous avez la lourde tâche de faire des choix stratégiques et budgétaires en ce qui concerne le développement de votre entreprise. Ces choix comportent de nombreux enjeux et il est parfois difficile de trancher : c’est là qu’entre en jeu le support crucial de la Business Intelligence. La solution View vous indiquera comment se porte votre entreprise, par rapport à votre budget et à vos prévisions et vous permettra de prendre des décisions basées sur les faits qui émanent du gros volume de données dont dispose votre entreprises après plusieurs années d’exploitation de votre systèmes transactionnels: ERP, CRM et SCM.",
+        "photo": "app-view-img.jpg"
+      },
+      {
+        "slug": "link",
+        "name": "Link",
+        "href": "/mobile-link/",
+        "body": "L’application mobile Wanasis Link transforme la distribution pharmaceutique en offrant une solution dédiée aux distributeurs. Facilitant la communication avec les pharmaciens d’officine, elle offre un ensemble complet de fonctionnalités. Les pharmaciens peuvent recevoir des offres, passer des commandes, suivre leurs factures, paiements et effets de banque, et même émettre des réclamations. Cette solution puissante optimise la gestion des relations clients, renforçant ainsi la collaboration et la satisfaction. Avec Wanasis Link, les distributeurs pharmaceutiques bénéficient d’un outil essentiel pour améliorer leur efficacité opérationnelle et leur service client, contribuant ainsi à une meilleure santé publique.",
+        "photo": "app-link-img.jpg"
+      },
+      {
+        "slug": "pick",
+        "name": "Pick",
+        "href": "/mobile-pick/",
+        "body": "Explorez la logistique de pointe avec notre application mobile dédiée à la gestion d’entrepôt. Notre priorité est d’assurer une préparation impeccable pour une satisfaction client maximale. Grâce à des fonctionnalités avancées, éliminez les erreurs de préparation pour une confiance client renforcée. Contrôlez vos opérations avec précision, évitant les coûts et les complications. Notre solution sans papier réduit les coûts et préserve l’environnement en adoptant une approche numérique. Investissez dans notre application pour transformer votre entrepôt en un centre d’excellence opérationnelle. Simplifiez vos processus, économisez et offrez une expérience client exceptionnelle dès aujourd’hui.",
+        "photo": "app-pick-img.jpg"
+      },
+      {
+        "slug": "ship",
+        "name": "Ship",
+        "href": "/mobile-ship/",
+        "body": "Assurez des livraisons impeccables, validées par vos clients. Obtenez leur confirmation de paiement et optimisez les itinéraires grâce au positionnement sur plan. Avec une identification automatique par GPS, localisez précisément les points de livraison. Gérez vos missions sur un écran unique, simplifiant ainsi l’exécution des livraisons et des collectes. Émettez des accusés de réception sous forme de ticket pour chaque transaction. Pour une sécurité accrue, validez les transactions par votre client via mot de passe ou carte électronique. Suivez instantanément chaque mission grâce à des rapports détaillés. Avec notre solution, chaque livraison est maîtrisée de bout en bout.",
+        "photo": "app-ship-img.jpg"
+      }
+    ]
+  }
+}

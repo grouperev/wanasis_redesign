@@ -1,6 +1,6 @@
 # Wanasis — design system
 
-Status: **PROPOSED, awaiting Checkpoint 1 approval.** Builders must not start until this line reads APPROVED.
+Status: **APPROVED** (Checkpoint 1, 26 Oct 2026). Client rulings: +20 ans, product name "Fusion ERP", leave WordPress for Next.js, vector logo to come.
 
 ## Design Read
 

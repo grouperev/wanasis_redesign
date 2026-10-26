@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "h1-home-hero",
+    "file": "assets/generated/h1-home-hero.webp",
+    "shot": "H1",
+    "source": null,
+    "prompt_file": "garden-gpt-image-2/prompt/h1-home-hero-20261026.md",
+    "mode": "B",
+    "tool": "Magnific images_generate · Nano Banana 2.1 · 2k · 4:5",
+    "variant_chosen": "b",
+    "rejected": "a — subject centred, no headline space; glass frame splits the image",
+    "approved_by": "orchestrator",
+    "alt_fr": "Directeur général consultant son ordinateur portable devant la baie vitrée d'un entrepôt de distribution pharmaceutique",
+    "size": [1856, 2304]
+  }
+]

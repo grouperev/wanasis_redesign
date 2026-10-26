@@ -41,6 +41,10 @@ for (const p of posts) add(p.cover, [480, 960, 1280]);
 for (const m of fusion.modules) add(m.photo, PHOTO);
 for (const a of fusion.apps.items) add(a.photo, [480, 960]);
 for (const f of (await read("lib/content/generated.json").catch(() => []))) add(f, PHOTO);
+// Extra lists registered by page builders: lib/content/image-lists/<area>.json = [[file, [widths…]], …]
+for (const f of await readdir(path.join(ROOT, "lib/content/image-lists")).catch(() => [])) {
+  if (f.endsWith(".json")) for (const [file, widths] of await read(`lib/content/image-lists/${f}`)) add(file, widths);
+}
 
 const slug = (f) => f.replace(/\.[^.]+$/, "").toLowerCase().replace(/[^a-z0-9]+/g, "-");
 const manifest = {};

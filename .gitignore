@@ -6,3 +6,4 @@ out/
 vendor/annnimate/*/preview.mp4
 .DS_Store
 assets/generated/_candidates/
+tsconfig.tsbuildinfo

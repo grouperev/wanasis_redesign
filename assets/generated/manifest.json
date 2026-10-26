@@ -11,6 +11,451 @@
     "rejected": "a — subject centred, no headline space; glass frame splits the image",
     "approved_by": "orchestrator",
     "alt_fr": "Directeur général consultant son ordinateur portable devant la baie vitrée d'un entrepôt de distribution pharmaceutique",
-    "size": [1856, 2304]
+    "size": [
+      1856,
+      2304
+    ]
+  },
+  {
+    "slug": "h2-fusion-hero",
+    "file": "assets/generated/h2-fusion-hero.webp",
+    "shot": "H2",
+    "source": "<!-- Shot h2-fusion-hero · Magnific Nano Banana 2.1 (imagen-nano-banana-2-1) · 2k · 4:5 · count 2 · reference: none -->",
+    "prompt_file": "garden-gpt-image-2/prompt/h2-fusion-hero-20261026.md",
+    "mode": "B",
+    "tool": "Magnific images_generate · Nano Banana 2.1 · 2k",
+    "variant_chosen": "b",
+    "rejected": "a: sujets trop petits, pilier occupe la moitié du cadre",
+    "approved_by": "orchestrator",
+    "alt_fr": "Équipe projet échangeant devant un grand écran dans un bureau de Constantine",
+    "size": [
+      1856,
+      2304
+    ]
+  },
+  {
+    "slug": "h3-societe-puzzle",
+    "file": "assets/generated/h3-societe-puzzle.webp",
+    "shot": "H3",
+    "source": "<!-- Shot h3-societe-puzzle · Magnific Nano Banana 2.1 (imagen-nano-banana-2-1) · 2k · 3:2 · count 2 · reference: https://wanasis.dz/wp-content/uploads/2024/06/about-banner.jpg -->",
+    "prompt_file": "garden-gpt-image-2/prompt/h3-societe-puzzle-20261026.md",
+    "mode": "B",
+    "tool": "Magnific images_generate · Nano Banana 2.1 · 2k",
+    "variant_chosen": "b",
+    "rejected": "a: trop de pièces rouges",
+    "approved_by": "orchestrator",
+    "alt_fr": "Mains assemblant les pièces d'un puzzle aux couleurs bleu marine, turquoise et rouge",
+    "size": [
+      2528,
+      1696
+    ]
+  },
+  {
+    "slug": "m-achat",
+    "file": "assets/generated/m-achat.webp",
+    "shot": "M-achat",
+    "source": "<!-- Shot m-achat · Magnific Nano Banana 2.1 (imagen-nano-banana-2-1) · 2k · 3:2 · count 2 · reference: https://wanasis.dz/wp-content/uploads/2024/06/erp-module-achat.jpg -->",
+    "prompt_file": "garden-gpt-image-2/prompt/m-achat-20261026.md",
+    "mode": "B",
+    "tool": "Magnific images_generate · Nano Banana 2.1 · 2k",
+    "variant_chosen": "b",
+    "rejected": "a: équivalent, cadrage moins net",
+    "approved_by": "orchestrator",
+    "alt_fr": "Acheteur tenant un dossier, réunion d'équipe en arrière-plan",
+    "size": [
+      2528,
+      1696
+    ]
+  },
+  {
+    "slug": "m-bom",
+    "file": "assets/generated/m-bom.webp",
+    "shot": "M-bom",
+    "source": "<!-- Shot m-bom · Magnific Nano Banana 2.1 (imagen-nano-banana-2-1) · 2k · 3:2 · count 2 · reference: https://wanasis.dz/wp-content/uploads/2024/06/erp-module-bom.jpg -->",
+    "prompt_file": "garden-gpt-image-2/prompt/m-bom-20261026.md",
+    "mode": "B",
+    "tool": "Magnific images_generate · Nano Banana 2.1 · 2k",
+    "variant_chosen": "b",
+    "rejected": "a: équivalent",
+    "approved_by": "orchestrator",
+    "alt_fr": "Responsable de laboratoire pharmaceutique en blouse blanche",
+    "size": [
+      2528,
+      1696
+    ]
+  },
+  {
+    "slug": "m-comptabilite",
+    "file": "assets/generated/m-comptabilite.webp",
+    "shot": "M-comptabilite",
+    "source": "<!-- Shot m-comptabilite · Magnific Nano Banana 2.1 (imagen-nano-banana-2-1) · 2k · 3:2 · count 2 · reference: https://wanasis.dz/wp-content/uploads/2024/06/erp-module-compta.jpg -->",
+    "prompt_file": "garden-gpt-image-2/prompt/m-comptabilite-20261026.md",
+    "mode": "B",
+    "tool": "Magnific images_generate · Nano Banana 2.1 · 2k",
+    "variant_chosen": "b",
+    "rejected": "a: décor moins local",
+    "approved_by": "orchestrator",
+    "alt_fr": "Comptable travaillant sur son ordinateur portable",
+    "size": [
+      2528,
+      1696
+    ]
+  },
+  {
+    "slug": "m-crm",
+    "file": "assets/generated/m-crm.webp",
+    "shot": "M-crm",
+    "source": "<!-- Shot m-crm · Magnific Nano Banana 2.1 (imagen-nano-banana-2-1) · 2k · 3:2 · count 2 · reference: https://wanasis.dz/wp-content/uploads/2024/06/erp-module-crm.jpg -->",
+    "prompt_file": "garden-gpt-image-2/prompt/m-crm-20261026.md",
+    "mode": "B",
+    "tool": "Magnific images_generate · Nano Banana 2.1 · 2k",
+    "variant_chosen": "b",
+    "rejected": "a: équipe moins diverse",
+    "approved_by": "orchestrator",
+    "alt_fr": "Équipe commerciale souriante dans un bureau lumineux",
+    "size": [
+      2528,
+      1696
+    ]
+  },
+  {
+    "slug": "m-gestion-des-couts",
+    "file": "assets/generated/m-gestion-des-couts.webp",
+    "shot": "M-gestion-des-couts",
+    "source": "<!-- Shot m-gestion-des-couts · Magnific Nano Banana 2.1 (imagen-nano-banana-2-1) · 2k · 3:2 · count 2 · reference: https://wanasis.dz/wp-content/uploads/2024/06/erp-module-gestion-des-couts.jpg -->",
+    "prompt_file": "garden-gpt-image-2/prompt/m-gestion-des-couts-20261026.md",
+    "mode": "B",
+    "tool": "Magnific images_generate · Nano Banana 2.1 · 2k",
+    "variant_chosen": "a",
+    "rejected": "b: équivalent, lumière plus plate",
+    "approved_by": "orchestrator",
+    "alt_fr": "Deux collègues analysant des coûts sur une tablette",
+    "size": [
+      2528,
+      1696
+    ]
+  },
+  {
+    "slug": "m-importation",
+    "file": "assets/generated/m-importation.webp",
+    "shot": "M-importation",
+    "source": "<!-- Shot m-importation · Magnific Nano Banana 2.1 (imagen-nano-banana-2-1) · 2k · 3:2 · count 2 · reference: https://wanasis.dz/wp-content/uploads/2024/06/erp-module-importation.jpg -->",
+    "prompt_file": "garden-gpt-image-2/prompt/m-importation-20261026.md",
+    "mode": "B",
+    "tool": "Magnific images_generate · Nano Banana 2.1 · 2k",
+    "variant_chosen": "b",
+    "rejected": "a: pas de grue, moins lisible",
+    "approved_by": "orchestrator",
+    "alt_fr": "Conteneurs empilés sur un quai portuaire",
+    "size": [
+      2528,
+      1696
+    ]
+  },
+  {
+    "slug": "m-logistique",
+    "file": "assets/generated/m-logistique.webp",
+    "shot": "M-logistique",
+    "source": "<!-- Shot m-logistique · Magnific Nano Banana 2.1 (imagen-nano-banana-2-1) · 2k · 3:2 · count 2 · reference: https://wanasis.dz/wp-content/uploads/2024/06/erp-module-logistique.jpg -->",
+    "prompt_file": "garden-gpt-image-2/prompt/m-logistique-20261026.md",
+    "mode": "B",
+    "tool": "Magnific images_generate · Nano Banana 2.1 · 2k",
+    "variant_chosen": "b",
+    "rejected": "a: équivalent",
+    "approved_by": "orchestrator",
+    "alt_fr": "Magasinier rangeant des cartons dans un entrepôt",
+    "size": [
+      2528,
+      1696
+    ]
+  },
+  {
+    "slug": "m-maintenance",
+    "file": "assets/generated/m-maintenance.webp",
+    "shot": "M-maintenance",
+    "source": "<!-- Shot m-maintenance · Magnific Nano Banana 2.1 (imagen-nano-banana-2-1) · 2k · 3:2 · count 2 · reference: https://wanasis.dz/wp-content/uploads/2024/06/erp-module-maintenance.jpg -->",
+    "prompt_file": "garden-gpt-image-2/prompt/m-maintenance-20261026.md",
+    "mode": "B",
+    "tool": "Magnific images_generate · Nano Banana 2.1 · 2k",
+    "variant_chosen": "b",
+    "rejected": "a: équivalent",
+    "approved_by": "orchestrator",
+    "alt_fr": "Technicien de maintenance inspectant une machine de production",
+    "size": [
+      2528,
+      1696
+    ]
+  },
+  {
+    "slug": "m-mrp",
+    "file": "assets/generated/m-mrp.webp",
+    "shot": "M-mrp",
+    "source": "<!-- Shot m-mrp · Magnific Nano Banana 2.1 (imagen-nano-banana-2-1) · 2k · 3:2 · count 2 · reference: https://wanasis.dz/wp-content/uploads/2024/06/erp-module-mrp.jpg -->",
+    "prompt_file": "garden-gpt-image-2/prompt/m-mrp-20261026.md",
+    "mode": "B",
+    "tool": "Magnific images_generate · Nano Banana 2.1 · 2k",
+    "variant_chosen": "a",
+    "rejected": "b: cadrage plus serré",
+    "approved_by": "orchestrator",
+    "alt_fr": "Planificateurs consultant une tablette dans l'entrepôt",
+    "size": [
+      2528,
+      1696
+    ]
+  },
+  {
+    "slug": "m-production",
+    "file": "assets/generated/m-production.webp",
+    "shot": "M-production",
+    "source": "<!-- Shot m-production · Magnific Nano Banana 2.1 (imagen-nano-banana-2-1) · 2k · 3:2 · count 2 · reference: https://wanasis.dz/wp-content/uploads/2024/06/erp-module-production.jpg -->",
+    "prompt_file": "garden-gpt-image-2/prompt/m-production-20261026.md",
+    "mode": "B",
+    "tool": "Magnific images_generate · Nano Banana 2.1 · 2k",
+    "variant_chosen": "b",
+    "rejected": "a: équivalent",
+    "approved_by": "orchestrator",
+    "alt_fr": "Équipe de production pharmaceutique en blouse au laboratoire",
+    "size": [
+      2528,
+      1696
+    ]
+  },
+  {
+    "slug": "m-sav",
+    "file": "assets/generated/m-sav.webp",
+    "shot": "M-sav",
+    "source": "<!-- Shot m-sav · Magnific Nano Banana 2.1 (imagen-nano-banana-2-1) · 2k · 3:2 · count 2 · reference: https://wanasis.dz/wp-content/uploads/2024/06/erp-module-SAV.jpg -->",
+    "prompt_file": "garden-gpt-image-2/prompt/m-sav-20261026.md",
+    "mode": "B",
+    "tool": "Magnific images_generate · Nano Banana 2.1 · 2k",
+    "variant_chosen": "b",
+    "rejected": "a: équivalent",
+    "approved_by": "orchestrator",
+    "alt_fr": "Conseiller service après-vente avec casque au bureau",
+    "size": [
+      2528,
+      1696
+    ]
+  },
+  {
+    "slug": "m-tresorerie",
+    "file": "assets/generated/m-tresorerie.webp",
+    "shot": "M-tresorerie",
+    "source": "<!-- Shot m-tresorerie · Magnific Nano Banana 2.1 (imagen-nano-banana-2-1) · 2k · 3:2 · count 2 · reference: https://wanasis.dz/wp-content/uploads/2024/06/erp-module-tresorerie.jpg -->",
+    "prompt_file": "garden-gpt-image-2/prompt/m-tresorerie-20261026.md",
+    "mode": "B",
+    "tool": "Magnific images_generate · Nano Banana 2.1 · 2k",
+    "variant_chosen": "b",
+    "rejected": "a: décor sans repère local",
+    "approved_by": "orchestrator",
+    "alt_fr": "Responsable trésorerie au téléphone, consultant un graphique",
+    "size": [
+      2528,
+      1696
+    ]
+  },
+  {
+    "slug": "m-vente",
+    "file": "assets/generated/m-vente.webp",
+    "shot": "M-vente",
+    "source": "<!-- Shot m-vente · Magnific Nano Banana 2.1 (imagen-nano-banana-2-1) · 2k · 3:2 · count 2 · reference: https://wanasis.dz/wp-content/uploads/2024/06/erp-module-vente.jpg -->",
+    "prompt_file": "garden-gpt-image-2/prompt/m-vente-20261026.md",
+    "mode": "B",
+    "tool": "Magnific images_generate · Nano Banana 2.1 · 2k",
+    "variant_chosen": "a",
+    "rejected": "b: équivalent",
+    "approved_by": "orchestrator",
+    "alt_fr": "Poignée de main entre un commercial et un client en pharmacie",
+    "size": [
+      2528,
+      1696
+    ]
+  },
+  {
+    "slug": "a-view",
+    "file": "assets/generated/a-view.webp",
+    "shot": "A-view",
+    "source": "<!-- Shot a-view · Magnific Nano Banana 2.1 (imagen-nano-banana-2-1) · 2k · 4:5 · count 2 · reference: none (reference upload of https://wanasis.dz/wp-content/uploads/2024/07/app-view-img.jpg failed; generated without reference) -->",
+    "prompt_file": "garden-gpt-image-2/prompt/a-view-20261026.md",
+    "mode": "B",
+    "tool": "Magnific images_generate · Nano Banana 2.1 · 2k",
+    "variant_chosen": "a",
+    "rejected": "b: sujet centré",
+    "approved_by": "orchestrator",
+    "alt_fr": "Dirigeant tenant un smartphone dans une salle de réunion",
+    "size": [
+      1856,
+      2304
+    ]
+  },
+  {
+    "slug": "a-link",
+    "file": "assets/generated/a-link.webp",
+    "shot": "A-link",
+    "source": "<!-- Shot a-link · Magnific Nano Banana 2.1 (imagen-nano-banana-2-1) · 2k · 4:5 · count 2 · reference: none (reference upload of https://wanasis.dz/wp-content/uploads/2024/07/app-link-img.jpg failed; generated without reference) -->",
+    "prompt_file": "garden-gpt-image-2/prompt/a-link-20261026.md",
+    "mode": "B",
+    "tool": "Magnific images_generate · Nano Banana 2.1 · 2k",
+    "variant_chosen": "a",
+    "rejected": "b: sujet petit dans le cadre",
+    "approved_by": "orchestrator",
+    "alt_fr": "Pharmacienne d'officine tenant un smartphone",
+    "size": [
+      1856,
+      2304
+    ]
+  },
+  {
+    "slug": "a-pick",
+    "file": "assets/generated/a-pick.webp",
+    "shot": "A-pick",
+    "source": "<!-- Shot a-pick · Magnific Nano Banana 2.1 (imagen-nano-banana-2-1) · 2k · 4:5 · count 2 · reference: none (reference upload of https://wanasis.dz/wp-content/uploads/2024/07/app-pick-img.jpg failed; generated without reference) -->",
+    "prompt_file": "garden-gpt-image-2/prompt/a-pick-20261026.md",
+    "mode": "B",
+    "tool": "Magnific images_generate · Nano Banana 2.1 · 2k",
+    "variant_chosen": "a",
+    "rejected": "b: sujet coupé à droite",
+    "approved_by": "orchestrator",
+    "alt_fr": "Préparatrice de commandes tenant un smartphone dans l'allée de l'entrepôt",
+    "size": [
+      1856,
+      2304
+    ]
+  },
+  {
+    "slug": "a-ship",
+    "file": "assets/generated/a-ship.webp",
+    "shot": "A-ship",
+    "source": "<!-- Shot a-ship · Magnific Nano Banana 2.1 (imagen-nano-banana-2-1) · 2k · 4:5 · count 2 · reference: none (reference upload of https://wanasis.dz/wp-content/uploads/2024/07/app-ship-img.jpg failed; generated without reference) -->",
+    "prompt_file": "garden-gpt-image-2/prompt/a-ship-20261026.md",
+    "mode": "B",
+    "tool": "Magnific images_generate · Nano Banana 2.1 · 2k",
+    "variant_chosen": "b",
+    "rejected": "a: téléphone trop petit, tenu bas",
+    "approved_by": "orchestrator",
+    "alt_fr": "Livreur tenant un smartphone devant sa camionnette",
+    "size": [
+      1856,
+      2304
+    ]
+  },
+  {
+    "slug": "l1-reception",
+    "file": "assets/generated/l1-reception.webp",
+    "shot": "L1",
+    "source": "<!-- Shot l1-reception · Magnific Nano Banana 2.1 (imagen-nano-banana-2-1) · 2k · 3:2 · count 2 · reference: none -->",
+    "prompt_file": "garden-gpt-image-2/prompt/l1-reception-20261026.md",
+    "mode": "B",
+    "tool": "Magnific images_generate · Nano Banana 2.1 · 2k",
+    "variant_chosen": "b",
+    "rejected": "a: équivalent, décor moins local",
+    "approved_by": "orchestrator",
+    "alt_fr": "Accueil d'une clinique, une hôtesse renseigne un patient",
+    "size": [
+      2528,
+      1696
+    ]
+  },
+  {
+    "slug": "l2-nurse-station",
+    "file": "assets/generated/l2-nurse-station.webp",
+    "shot": "L2",
+    "source": "<!-- Shot l2-nurse-station · Magnific Nano Banana 2.1 (imagen-nano-banana-2-1) · 2k · 3:2 · count 2 · reference: none -->",
+    "prompt_file": "garden-gpt-image-2/prompt/l2-nurse-station-20261026.md",
+    "mode": "B",
+    "tool": "Magnific images_generate · Nano Banana 2.1 · 2k",
+    "variant_chosen": "b",
+    "rejected": "a: équivalent",
+    "approved_by": "orchestrator",
+    "alt_fr": "Infirmière consultant une tablette au poste de soins",
+    "size": [
+      2528,
+      1696
+    ]
+  },
+  {
+    "slug": "l3-pharmacy-store",
+    "file": "assets/generated/l3-pharmacy-store.webp",
+    "shot": "L3",
+    "source": "<!-- Shot l3-pharmacy-store · Magnific Nano Banana 2.1 (imagen-nano-banana-2-1) · 2k · 3:2 · count 2 · reference: none -->",
+    "prompt_file": "garden-gpt-image-2/prompt/l3-pharmacy-store-20261026.md",
+    "mode": "B",
+    "tool": "Magnific images_generate · Nano Banana 2.1 · 2k",
+    "variant_chosen": "a",
+    "rejected": "b: sujet en bord de cadre",
+    "approved_by": "orchestrator",
+    "alt_fr": "Pharmacien hospitalier vérifiant les étagères de la réserve",
+    "size": [
+      2528,
+      1696
+    ]
+  },
+  {
+    "slug": "t1-distribution-hub",
+    "file": "assets/generated/t1-distribution-hub.webp",
+    "shot": "T1",
+    "source": "<!-- Shot t1-distribution-hub · Magnific Nano Banana 2.1 (imagen-nano-banana-2-1) · 2k · 3:2 · count 2 · reference: none -->",
+    "prompt_file": "garden-gpt-image-2/prompt/t1-distribution-hub-20261026.md",
+    "mode": "B",
+    "tool": "Magnific images_generate · Nano Banana 2.1 · 2k",
+    "variant_chosen": "a",
+    "rejected": "b: rayonnages jusqu'au centre",
+    "approved_by": "orchestrator",
+    "alt_fr": "",
+    "size": [
+      2528,
+      1696
+    ]
+  },
+  {
+    "slug": "t2-production-line",
+    "file": "assets/generated/t2-production-line.webp",
+    "shot": "T2",
+    "source": "<!-- Shot t2-production-line · Magnific Nano Banana 2.1 (imagen-nano-banana-2-1) · 2k · 3:2 · count 2 · reference: none -->",
+    "prompt_file": "garden-gpt-image-2/prompt/t2-production-line-20261026.md",
+    "mode": "B",
+    "tool": "Magnific images_generate · Nano Banana 2.1 · 2k",
+    "variant_chosen": "a",
+    "rejected": "b: machine dans la moitié droite",
+    "approved_by": "orchestrator",
+    "alt_fr": "",
+    "size": [
+      2528,
+      1696
+    ]
+  },
+  {
+    "slug": "t3-logistics-dock",
+    "file": "assets/generated/t3-logistics-dock.webp",
+    "shot": "T3",
+    "source": "<!-- Shot t3-logistics-dock · Magnific Nano Banana 2.1 (imagen-nano-banana-2-1) · 2k · 3:2 · count 2 · reference: none -->",
+    "prompt_file": "garden-gpt-image-2/prompt/t3-logistics-dock-20261026.md",
+    "mode": "B",
+    "tool": "Magnific images_generate · Nano Banana 2.1 · 2k",
+    "variant_chosen": "a",
+    "rejected": "b: équivalent",
+    "approved_by": "orchestrator",
+    "alt_fr": "",
+    "size": [
+      2528,
+      1696
+    ]
+  },
+  {
+    "slug": "t4-clinic-corridor",
+    "file": "assets/generated/t4-clinic-corridor.webp",
+    "shot": "T4",
+    "source": "<!-- Shot t4-clinic-corridor · Magnific Nano Banana 2.1 (imagen-nano-banana-2-1) · 2k · 3:2 · count 2 · reference: none -->",
+    "prompt_file": "garden-gpt-image-2/prompt/t4-clinic-corridor-20261026.md",
+    "mode": "B",
+    "tool": "Magnific images_generate · Nano Banana 2.1 · 2k",
+    "variant_chosen": "a",
+    "rejected": "b: équivalent",
+    "approved_by": "orchestrator",
+    "alt_fr": "",
+    "size": [
+      2528,
+      1696
+    ]
   }
 ]

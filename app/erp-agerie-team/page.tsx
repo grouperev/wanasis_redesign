@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import EchoHeadline from "@/components/annnimate/echo-headline/echo-headline";
 import { MethodRail } from "@/components/fusion/ProcessRail";
-import { AssetSlot, Picture } from "@/components/ui/Picture";
+import { Photo, Picture } from "@/components/ui/Picture";
 import societe from "@/lib/content/societe.json";
 import { frTypo } from "@/lib/format";
 
@@ -31,7 +31,7 @@ export default function SocietePage() {
             <p className="measure mt-8 text-lead text-ink-2">{frTypo(societe.intro)}</p>
           </div>
           <div className="lg:col-span-5">
-            <AssetSlot label="H3 · pièces de puzzle, bleu · turquoise · rouge" ratio="3/2" className="rounded-lg" />
+            <Photo shot="H3" label="H3 · pièces de puzzle, bleu · turquoise · rouge" ratio="3/2" sizes="(min-width: 1024px) 50vw, 100vw" priority className="rounded-lg" />
           </div>
         </div>
       </section>

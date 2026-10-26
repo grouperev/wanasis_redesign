@@ -1,12 +1,15 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import RotatingWords from "@/components/annnimate/rotating-words/rotating-words";
 import { ClientStrip } from "@/components/home/ClientStrip";
 import { ModuleCloud } from "@/components/home/ModuleCloud";
 import { NewsRail } from "@/components/home/NewsRail";
 import { Stats } from "@/components/home/Stats";
 import { Testimonials } from "@/components/home/Testimonials";
-import { AssetSlot } from "@/components/ui/Picture";
+import { Divider } from "@/components/motion/Divider";
+import { AssetSlot, Photo } from "@/components/ui/Picture";
 import home from "@/lib/content/home.json";
+import { photo } from "@/lib/photos";
 import { firstSentences, frTypo } from "@/lib/format";
 
 export const metadata: Metadata = {
@@ -15,7 +18,7 @@ export const metadata: Metadata = {
   openGraph: { url: "/", title: "Wanasis Fusion : L'ERP de choix pour les entreprises en Algérie" },
 };
 
-// rotating-words (Phase 5): one wheel, landing on the last word.
+// rotating-words: one wheel that plays once on load and lands on the last word (what the HTML shows).
 const WHEEL = ["la distribution", "la production", "la pharmacie", "la santé", "votre activité"];
 
 export default function HomePage() {
@@ -24,14 +27,20 @@ export default function HomePage() {
 
   return (
     <>
-      {/* Hero — off-axis split: H1 on a clean ground, photo bleeds right. text-reveal + rotating-words in Phase 5. */}
+      {/* Hero — off-axis split: H1 on a clean ground, photo bleeds right. H1 reveals word by word (MotionRoot); rotating-words below. */}
       <section className="brand-mesh-light relative overflow-hidden">
         <div className="container-x grid items-center gap-10 pt-10 pb-16 lg:min-h-[calc(100svh-var(--header-h))] lg:grid-cols-12 lg:gap-8 lg:py-16">
           <div className="lg:col-span-6 xl:col-span-6">
             <p className="eyebrow">Fusion ERP · Life HIS</p>
-            <h1 className="mt-5 text-display">{home.hero.title}</h1>
-            <p className="mt-6 font-display text-h3 text-ink-2" aria-label={`ERP pour ${WHEEL.join(", ")}`}>
-              ERP pour <span className="text-teal-ink">{WHEEL[WHEEL.length - 1]}</span>
+            <h1 data-reveal className="mt-5 text-display">
+              {home.hero.title}
+            </h1>
+            <p className="mt-6 font-display text-h3 text-ink-2">
+              {/* The wheel is decorative: assistive tech gets the whole list as text. */}
+              <span className="sr-only">ERP pour {WHEEL.join(", ")}</span>
+              <span aria-hidden="true">
+                ERP pour <RotatingWords words={WHEEL} className="text-teal-ink" />
+              </span>
             </p>
             <p className="measure mt-6 text-lead text-ink-2">{home.hero.sub}</p>
             <div className="mt-10 flex flex-wrap gap-3">
@@ -44,9 +53,13 @@ export default function HomePage() {
             </div>
           </div>
           <div className="relative lg:col-span-6 lg:-mr-[calc((100vw-min(100vw-2*var(--gutter),var(--container)))/2)]">
-            <AssetSlot
+            <Photo
+              shot="H1"
               label="H1 · DG face à l'écran, entrepôt pharmaceutique derrière la vitre"
+              sizes="(min-width: 1024px) 50vw, 100vw"
+              priority
               className="aspect-[4/5] w-full rounded-lg sm:aspect-[16/11] lg:aspect-auto lg:h-[min(720px,78svh)] lg:rounded-r-none"
+              imgClassName="object-[70%_center]"
             />
           </div>
         </div>
@@ -55,7 +68,7 @@ export default function HomePage() {
       <ClientStrip title={home.clients.title} logos={home.clients.logos} />
 
       {/* Mission */}
-      <section className="section-y">
+      <section className="section-y relative">
         <div className="container-x grid gap-8 lg:grid-cols-12">
           <h2 className="text-h2 lg:col-span-5">{frTypo(home.mission.title)}</h2>
           <div className="space-y-5 text-lead text-ink-2 lg:col-span-6 lg:col-start-7">
@@ -64,6 +77,7 @@ export default function HomePage() {
             ))}
           </div>
         </div>
+        <Divider className="absolute inset-x-0 bottom-0 z-10 translate-y-1/2" />
       </section>
 
       {/* Products */}
@@ -78,10 +92,13 @@ export default function HomePage() {
               { badge: "life-his", name: "Life HIS", lead: lifeLead, rest: lifeRest, href: "/wanasis-life-his/", diagram: "schéma des modules Life HIS — redessiné en SVG" },
             ].map((p) => (
               <article key={p.name} className="flex flex-col rounded-lg border border-hairline bg-surface p-6 md:p-10">
-                {/* dual-scramble on the product name in Phase 5 */}
                 <h3 className="flex items-center gap-4">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img src={`/brand/${p.badge}.png`} alt={p.name} width={200} height={50} className="h-10 w-auto" />
+                  {/* dual-scramble (MotionRoot) on the product name; the badge's alt already names the product. */}
+                  <span data-scramble aria-hidden="true" className="font-display text-h3">
+                    {p.name}
+                  </span>
                 </h3>
                 <p className="mt-6 text-lead">{p.lead}</p>
                 {p.rest && (
@@ -104,10 +121,12 @@ export default function HomePage() {
 
       <Stats title={home.stats.title} items={home.stats.items} />
 
-      <Testimonials title={home.testimonials.title} items={home.testimonials.items} />
+      <Testimonials
+        title={home.testimonials.title}
+        items={home.testimonials.items.map((t, i) => ({ ...t, image: photo(`T${i + 1}`)?.src }))}
+      />
 
       <NewsRail title={home.news.title} />
-
     </>
   );
 }

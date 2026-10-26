@@ -1,0 +1,63 @@
+/* Wanasis adaptation of Annnimate split-flap-board: light tiles on the stats band, tokens only.
+   Size everything from the host's font-size (the host sets it on .sfb_row). */
+.sfb_row {
+  --sfb-tile-w: 0.66em;
+  --sfb-tile-h: 1.12em;
+  display: flex;
+  width: fit-content;
+  gap: 0.07em;
+  line-height: 1;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.sfb_tile {
+  position: relative;
+  flex: none;
+  width: var(--sfb-tile-w);
+  height: var(--sfb-tile-h);
+}
+.sfb_tile_narrow { width: 0.5em; }
+
+/* Two static halves show the resting glyph; two flaps sit over them. The seam is the stage showing through. */
+.sfb_half,
+.sfb_flap {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: calc(50% - 1px);
+  overflow: hidden;
+  background: var(--color-surface);
+  box-shadow: inset 0 0 0 1px var(--color-hairline);
+}
+.sfb_half_top,
+.sfb_flap_top { top: 0; border-radius: var(--radius-sm) var(--radius-sm) 0 0; }
+.sfb_half_bottom,
+.sfb_flap_bottom { bottom: 0; border-radius: 0 0 var(--radius-sm) var(--radius-sm); }
+
+.sfb_flap {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.sfb_flap_top { transform-origin: 50% 100%; }
+.sfb_flap_bottom { transform-origin: 50% 0%; }
+
+.sfb_shade,
+.sfb_glint { position: absolute; inset: 0; opacity: 0; pointer-events: none; }
+.sfb_shade { background: var(--color-ink); }
+.sfb_glint { background: var(--color-surface); }
+
+.sfb_char {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: var(--sfb-tile-h);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-variant-numeric: tabular-nums;
+  /* Navy at the first tile, drifting toward teal at the last: the brand gradient, one solid colour per glyph. */
+  color: color-mix(in srgb, var(--color-teal) var(--sfb-mix, 0%), var(--color-navy));
+}
+.sfb_char_top { top: 0; }
+.sfb_char_bottom { top: calc(var(--sfb-tile-h) * -0.5 - 1px); }

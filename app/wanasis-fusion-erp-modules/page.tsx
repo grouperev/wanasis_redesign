@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { AssetSlot } from "@/components/ui/Picture";
+import { Photo } from "@/components/ui/Picture";
 import { ModuleExplorer } from "@/components/fusion/ModuleExplorer";
 import { MethodRail } from "@/components/fusion/ProcessRail";
 import type { Family, FusionModule } from "@/components/fusion/types";
@@ -55,7 +55,7 @@ export default function FusionErpPage() {
             </div>
           </div>
           <div className="lg:col-span-5">
-            <AssetSlot label="H2 · équipe autour d'un écran" ratio="4/5" className="rounded-lg" />
+            <Photo shot="H2" label="H2 · équipe autour d'un écran" ratio="4/5" sizes="(min-width: 1024px) 40vw, 100vw" priority className="rounded-lg" />
           </div>
         </div>
       </section>
@@ -99,7 +99,7 @@ export default function FusionErpPage() {
           <ul className="mt-12 grid gap-4 md:grid-cols-2">
             {content.apps.items.map((a) => (
               <li key={a.slug} className="grid gap-6 rounded-md border border-hairline-dark p-6 sm:grid-cols-[160px_1fr] md:p-8">
-                <AssetSlot label={`A-${a.slug} · ${a.name} — capture à fournir`} ratio="9/19" className="w-[140px] rounded-lg sm:w-full" />
+                <Photo shot={`A-${a.slug}`} label={`A-${a.slug} · ${a.name} — capture à fournir`} ratio="4/5" sizes="(min-width: 640px) 220px, 160px" className="w-[160px] rounded-lg sm:w-full" />
                 <div className="flex flex-col">
                   <p className="eyebrow !text-teal">Mobile</p>
                   <h3 data-scramble className="mt-1 font-display text-h2">

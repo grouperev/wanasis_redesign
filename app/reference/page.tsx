@@ -3,7 +3,7 @@ import ImageFlyIn from "@/components/annnimate/image-fly-in/image-fly-in";
 import { Picture } from "@/components/ui/Picture";
 import { pageMetadata } from "@/components/news/meta";
 import content from "@/lib/content/reference.json";
-import { clientName } from "@/lib/clients";
+import { clientName, logoFile } from "@/lib/clients";
 import { frTypo } from "@/lib/format";
 
 export const metadata = pageMetadata({ title: content.meta.title, route: content.meta.route, description: content.meta.description });
@@ -18,7 +18,7 @@ export default function ReferencePage() {
     aspect: (i % 3 === 0 ? "square_lg" : "square_sm") as "square_lg" | "square_sm",
     hideMobile: i % 2 === 1,
     node: (
-      <Picture src={file} alt="" sizes="200px" placeholder={false} className="block size-full" imgClassName="size-full object-contain" />
+      <Picture src={logoFile(file)} alt="" sizes="200px" placeholder={false} className="block size-full" imgClassName="size-full object-contain" />
     ),
   }));
 
@@ -30,7 +30,7 @@ export default function ReferencePage() {
       name,
       logo: (
         <Picture
-          src={file}
+          src={logoFile(file)}
           alt=""
           sizes="(min-width: 1024px) 160px, (min-width: 640px) 25vw, 45vw"
           placeholder={false}

@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import { MotionRoot } from "@/components/motion/MotionRoot";
 import { Footer } from "@/components/site/Footer";
 import { Header } from "@/components/site/Header";
 import { MobileBar } from "@/components/site/MobileBar";
@@ -30,6 +31,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main id="contenu">{children}</main>
         <Footer />
         <MobileBar />
+        <MotionRoot />
       </body>
     </html>
   );

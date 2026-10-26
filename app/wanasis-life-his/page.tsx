@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { LifeMatrix, type MatrixGroup } from "@/components/product/LifeMatrix";
-import { AssetSlot, Picture } from "@/components/ui/Picture";
+import { Photo, Picture } from "@/components/ui/Picture";
 import life from "@/lib/content/life.json";
 import { frTypo } from "@/lib/format";
 
@@ -54,9 +54,9 @@ export default function LifeHisPage() {
       {/* 3 · Scenes — asymmetric trio */}
       <section aria-label="Scènes" className="bg-surface-2 py-[var(--section-y)]">
         <div className="container-x grid gap-4 lg:grid-cols-12 lg:grid-rows-2 lg:gap-6">
-          <AssetSlot label="L1 · accueil de clinique" className="aspect-[3/2] rounded-lg lg:col-span-7 lg:row-span-2 lg:aspect-auto lg:min-h-[420px]" />
-          <AssetSlot label="L2 · poste infirmier, tablette" ratio="3/2" className="rounded-lg lg:col-span-5" />
-          <AssetSlot label="L3 · réserve de pharmacie hospitalière" ratio="3/2" className="rounded-lg lg:col-span-5" />
+          <Photo shot="L1" sizes="(min-width: 1024px) 58vw, 100vw" label="L1 · accueil de clinique" className="aspect-[3/2] rounded-lg lg:col-span-7 lg:row-span-2 lg:aspect-auto lg:min-h-[420px]" />
+          <Photo shot="L2" sizes="(min-width: 1024px) 40vw, 100vw" label="L2 · poste infirmier, tablette" ratio="3/2" className="rounded-lg lg:col-span-5" />
+          <Photo shot="L3" sizes="(min-width: 1024px) 40vw, 100vw" label="L3 · réserve de pharmacie hospitalière" ratio="3/2" className="rounded-lg lg:col-span-5" />
         </div>
       </section>
 

@@ -1,4 +1,4 @@
-import Link from "next/link";
+import MagneticTagCloud from "@/components/annnimate/magnetic-tag-cloud/magnetic-tag-cloud";
 import fusion from "@/lib/content/fusion.json";
 
 const FAMILY_BG: Record<string, string> = {
@@ -9,8 +9,17 @@ const FAMILY_BG: Record<string, string> = {
   digital: "bg-fam-digital",
 };
 
-/** Static fallback of the magnetic-tag-cloud (Phase 5). Every tag deep-links to its module. */
+/**
+ * The 26 Fusion ERP modules on the magnetic-tag-cloud. Without a fine pointer (touch, keyboard-only, reduced motion) or JS
+ * it is a centred, wrapping list of links; every tag deep-links to its module either way.
+ */
 export function ModuleCloud() {
+  const tags = fusion.modules.map((m) => ({
+    label: m.name,
+    href: `/wanasis-fusion-erp-modules/#${m.slug}`,
+    className: FAMILY_BG[m.family],
+    chip: m.chip || undefined,
+  }));
   return (
     <section className="section-y" aria-labelledby="modules">
       <div className="container-x">
@@ -19,19 +28,9 @@ export function ModuleCloud() {
             Vous êtes unique, <span className="text-gradient">c’est pourquoi Fusion ERP est riche, flexible et entièrement modulaire.</span>
           </h2>
         </div>
-        <ul className="mt-12 flex flex-wrap justify-center gap-2.5 md:gap-3">
-          {fusion.modules.map((m) => (
-            <li key={m.slug}>
-              <Link
-                href={`/wanasis-fusion-erp-modules/#${m.slug}`}
-                className={`${FAMILY_BG[m.family]} inline-flex min-h-11 items-center gap-2.5 rounded-sm px-4 font-display text-[1.0625rem] text-white transition-transform duration-150 hover:-translate-y-0.5 md:min-h-13 md:px-5 md:text-lead`}
-              >
-                {m.chip && <span aria-hidden className="h-4 w-1 rounded-full" style={{ backgroundColor: m.chip }} />}
-                {m.name}
-              </Link>
-            </li>
-          ))}
-        </ul>
+        <div className="mt-12">
+          <MagneticTagCloud tags={tags} />
+        </div>
         <ul className="mt-10 flex flex-wrap justify-center gap-x-6 gap-y-2 text-small text-ink-2">
           {fusion.families.map((f) => (
             <li key={f.id} className="flex items-center gap-2">

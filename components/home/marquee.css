@@ -1,0 +1,38 @@
+/* Client-logo marquee: pure CSS. 60s per loop, paused on hover / focus-within / the pause button, static scroll row under reduced motion. */
+.marquee {
+  --marquee-duration: 60s;
+  position: relative;
+  min-width: 0;
+  flex: 1;
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 4%, #000 96%, transparent);
+  mask-image: linear-gradient(to right, transparent, #000 4%, #000 96%, transparent);
+}
+
+.marquee_track {
+  display: flex;
+  width: max-content;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  animation: marquee_slide var(--marquee-duration) linear infinite;
+}
+
+/* Each item carries its own trailing gap so that the two halves are exactly equal (seamless -50% loop). */
+.marquee_item { flex: none; padding-right: 0.75rem; }
+
+.marquee:hover .marquee_track,
+.marquee:focus-within .marquee_track,
+.marquee[data-paused="true"] .marquee_track { animation-play-state: paused; }
+
+@keyframes marquee_slide {
+  to { transform: translateX(-50%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee { overflow-x: auto; -webkit-mask-image: none; mask-image: none; scrollbar-width: thin; }
+  .marquee_track { animation: none; }
+  .marquee_item[aria-hidden="true"] { display: none; }
+  .marquee_pause { display: none; }
+}
+@media (scripting: none) { .marquee_pause { display: none; } }

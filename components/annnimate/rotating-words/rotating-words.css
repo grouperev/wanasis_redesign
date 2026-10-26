@@ -1,0 +1,38 @@
+/* Wanasis adaptation of Annnimate rotating-words. Colour and type are inherited from the host line. */
+.rw_wheel {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* All words stacked in one grid cell, invisible: the box is as wide as the longest word, one line tall. */
+.rw_sizer {
+  display: inline-grid;
+  visibility: hidden;
+  white-space: nowrap;
+}
+.rw_sizer > span { grid-area: 1 / 1; }
+
+/* The drum may overflow the line visually (never in layout); it fades out above and below. */
+.rw_list {
+  position: absolute;
+  inset: 0;
+  white-space: nowrap;
+}
+
+.rw_item {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  visibility: hidden;
+  backface-visibility: hidden;
+}
+.rw_item[data-last] { visibility: visible; }
+
+.rw_built .rw_list {
+  inset: -0.7em 0;
+  -webkit-mask-image: linear-gradient(to bottom, transparent, #000 30%, #000 70%, transparent);
+  mask-image: linear-gradient(to bottom, transparent, #000 30%, #000 70%, transparent);
+}
+.rw_built .rw_item { will-change: transform, opacity; }

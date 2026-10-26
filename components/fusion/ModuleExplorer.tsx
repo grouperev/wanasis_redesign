@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useMemo, useState } from "react";
 import FeatureDialog from "@/components/annnimate/feature-dialog/feature-dialog";
-import { AssetSlot } from "@/components/ui/Picture";
+import { Photo } from "@/components/ui/Picture";
 import { frTypo } from "@/lib/format";
 import { FAMILY_BG, type Family, type FamilyId, type FusionModule } from "./types";
 
@@ -142,7 +142,7 @@ export function ModuleExplorer({ families, modules }: { families: Family[]; modu
             <h2 id="module-dialog-title" className="mt-2 font-display text-h2">
               {current.name}
             </h2>
-            <AssetSlot label={`M-${current.slug} · ${current.name}`} ratio="3/2" className="mt-6 rounded-md" />
+            <Photo shot={`M-${current.slug}`} label={`M-${current.slug} · ${current.name}`} ratio="3/2" sizes="(min-width: 768px) 720px, 100vw" className="mt-6 rounded-md" />
             <p className="mt-6 max-w-[68ch]">{frTypo(current.body ?? "")}</p>
           </>
         )}

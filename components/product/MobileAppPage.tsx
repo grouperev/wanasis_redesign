@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { AssetSlot } from "@/components/ui/Picture";
+import { Photo } from "@/components/ui/Picture";
 import fusion from "@/lib/content/fusion.json";
 import mobile from "@/lib/content/mobile.json";
 import { frTypo } from "@/lib/format";
@@ -62,7 +62,7 @@ export function MobileAppPage({ slug }: { slug: MobileSlug }) {
             {p.fallback && <p className="measure mt-8 text-lead text-ink-2">{frTypo(p.fallback)}</p>}
           </div>
           <div className="lg:col-span-5 lg:justify-self-end">
-            <AssetSlot label={`A-${p.slug} · ${p.name} — capture à fournir`} ratio="9/19" className="mx-auto w-[min(100%,260px)] rounded-lg lg:mx-0" />
+            <Photo shot={`A-${p.slug}`} label={`A-${p.slug} · ${p.name} — capture à fournir`} ratio="4/5" sizes="(min-width: 1024px) 420px, 100vw" priority className="mx-auto w-[min(100%,420px)] rounded-lg lg:mx-0" />
           </div>
         </div>
       </section>

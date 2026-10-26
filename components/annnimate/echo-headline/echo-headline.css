@@ -1,0 +1,60 @@
+/* Wanasis adaptation of the Annnimate echo-headline: tokens only (app/globals.css @theme). */
+.eh_stage {
+  /* space is reserved in the static state: the slab only transforms, nothing reflows */
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(48px, 9vw, 120px) 0 clamp(16px, 3vw, 40px);
+}
+
+.eh_slab {
+  position: relative;
+  color: var(--eh-fg, var(--color-depth));
+  font-family: var(--font-display);
+  font-size: clamp(2.75rem, 1.2rem + 9.5vw, 11rem);
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  white-space: nowrap;
+  -webkit-font-smoothing: antialiased;
+}
+
+.eh_word {
+  position: relative;
+  margin: 0;
+  font: inherit;
+  letter-spacing: inherit;
+}
+
+/* JS-built copies of the word, stacked exactly on it and painted behind it. */
+.eh_echo {
+  position: absolute;
+  inset: 0;
+  visibility: hidden;
+  transform: rotateX(var(--eh-rx)) rotateY(var(--eh-ry)) translateZ(calc(var(--eh-depth) * var(--eh-i) * var(--eh-reach) * -1));
+  color: color-mix(in oklab, var(--eh-ink), var(--eh-ground) var(--eh-fade, 0%));
+  pointer-events: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.eh_track.eh_is-scrub {
+  height: 300vh;
+}
+
+.eh_is-scrub .eh_stage {
+  position: sticky;
+  top: 0;
+}
+
+/* The slab grows away from the word, so the word shifts back to centre both. */
+.eh_is-built .eh_slab {
+  perspective: var(--eh-perspective);
+  perspective-origin: var(--eh-vanish);
+  transform: rotate(var(--eh-rz)) translate(var(--eh-shift));
+}
+
+.eh_is-built .eh_word {
+  transform: rotateX(var(--eh-rx)) rotateY(var(--eh-ry));
+}

@@ -1,20 +1,31 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
+import FeatureDialog from "@/components/annnimate/feature-dialog/feature-dialog";
 import { AssetSlot } from "@/components/ui/Picture";
+import { frTypo } from "@/lib/format";
 import { FAMILY_BG, type Family, type FamilyId, type FusionModule } from "./types";
 
 type Filter = FamilyId | "all";
 
+/** Variable name of each family tone, for the dialog's top band. */
+const FAMILY_VAR: Record<FamilyId, string> = {
+  commercial: "var(--color-fam-commercial)",
+  finance: "var(--color-fam-finance)",
+  supply: "var(--color-fam-supply)",
+  rh: "var(--color-fam-rh)",
+  digital: "var(--color-fam-digital)",
+};
+
 /**
- * Sticky family filter + module grid + native <dialog>.
- * Phase 5: the tag-cloud / dialog enhancements can replace the inner blocks without changing this layout.
+ * Sticky family filter + module grid + Annnimate feature-dialog sheet (one sheet shared by every tile).
+ * #slug deep links open a module's sheet on load and on hashchange.
  */
 export function ModuleExplorer({ families, modules }: { families: Family[]; modules: FusionModule[] }) {
   const [filter, setFilter] = useState<Filter>("all");
   const [openSlug, setOpenSlug] = useState<string | null>(null);
-  const dialogRef = useRef<HTMLDialogElement>(null);
-  const lastSlug = useRef<string | null>(null);
+  // The sheet keeps its content while it animates out.
+  const [shownSlug, setShownSlug] = useState<string | null>(null);
 
   const familyLabel = useMemo(() => Object.fromEntries(families.map((f) => [f.id, f.label])) as Record<FamilyId, string>, [families]);
   const counts = useMemo(() => {
@@ -22,14 +33,14 @@ export function ModuleExplorer({ families, modules }: { families: Family[]; modu
     for (const m of modules) c[m.family] = (c[m.family] ?? 0) + 1;
     return c;
   }, [modules]);
-  const current = modules.find((m) => m.slug === openSlug && m.body) ?? null;
+  const current = modules.find((m) => m.slug === shownSlug) ?? null;
 
   const open = useCallback((slug: string) => {
-    lastSlug.current = slug;
+    setShownSlug(slug);
     setOpenSlug(slug);
   }, []);
+  const close = useCallback(() => setOpenSlug(null), []);
 
-  // Deep link: /wanasis-fusion-erp-modules/#crm opens the module on load (and on hashchange).
   useEffect(() => {
     const sync = () => {
       const slug = decodeURIComponent(window.location.hash.slice(1));
@@ -43,25 +54,9 @@ export function ModuleExplorer({ families, modules }: { families: Family[]; modu
     };
   }, [modules, open]);
 
-  useEffect(() => {
-    const d = dialogRef.current;
-    if (current && d && !d.open) d.showModal();
-  }, [current]);
-
-  useEffect(() => {
-    if (!current) return;
-    const prev = document.body.style.overflow;
-    document.body.style.overflow = "hidden";
-    return () => {
-      document.body.style.overflow = prev;
-    };
-  }, [current]);
-
-  const handleClose = () => {
-    setOpenSlug(null);
-    const slug = lastSlug.current;
-    if (slug) document.getElementById(slug)?.querySelector("button")?.focus();
-  };
+  const handleClosed = useCallback(() => {
+    if (shownSlug) document.getElementById(shownSlug)?.querySelector("button")?.focus();
+  }, [shownSlug]);
 
   return (
     <>
@@ -93,13 +88,13 @@ export function ModuleExplorer({ families, modules }: { families: Family[]; modu
           {modules.map((m) => {
             const inner = (
               <>
-                <span aria-hidden className={`block h-1 w-full ${FAMILY_BG[m.family]}`} />
-                <span className="flex flex-1 flex-col gap-1 p-4">
-                  <span className="flex items-center gap-2">
-                    <span className="font-display text-h3">{m.name}</span>
-                    {m.chip && <span aria-hidden className="h-1 w-6 shrink-0 rounded-xs" style={{ backgroundColor: m.chip }} />}
-                  </span>
-                  <span className="text-small text-ink-2">{familyLabel[m.family]}</span>
+                {/* family band; the original tile color is the 24px chip inside it, so names never wrap around it */}
+                <span aria-hidden className={`relative block h-1 w-full shrink-0 ${FAMILY_BG[m.family]}`}>
+                  {m.chip && <span className="absolute left-6 top-0 h-1 w-6" style={{ backgroundColor: m.chip }} />}
+                </span>
+                <span className="flex min-w-0 flex-1 flex-col gap-1 p-4">
+                  <span className="font-display text-h3">{m.name}</span>
+                  <span className="truncate text-small text-ink-2">{familyLabel[m.family]}</span>
                   {m.body ? (
                     <span className="mt-auto pt-4 text-small font-medium text-teal-ink">
                       Voir le module <span aria-hidden>→</span>
@@ -131,39 +126,27 @@ export function ModuleExplorer({ families, modules }: { families: Family[]; modu
         </ul>
       </div>
 
-      <dialog
-        ref={dialogRef}
-        aria-labelledby="module-dialog-title"
-        onClose={handleClose}
-        onClick={(e) => {
-          if (e.target === e.currentTarget) e.currentTarget.close();
-        }}
-        className="m-auto max-h-[calc(100dvh-32px)] w-[min(100%-32px,720px)] overflow-y-auto rounded-lg border border-hairline bg-surface p-0 text-ink shadow-e2 backdrop:bg-ink/50"
+      <FeatureDialog
+        open={openSlug !== null}
+        onClose={close}
+        onClosed={handleClosed}
+        titleId="module-dialog-title"
+        accent={current ? FAMILY_VAR[current.family] : undefined}
       >
         {current && (
-          <div className="relative p-6 md:p-8">
-            <button
-              type="button"
-              onClick={() => dialogRef.current?.close()}
-              className="absolute right-3 top-3 grid size-11 place-items-center rounded-sm text-ink hover:bg-surface-2"
-            >
-              <span className="sr-only">Fermer</span>
-              <svg aria-hidden width="16" height="16" viewBox="0 0 16 16">
-                <path d="M2 2l12 12M14 2L2 14" stroke="currentColor" strokeWidth="1.5" />
-              </svg>
-            </button>
-            <p className="flex items-center gap-2 pr-12 text-small text-ink-2">
+          <>
+            <p className="flex items-center gap-2 text-small text-ink-2">
               <span aria-hidden className={`size-2.5 rounded-full ${FAMILY_BG[current.family]}`} />
               {familyLabel[current.family]}
             </p>
-            <h2 id="module-dialog-title" className="mt-2 pr-12 font-display text-h2">
+            <h2 id="module-dialog-title" className="mt-2 font-display text-h2">
               {current.name}
             </h2>
-            <AssetSlot label={`M · ${current.name}`} ratio="3/2" className="mt-6 rounded-md" />
-            <p className="mt-6 max-w-[68ch]">{current.body}</p>
-          </div>
+            <AssetSlot label={`M-${current.slug} · ${current.name}`} ratio="3/2" className="mt-6 rounded-md" />
+            <p className="mt-6 max-w-[68ch]">{frTypo(current.body ?? "")}</p>
+          </>
         )}
-      </dialog>
+      </FeatureDialog>
     </>
   );
 }

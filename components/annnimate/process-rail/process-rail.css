@@ -1,0 +1,119 @@
+/* Wanasis adaptation of the Annnimate process-rail: tokens only (app/globals.css @theme). */
+.prl_wrap {
+  position: relative;
+  width: 100%;
+  color: var(--color-ink);
+}
+
+.prl_rail {
+  position: relative;
+  width: 100%;
+}
+
+/* JS fits the line to the steps; until then it spans the rail and stays crisp (non-scaling stroke) */
+.prl_svg {
+  display: block;
+  width: 100%;
+  height: 24px;
+  overflow: visible;
+}
+
+.prl_svg_mobile {
+  display: none;
+}
+
+.prl_path,
+.prl_path_ghost {
+  fill: none;
+  stroke: var(--color-teal-ink);
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  vector-effect: non-scaling-stroke;
+}
+
+.prl_path_ghost {
+  opacity: 0.35;
+  stroke-dasharray: 1 7;
+}
+
+/* hidden until the motion build places it, so it never flashes at 0,0 and reduced motion never sees it */
+.prl_bead {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: var(--prl-bead, 10px);
+  height: var(--prl-bead, 10px);
+  border-radius: 50%;
+  background: var(--color-teal-ink);
+  box-shadow: 0 0 0 calc(var(--prl-bead, 10px) * 0.5) var(--prl-ground, var(--color-surface-2));
+  opacity: 0;
+  pointer-events: none;
+}
+
+.prl_steps {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  column-gap: 4%;
+  margin: 24px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.prl_step {
+  position: relative;
+  min-width: 0;
+}
+
+.prl_step_num {
+  display: block;
+  font-family: var(--font-display);
+  font-size: var(--text-small);
+  line-height: 1;
+  color: var(--color-ink-2);
+  font-variant-numeric: tabular-nums;
+}
+
+.prl_step_title {
+  display: block;
+  margin-top: 12px;
+  font-family: var(--font-display);
+  font-size: var(--text-h3);
+  line-height: var(--text-h3--line-height);
+}
+
+.prl_step_tag {
+  display: block;
+  margin-top: 4px;
+  font-size: var(--text-small);
+  line-height: var(--text-small--line-height);
+  color: var(--color-action);
+}
+
+@media (max-width: 767px) {
+  .prl_rail {
+    padding-left: 72px;
+  }
+
+  .prl_svg_desktop {
+    display: none;
+  }
+
+  .prl_svg_mobile {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 72px;
+    height: 100%;
+  }
+
+  .prl_steps {
+    grid-auto-flow: row;
+    grid-auto-rows: auto;
+    row-gap: 32px;
+    column-gap: 0;
+    margin-top: 0;
+  }
+}

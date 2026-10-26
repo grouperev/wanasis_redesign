@@ -1,17 +1,14 @@
-const STEPS = ["Audit", "Paramétrage", "Migration", "Formation", "Go-live", "Support"] as const;
+import ProcessRail from "@/components/annnimate/process-rail/process-rail";
 
-/** Static placeholder; the Annnimate process-rail replaces the inner list in Phase 5. */
-export function ProcessRail() {
+// OQ-11 placeholder method; every step stays flagged until the client confirms it.
+const STEPS = ["Audit", "Paramétrage", "Migration", "Formation", "Go-live", "Support"] as const;
+const TAG = "[à valider]";
+
+/** Six-step implementation method on the Annnimate process-rail. `ground` = the section background the bead's halo blends into. */
+export function MethodRail({ ground = "var(--color-surface-2)", className }: { ground?: string; className?: string }) {
   return (
-    <ol className="ml-1 border-l border-teal">
-      {STEPS.map((s, i) => (
-        <li key={s} className="relative flex flex-wrap items-baseline gap-x-3 pb-8 pl-6 last:pb-0">
-          <span aria-hidden className="absolute -left-[5px] top-2 size-2.5 rounded-full bg-teal-ink" />
-          <span className="font-display text-small tabular-nums text-ink-2">{String(i + 1).padStart(2, "0")}</span>
-          <span className="font-display text-h3">{s}</span>
-          <span className="text-small text-action">[à valider]</span>
-        </li>
-      ))}
-    </ol>
+    <div style={{ "--prl-ground": ground } as React.CSSProperties} className={className}>
+      <ProcessRail steps={STEPS.map((title) => ({ title, tag: TAG }))} label="Méthode de mise en œuvre" />
+    </div>
   );
 }

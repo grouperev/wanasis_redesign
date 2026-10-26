@@ -1,0 +1,98 @@
+{
+  "view": {
+    "slug": "view",
+    "name": "View",
+    "meta": {
+      "title": "Mobile View",
+      "canonical": "/mobile-view/"
+    },
+    "back": "/wanasis-fusion-erp-modules/#apps-mobiles",
+    "h1": "Profitez des avantages de la BI n’importe où et à tout moment",
+    "lead": null,
+    "fallback": null,
+    "blocks": [
+      {
+        "heading": "Obtenez vos informations en temps réel pour pouvoir réagir plus rapidement.",
+        "body": "Avoir vos analyses disponibles sur votre appareil mobile vous donne accès à vos données et à vos performances à tout moment, n’importe où."
+      },
+      {
+        "heading": "Prenez des décisions plus rapidement.",
+        "body": "Avec des données disponibles à tout moment, vous pouvez voir les changements et les tendances au fur et à mesure qu’ils se produisent."
+      },
+      {
+        "heading": "Améliorez les performances de vos collaborateurs.",
+        "body": "Lorsque les KPI et les objectifs sont constamment affichés devant tout le monde sur leurs appareils mobiles, atteindre ces objectifs devient une priorité."
+      },
+      {
+        "heading": "Améliorez la qualité de vos décisions.",
+        "body": "Lorsque des décisions doivent être prises loin du bureau, la BI mobile apporte des éléments concrets sur lesquelles la décision peut être basée."
+      },
+      {
+        "heading": "Prenez avantage sur vos concurrents avec plus de flexibilité et d’adaptabilité.",
+        "body": "Lorsque vous pouvez réagir au changement en temps réel où que vous soyez, vous obtenez un avantage significatif sur vos concurrents. Vous pouvez voir les opportunités plus tôt, voir les tendances au fur et à mesure qu’elles se produisent, atténuer les risques plus rapidement et adapter votre entreprise aux changements."
+      }
+    ]
+  },
+  "link": {
+    "slug": "link",
+    "name": "Link",
+    "meta": {
+      "title": "Mobile Link",
+      "canonical": "/mobile-link/"
+    },
+    "back": "/wanasis-fusion-erp-modules/#apps-mobiles",
+    "h1": "La solution WANASIS LINK",
+    "lead": "La solution Wanasis Link est une application mobile conçue spécialement pour équiper les distributeurs de produits pharmaceutiques et paraphrastiques d’un outil puissant de mise en relation avec leurs clients, les pharmaciens d’officine . Wanasis Link est déployée sous forme de co-branding entre Wanasis et l’entreprise qui l’utilise. Elle possède une interface responsive offrant ainsi la possibilité de l’utiliser sur mobile, tablette et PC. L’offre Wanasis Link est proposée sous la forme d’un abonnement à un service cloud ce qui présente des avantages pertinent à son souscripteur:",
+    "fallback": null,
+    "leadList": [
+      "d’investissement initial : Il est inutile d’investir dans une solution qui serait très onéreuse à l’achat.",
+      "payez que ce que vous consommez : Il est inutile d’investir dans une solution qui serait très onéreuse à l’achat.",
+      "sans risque de sécurité : Wanasis Link vient avec une offre VPN intégrée qui vous décharge des tracas et des risques inhérents à la sécurité informatique."
+    ],
+    "blocks": [
+      {
+        "heading": "Une richesse fonctionnelle optimale. Gagnez la fidélité de vos clients",
+        "body": "Fidélisez vos clients Notre smartphone est toujours dans notre poche! Avoir une application permet aux clients d’avoir accès à leurs encours et toute votre offre n’importe quand et de n’importe où. De part cette proximité, cela fait de Wanasis Link un excellent outil de marketing. Augmentez la notoriété de votre l’entreprise Avoir une application mobile, fait de vous un acteur moderne et proche de son client. Le lancement d’une application mobile fait davantage parler de vous et rehausse votre image. des offres en notifications push Le taux de consultation des notifications push est à plus de 90% avec un taux de conversion très important. Sons, vibrations, bannières ou pastilles, le choix est large pour attirer l’attention du mobinaute.",
+        "list": [
+          "Identification de l’utilisateur hautement sécurisée.",
+          "Suivie des états des commandes, expéditions, factures, paiements , réclamations, chèques et traites bancaires.",
+          "Analyse de l’activité en terme de montant des achats, ….",
+          "Emission de commandes simplifiée",
+          "Réception d’offres promotionnelles et d’avis d’arrivé par notification push.",
+          "Envoi et suivi de réclamations.",
+          "Représentation graphique des données dans un Dashboard personnalisé.",
+          "Impression instantanée de tous les documents.",
+          "Consultation de l’historique des transactions à tout moment.",
+          "Modification et suppression des produits dans le panier.",
+          "Commande prise en compte en l’envoyant à la préparation ou au service commercial (opératrice) ."
+        ]
+      }
+    ]
+  },
+  "pick": {
+    "slug": "pick",
+    "name": "Pick",
+    "meta": {
+      "title": "Mobile Pick",
+      "canonical": "/mobile-pick/"
+    },
+    "back": "/wanasis-fusion-erp-modules/#apps-mobiles",
+    "h1": "Mobile Pick",
+    "lead": null,
+    "blocks": [],
+    "fallback": "Explorez la logistique de pointe avec notre application mobile dédiée à la gestion d’entrepôt. Notre priorité est d’assurer une préparation impeccable pour une satisfaction client maximale. Grâce à des fonctionnalités avancées, éliminez les erreurs de préparation pour une confiance client renforcée. Contrôlez vos opérations avec précision, évitant les coûts et les complications. Notre solution sans papier réduit les coûts et préserve l’environnement en adoptant une approche numérique. Investissez dans notre application pour transformer votre entrepôt en un centre d’excellence opérationnelle. Simplifiez vos processus, économisez et offrez une expérience client exceptionnelle dès aujourd’hui."
+  },
+  "ship": {
+    "slug": "ship",
+    "name": "Ship",
+    "meta": {
+      "title": "Mobile Ship",
+      "canonical": "/mobile-ship/"
+    },
+    "back": "/wanasis-fusion-erp-modules/#apps-mobiles",
+    "h1": "Mobile Ship",
+    "lead": null,
+    "blocks": [],
+    "fallback": "Assurez des livraisons impeccables, validées par vos clients. Obtenez leur confirmation de paiement et optimisez les itinéraires grâce au positionnement sur plan. Avec une identification automatique par GPS, localisez précisément les points de livraison. Gérez vos missions sur un écran unique, simplifiant ainsi l’exécution des livraisons et des collectes. Émettez des accusés de réception sous forme de ticket pour chaque transaction. Pour une sécurité accrue, validez les transactions par votre client via mot de passe ou carte électronique. Suivez instantanément chaque mission grâce à des rapports détaillés. Avec notre solution, chaque livraison est maîtrisée de bout en bout."
+  }
+}

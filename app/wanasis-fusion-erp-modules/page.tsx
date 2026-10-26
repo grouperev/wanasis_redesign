@@ -1,14 +1,14 @@
 import Link from "next/link";
 import { AssetSlot } from "@/components/ui/Picture";
 import { ModuleExplorer } from "@/components/fusion/ModuleExplorer";
-import { ProcessRail } from "@/components/fusion/ProcessRail";
+import { MethodRail } from "@/components/fusion/ProcessRail";
 import type { Family, FusionModule } from "@/components/fusion/types";
 import content from "@/lib/content/fusion.json";
 
 export const metadata = {
   title: "Wanasis Fusion ERP Modules",
   alternates: { canonical: "/wanasis-fusion-erp-modules/" },
-  openGraph: { title: "Wanasis Fusion ERP Modules", url: "/wanasis-fusion-erp-modules/" },
+  openGraph: { title: "Wanasis Fusion ERP Modules", url: "/wanasis-fusion-erp-modules/", locale: "fr_FR", type: "article" },
 };
 
 const families = content.families as Family[];
@@ -31,7 +31,7 @@ export default function FusionErpPage() {
         <div className="container-x grid items-center gap-12 py-16 lg:grid-cols-12 lg:gap-16 lg:py-24">
           <div className="lg:col-span-7">
             <p className="eyebrow">Fusion ERP</p>
-            <h1 className="mt-4 font-display text-h1">
+            <h1 data-reveal className="mt-4 font-display text-h1">
               {content.hero.title}
               <br />
               <span className="text-gradient">{content.hero.tagline}</span>
@@ -81,16 +81,14 @@ export default function FusionErpPage() {
         </div>
       </section>
 
-      {/* 5 · Complète et modulaire */}
+      {/* 5 · Complète et modulaire — process-rail runs full width under the copy */}
       <section className="section-y bg-surface-2">
-        <div className="container-x grid gap-12 lg:grid-cols-12 lg:gap-16">
-          <div className="lg:col-span-6">
-            <h2 className="font-display text-h2">{content.complete.title}</h2>
-            <p className="measure mt-6 text-ink-2">{content.complete.body}</p>
+        <div className="container-x">
+          <div className="grid gap-6 lg:grid-cols-12 lg:gap-16">
+            <h2 className="font-display text-h2 lg:col-span-5">{content.complete.title}</h2>
+            <p className="measure text-ink-2 lg:col-span-6 lg:col-start-7">{content.complete.body}</p>
           </div>
-          <div className="lg:col-span-5 lg:col-start-8">
-            <ProcessRail />
-          </div>
+          <MethodRail className="mt-12 md:mt-16" />
         </div>
       </section>
 
@@ -101,10 +99,12 @@ export default function FusionErpPage() {
           <ul className="mt-12 grid gap-4 md:grid-cols-2">
             {content.apps.items.map((a) => (
               <li key={a.slug} className="grid gap-6 rounded-md border border-hairline-dark p-6 sm:grid-cols-[160px_1fr] md:p-8">
-                <AssetSlot label={`A · ${a.name} — capture à fournir`} ratio="9/19" className="w-[140px] rounded-lg sm:w-full" />
+                <AssetSlot label={`A-${a.slug} · ${a.name} — capture à fournir`} ratio="9/19" className="w-[140px] rounded-lg sm:w-full" />
                 <div className="flex flex-col">
                   <p className="eyebrow !text-teal">Mobile</p>
-                  <h3 className="mt-1 font-display text-h2">{a.name}</h3>
+                  <h3 data-scramble className="mt-1 font-display text-h2">
+                    {a.name}
+                  </h3>
                   <p className="mt-4 text-white/80">{a.body}</p>
                   <Link href={a.href} className="mt-auto inline-flex min-h-11 items-center pt-4 font-medium underline underline-offset-4 hover:text-teal">
                     En savoir plus<span className="sr-only"> : {a.name}</span>

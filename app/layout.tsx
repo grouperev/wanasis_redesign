@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { MotionRoot } from "@/components/motion/MotionRoot";
+import { SiteJsonLd } from "@/components/seo/JsonLd";
 import { Footer } from "@/components/site/Footer";
 import { Header } from "@/components/site/Header";
 import { MobileBar } from "@/components/site/MobileBar";
@@ -32,6 +33,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Footer />
         <MobileBar />
         <MotionRoot />
+        <SiteJsonLd />
       </body>
     </html>
   );

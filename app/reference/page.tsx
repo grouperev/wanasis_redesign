@@ -10,10 +10,13 @@ export const metadata = pageMetadata({ title: content.meta.title, route: content
 
 const collator = new Intl.Collator("fr");
 
+// white-bg.png on the old wall is an empty placeholder tile, not a client.
+const LOGOS = content.logos.filter((f) => f !== "white-bg.png");
+
 export default function ReferencePage() {
   // Fly-in: a spread of 16 logos across the whole list; the full set is in the wall below.
-  const step = content.logos.length / 16;
-  const flying = Array.from({ length: 16 }, (_, i) => content.logos[Math.floor(i * step)]);
+  const step = LOGOS.length / 16;
+  const flying = Array.from({ length: 16 }, (_, i) => LOGOS[Math.floor(i * step)]);
   const cards = flying.map((file, i) => ({
     aspect: (i % 3 === 0 ? "square_lg" : "square_sm") as "square_lg" | "square_sm",
     hideMobile: i % 2 === 1,
@@ -22,7 +25,7 @@ export default function ReferencePage() {
     ),
   }));
 
-  const wall: WallItem[] = content.logos
+  const wall: WallItem[] = LOGOS
     .map((file) => ({ file, name: clientName(file) }))
     .sort((a, b) => collator.compare(a.name, b.name))
     .map(({ file, name }) => ({

@@ -7,7 +7,7 @@ import { NewsRail } from "@/components/home/NewsRail";
 import { Stats } from "@/components/home/Stats";
 import { Testimonials } from "@/components/home/Testimonials";
 import { Divider } from "@/components/motion/Divider";
-import { AssetSlot, Photo } from "@/components/ui/Picture";
+import { Photo } from "@/components/ui/Picture";
 import home from "@/lib/content/home.json";
 import { photo } from "@/lib/photos";
 import { firstSentences, frTypo } from "@/lib/format";
@@ -88,17 +88,13 @@ export default function HomePage() {
           </h2>
           <div className="mt-12 grid gap-6 lg:grid-cols-2">
             {[
-              { badge: "fusion-erp", name: "Fusion ERP", lead: fusionLead, rest: fusionRest, href: "/wanasis-fusion-erp-modules/", diagram: "schéma des 25 modules Fusion ERP — redessiné en SVG" },
-              { badge: "life-his", name: "Life HIS", lead: lifeLead, rest: lifeRest, href: "/wanasis-life-his/", diagram: "schéma des modules Life HIS — redessiné en SVG" },
+              { badge: "fusion-erp", name: "Fusion ERP", lead: fusionLead, rest: fusionRest, href: "/wanasis-fusion-erp-modules/", shot: "M-production" },
+              { badge: "life-his", name: "Life HIS", lead: lifeLead, rest: lifeRest, href: "/wanasis-life-his/", shot: "L2" },
             ].map((p) => (
               <article key={p.name} className="flex flex-col rounded-lg border border-hairline bg-surface p-6 md:p-10">
                 <h3 className="flex items-center gap-4">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img src={`/brand/${p.badge}.png`} alt={p.name} width={200} height={50} className="h-10 w-auto" />
-                  {/* dual-scramble (MotionRoot) on the product name; the badge's alt already names the product. */}
-                  <span data-scramble aria-hidden="true" className="font-display text-h3">
-                    {p.name}
-                  </span>
                 </h3>
                 <p className="mt-6 text-lead">{p.lead}</p>
                 {p.rest && (
@@ -107,7 +103,7 @@ export default function HomePage() {
                     <p className="mt-3">{p.rest}</p>
                   </details>
                 )}
-                <AssetSlot label={p.diagram} className="mt-8 aspect-[4/3] w-full rounded-md" />
+                <Photo shot={p.shot} label={p.shot} sizes="(min-width: 1024px) 560px, 100vw" className="mt-8 aspect-[4/3] w-full rounded-md" />
                 <Link href={p.href} className="btn btn-ghost mt-8 self-start">
                   En savoir plus<span className="sr-only"> sur {p.name}</span>
                 </Link>

@@ -17,9 +17,7 @@ if (typeof window !== 'undefined') {
 
 const EASE = 'wanasisOut';
 // 300ms UI tier (design-system motion)
-const CARD_DUR = 0.3;
 // a step not yet reached; reached steps are fully opaque (contrast stays AA)
-const UPCOMING = 0.6;
 const MOBILE_READ = '60%';
 
 /**
@@ -122,7 +120,8 @@ export default function ProcessRail({ className = '', steps, scrub = 0.6, beadSi
       stepEls.forEach((el, k) => {
         if (k === i) el.setAttribute('aria-current', 'step');
         else el.removeAttribute('aria-current');
-        gsap.to(el, { opacity: k <= i ? 1 : UPCOMING, duration: CARD_DUR, ease: EASE, overwrite: true });
+        // Reached steps take the accent colour; upcoming ones stay fully legible (no opacity dimming: WCAG contrast).
+        el.toggleAttribute('data-reached', k <= i);
       });
     }
 
@@ -145,7 +144,7 @@ export default function ProcessRail({ className = '', steps, scrub = 0.6, beadSi
 
     function buildTimeline() {
       const path = current.path;
-      stepEls.forEach((el) => gsap.set(el, { opacity: UPCOMING }));
+      stepEls.forEach((el) => el.removeAttribute('data-reached'));
       gsap.set(bead, { opacity: 1 });
       const t = gsap.timeline({ defaults: { ease: EASE, force3D: true }, scrollTrigger: makeTrigger() });
       t.to(bead, {
@@ -187,7 +186,7 @@ export default function ProcessRail({ className = '', steps, scrub = 0.6, beadSi
         }
         gsap.set(bead, { clearProps: 'transform,opacity' });
         paths.forEach((p) => gsap.set(p, { clearProps: 'strokeDasharray,strokeDashoffset' }));
-        gsap.set(stepEls, { clearProps: 'opacity' });
+        stepEls.forEach((el) => el.removeAttribute('data-reached'));
         stepEls.forEach((el) => el.removeAttribute('aria-current'));
         active = -1;
         current = null;

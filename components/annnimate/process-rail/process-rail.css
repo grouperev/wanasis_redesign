@@ -117,3 +117,13 @@
     margin-top: 0;
   }
 }
+
+/* reached state (set by the motion build) */
+.prl_step_num,
+.prl_step_title {
+  transition: color 300ms var(--ease-out);
+}
+.prl_step[data-reached] .prl_step_num,
+.prl_step[data-reached] .prl_step_title {
+  color: var(--color-teal-ink);
+}

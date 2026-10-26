@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import home from "@/lib/content/home.json";
 
 /** Per-route metadata from docs/redesign/crawl/meta.json (via lib/content/*.json). Canonical points to itself. */
 export function pageMetadata(opts: {
@@ -10,7 +11,8 @@ export function pageMetadata(opts: {
   extra?: Record<string, unknown>;
 }): Metadata {
   const { title, route, description, type = "website", image, extra } = opts;
-  const desc = description ?? undefined;
+  // Pages the old site left without a meta description fall back to the site's own baseline (home hero line).
+  const desc = description ?? home.hero.sub;
   return {
     title,
     description: desc,

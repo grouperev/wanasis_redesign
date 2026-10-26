@@ -74,8 +74,8 @@ export function Header() {
                       aria-expanded={solutions}
                       aria-controls="menu-solutions"
                       onClick={() => setSolutions((v) => !v)}
-                      className={`flex items-center gap-1.5 rounded-xs px-3 py-2 uppercase tracking-[0.06em] hover:text-teal-ink ${
-                        isActive("/wanasis-") || isActive("/mobile-") ? "text-teal-ink" : ""
+                      className={`flex items-center gap-1.5 rounded-xs px-3 py-2 uppercase tracking-[0.06em] hover:text-navy ${
+                        isActive("/wanasis-") || isActive("/mobile-") ? "text-navy" : ""
                       }`}
                     >
                       {item.label}
@@ -117,7 +117,7 @@ export function Header() {
                     <Link
                       href={item.href}
                       aria-current={isActive(item.href) ? "page" : undefined}
-                      className={`block rounded-xs px-3 py-2 hover:text-teal-ink ${isActive(item.href) ? "text-teal-ink" : ""}`}
+                      className={`block rounded-xs px-3 py-2 hover:text-navy ${isActive(item.href) ? "text-navy" : ""}`}
                     >
                       {item.label}
                     </Link>

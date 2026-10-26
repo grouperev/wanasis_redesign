@@ -1,3 +1,4 @@
+import { firstSentences } from "@/lib/format";
 import { LogoWall, type WallItem } from "@/components/proof/LogoWall";
 import ImageFlyIn from "@/components/annnimate/image-fly-in/image-fly-in";
 import { Picture } from "@/components/ui/Picture";
@@ -6,7 +7,7 @@ import content from "@/lib/content/reference.json";
 import { clientName, logoFile } from "@/lib/clients";
 import { frTypo } from "@/lib/format";
 
-export const metadata = pageMetadata({ title: content.meta.title, route: content.meta.route, description: content.meta.description });
+export const metadata = pageMetadata({ title: content.meta.title, route: content.meta.route, description: content.meta.description ?? firstSentences(content.paragraphs[0], 1)[0] });
 
 const collator = new Intl.Collator("fr");
 

@@ -51,3 +51,13 @@ Quotes are verbatim from the live site (`facts.md`). Nothing below has been chan
 **OQ-15 · Typos (fixed unless you object).** "Directuer général" → "Directeur général"; "Votre sociéte" → "Votre société"; "De part sa" → "De par sa"; "Dim – Jeud: 8:00 am – 17:00 pm" → "Dim – Jeu : 8h00 – 17h00". The slug `/erp-agerie-team/` keeps its typo (protected URL).
 
 **OQ-16 · Arabic version.** Tokens are RTL-ready (IBM Plex Sans Arabic). Is an AR site planned?
+
+## Added during the build
+
+**OQ-17 · Client logo files.** Most client logos on the old site are baked onto washed stock photos. An automatic background removal gave clean marks for 40 of the 91; the other 51 still show the original tile. → Ask clients (or the Wanasis sales team) for each logo as SVG or a transparent PNG.
+
+**OQ-18 · Life HIS rows.** Under "Dossier Médical Partagé", "rendez-vous" and "consultations", the old page shows paragraphs copied from Fusion ERP (CRM, Vente, SAV). We left those rows without a detail panel. → Send the right Life HIS text. The page also has two blurbs that weren't in our OQ-8 list (achats, restauration); we put them under Managérial.
+
+**OQ-19 · Post meta descriptions.** The WordPress meta descriptions are cut off at about 150 characters mid-sentence. → Can we replace them with the opening sentence of each post?
+
+**OQ-20 · New micro-labels.** The forms and news pages use new interface wording: consent line, error messages, "À lire aussi", "Rechercher un client", "Envoi en cours…". The full list is in the builder reports summarized in the PR. → Please review.

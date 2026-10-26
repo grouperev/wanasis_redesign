@@ -1,0 +1,528 @@
+{
+ "route": "/",
+ "title": "Wanasis Fusion : L'ERP de choix pour les entreprises en Algérie",
+ "meta_description": "Vous recherchez un ERP en Algérie ? Wanasis Fusion ERP est le choix idéal, éprouvé aussi bien en Algérie qu'à l'international.",
+ "date": "2020-01-13T11:17:52+00:00",
+ "author": "wanasis",
+ "category": null,
+ "sections": [
+  {
+   "type": "hero",
+   "heading": "La Réponse Complète à Vos Besoins ERP en Algérie",
+   "body": "",
+   "cta": [],
+   "images": [
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2025/01/Wanasis-Fusion-Life-ERP-Algerie.jpg",
+     "alt": "erp en algérie",
+     "w": 2000,
+     "h": 771,
+     "role_hint": "hero",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2025/01/Wanasis-Fusion-Life-ERP-Algerie.jpg",
+     "local": "assets/source/index/Wanasis-Fusion-Life-ERP-Algerie.jpg",
+     "role": "hero"
+    }
+   ]
+  },
+  {
+   "type": "banner",
+   "heading": "Wanasis allie technologie et expertise humaine pour soutenir le développement de votre activité.",
+   "body": "",
+   "cta": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "heading": "Votre succès, notre mission : des ERP taillés pour vous.",
+   "body": "Les défis spécifiques de votre secteur nécessitent une expertise pointue et des solutions adaptées. Nos consultants et ingénieurs utilisent des méthodologies et technologies de pointe pour développer des solutions d’affaires qui répondent précisément à vos besoins, que ce soit en ERP pour les entreprises de production et de distribution ou en HIS pour les établissements de santé.\nVotre bénéfice repose sur notre expérience acquise grâce à des projets ERP et HIS réalisés à l’international et au niveau local en Algérie. Nous avons capitalisé sur les meilleures pratiques du secteur pour vous offrir des solutions ERP et HIS parfaitement adaptées à la réalité algérienne.",
+   "cta": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "heading": "Nos Solutions ERP et HIS",
+   "body": "Wanasis Fusion ERP est, aujourd’hui, la référence des Progiciels de Gestion Intégrée pour les PME/PMI du secteur pharmaceutiques. Grâce à ses modules spécialisés, il vous offre une solide alternative aux solutions existantes dans le secteur. Sa robustesse, sa souplesse et son ouverture vous procurent un avantage de taille pour un système d’information fiable, performant et évolutif. Il vous permet, également, de fédérer l’ensemble des outils de gestion, d’offrir un référentiel logiciel unique et d’assurer une sécurité optimale de vos données et de vos procédures . Avec sa large panoplie de modules fonctionnelles et techniques, Wanasis ERP vous offre une très large couverture fonctionnelle. Quasiment, tous les domaines de la gestion d’entreprise sont couverts. Vous offrant ainsi, une solution complète dans le domaine de la distribution et de la production des produits pharmaceutiques. De part sa longue expérience, de 17 ans et de ses 30 implémentations dans le secteur pharmaceutique, Wanasis ERP vous permet de traiter vos flux de gestion en profondeur, dans les plus fins détails et en toute sécurité. Formant la pierre angulaire de la Wanasis Business suite, Wanasis ERP est accompagné d’un ensemble de solutions qui le rehausse au niveau d’un système d’information global. L’inclusion de tous les participants et parties prenantes du système d’information font de Wanasis Business Suite l’offre la plus complète et la plus experte du secteur de la distribution des produits pharmaceutiques. En savoir plus\nLife vous offre une gamme de fonctionnalités et de capacités inégalées pour améliorer l’efficacité, la précision et la qualité des soins dispensés. Life a été conçu avec une approche centrée sur le patient, mettant en avant l’expérience et le bien-être de chaque individu. Grâce à une interface intuitive et conviviale, les professionnels de santé peuvent accéder rapidement aux informations essentielles, permettant une prise de décision plus éclairée et des interventions plus rapides. La modularité de Life permet une personnalisation complète selon les besoins spécifiques de chaque établissement de santé. De la gestion des dossiers médicaux électroniques à la planification des rendez-vous, en passant par la gestion des ressources et des stocks, Life offre une solution complète et intégrée pour répondre à tous les défis de la gestion hospitalière. En choisissant Life, les établissements de santé investissent dans l’avenir de leurs patients et de leur propre succès. Avec une efficacité accrue, une prise en charge plus personnalisée et une qualité de soins améliorée, Life redéfinit les normes de l’excellence dans le domaine de la gestion hospitalière. Découvrez dès aujourd’hui comment Life peut transformer votre établissement de santé et propulser votre équipe vers de nouveaux sommets de performance et de réussite. En savoir plus",
+   "cta": [],
+   "images": [
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/05/fusion-erp.png",
+     "alt": "",
+     "w": 200,
+     "h": 50,
+     "role_hint": "columns",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/05/fusion-erp.png",
+     "local": "assets/source/index/fusion-erp.png",
+     "role": "logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2025/04/erpmobile.jpg",
+     "alt": "",
+     "w": 1067,
+     "h": 1066,
+     "role_hint": "columns",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2025/04/erpmobile.jpg",
+     "local": "assets/source/index/erpmobile.jpg",
+     "role": "module"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/05/life-his.png",
+     "alt": "",
+     "w": 200,
+     "h": 50,
+     "role_hint": "columns",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/05/life-his.png",
+     "local": "assets/source/index/life-his.png",
+     "role": "logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/07/LIF-HIS-ERP-WANASIS-MODULES.png",
+     "alt": "erp-algerie",
+     "w": 1003,
+     "h": 729,
+     "role_hint": "columns",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/07/LIF-HIS-ERP-WANASIS-MODULES.png",
+     "local": "assets/source/index/LIF-HIS-ERP-WANASIS-MODULES.png",
+     "role": "diagram"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "heading": "Wanasis en Chiffres",
+   "body": "+20\nAnnées d’expérience\n+1400\nUtilisateurs satisfaits\n+100\nProjets réussis",
+   "cta": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "heading": "Témoignages de nos clients",
+   "body": "Nous avons opté pour la solution Wanasis ERP basée sur Compiere car elle a pu s’aligner à nos exigences et besoins. En nous fournissant les outils adéquats elle a sensiblement contribué à notre épanouissement. Sa base de données, fiable et extensible, nous a offert la possibilité d’un suivi instantané ainsi qu’une flexibilité remarquable.\nMr. ZENATI Driss Directuer général Groupe Attiryak\nC’est l’offre WANASIS Business Suite qui a été retenue, car elle a su apporter les meilleures réponses en matières de solutions de gestion, de coût et de ROI. Elle a été choisie, ainsi que ses applications mobiles de gestion d’entrepôts “Pick” et de gestion des livraisons “Ship”. Son intégrateur Wanasis Solutions et une entreprise à taille humaine, proposant une réelle réactivité, capable de couvrir toutes les spécificités du vertical pharmaceutique.\nMr. HACENE Rabeh PDG Biogalenic\nChaque jour, nous émettons près de 1500 Factures à nos clients. La mise en place de COMPIERE Par WANASIS Solution a permis une meilleure anticipation des achats stratégiques augmentant de fait le respect de nos délais et donc de notre taux de service client.\nMr. CHAMLAL Maamar PDG Chark Pharm\nLa Clinique Avicenne est pleinement satisfaite du système informatique hospitalier LIFE. Il simplifie nos opérations quotidiennes en assurant une gestion efficace des dossiers patients et des rendez-vous. Grâce à LIFE, nous maintenons un approvisionnement optimal en médicaments et fournitures, garantissant une qualité de soins constante et une gestion fluide de nos ressources. Un choix indispensable pour une clinique moderne et efficiente.\nDr. BENCHIKH LEFGOUN Abdel Madjid Directeur Général Clinique Avicenne",
+   "cta": [],
+   "images": [
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/05/cite-white.png",
+     "alt": "",
+     "w": 128,
+     "h": 128,
+     "role_hint": "banner",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/05/cite-white.png",
+     "local": "assets/source/index/cite-white.png",
+     "role": "icon"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "heading": "Ils nous ont fait confiance",
+   "body": "",
+   "cta": [],
+   "images": [
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/oleasens.jpg",
+     "alt": "",
+     "w": 267,
+     "h": 267,
+     "role_hint": "slider",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/oleasens.jpg",
+     "local": "assets/source/index/oleasens.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/ilys.jpg",
+     "alt": "",
+     "w": 267,
+     "h": 267,
+     "role_hint": "slider",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/ilys.jpg",
+     "local": "assets/source/index/ilys.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/hbz.jpg",
+     "alt": "",
+     "w": 267,
+     "h": 267,
+     "role_hint": "slider",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/hbz.jpg",
+     "local": "assets/source/index/hbz.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/globalDistriMed.jpg",
+     "alt": "",
+     "w": 267,
+     "h": 267,
+     "role_hint": "slider",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/globalDistriMed.jpg",
+     "local": "assets/source/index/globalDistriMed.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/ethicare.jpg",
+     "alt": "",
+     "w": 267,
+     "h": 267,
+     "role_hint": "slider",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/ethicare.jpg",
+     "local": "assets/source/index/ethicare.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/enpi.jpg",
+     "alt": "",
+     "w": 267,
+     "h": 267,
+     "role_hint": "slider",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/enpi.jpg",
+     "local": "assets/source/index/enpi.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/el-thika.jpg",
+     "alt": "",
+     "w": 267,
+     "h": 267,
+     "role_hint": "slider",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/el-thika.jpg",
+     "local": "assets/source/index/el-thika.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/dermosens.jpg",
+     "alt": "",
+     "w": 267,
+     "h": 267,
+     "role_hint": "slider",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/dermosens.jpg",
+     "local": "assets/source/index/dermosens.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/cvm.jpg",
+     "alt": "",
+     "w": 267,
+     "h": 267,
+     "role_hint": "slider",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/cvm.jpg",
+     "local": "assets/source/index/cvm.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/chark-pharm.jpg",
+     "alt": "",
+     "w": 267,
+     "h": 267,
+     "role_hint": "slider",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/chark-pharm.jpg",
+     "local": "assets/source/index/chark-pharm.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/cnl.jpg",
+     "alt": "",
+     "w": 267,
+     "h": 267,
+     "role_hint": "slider",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/cnl.jpg",
+     "local": "assets/source/index/cnl.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/chermedic.jpg",
+     "alt": "",
+     "w": 267,
+     "h": 267,
+     "role_hint": "slider",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/chermedic.jpg",
+     "local": "assets/source/index/chermedic.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/chark-cos.jpg",
+     "alt": "",
+     "w": 267,
+     "h": 267,
+     "role_hint": "slider",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/chark-cos.jpg",
+     "local": "assets/source/index/chark-cos.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/cec.jpg",
+     "alt": "",
+     "w": 267,
+     "h": 267,
+     "role_hint": "slider",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/cec.jpg",
+     "local": "assets/source/index/cec.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/bnm_parapharm.jpg",
+     "alt": "",
+     "w": 267,
+     "h": 267,
+     "role_hint": "slider",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/bnm_parapharm.jpg",
+     "local": "assets/source/index/bnm_parapharm.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/bigdis.jpg",
+     "alt": "",
+     "w": 267,
+     "h": 267,
+     "role_hint": "slider",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/bigdis.jpg",
+     "local": "assets/source/index/bigdis.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/bcd-pharma.jpg",
+     "alt": "",
+     "w": 267,
+     "h": 267,
+     "role_hint": "slider",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/bcd-pharma.jpg",
+     "local": "assets/source/index/bcd-pharma.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/attiryak.jpg",
+     "alt": "",
+     "w": 267,
+     "h": 267,
+     "role_hint": "slider",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/attiryak.jpg",
+     "local": "assets/source/index/attiryak.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/07/acsmed.png",
+     "alt": "",
+     "w": 267,
+     "h": 267,
+     "role_hint": "slider",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/07/acsmed.png",
+     "local": "assets/source/index/acsmed.png",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/07/aqua-medic.png",
+     "alt": "",
+     "w": 267,
+     "h": 267,
+     "role_hint": "slider",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/07/aqua-medic.png",
+     "local": "assets/source/index/aqua-medic.png",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/07/biomest.png",
+     "alt": "",
+     "w": 267,
+     "h": 267,
+     "role_hint": "slider",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/07/biomest.png",
+     "local": "assets/source/index/biomest.png",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/07/bcos.png",
+     "alt": "",
+     "w": 267,
+     "h": 267,
+     "role_hint": "slider",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/07/bcos.png",
+     "local": "assets/source/index/bcos.png",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/07/jsm.png",
+     "alt": "",
+     "w": 267,
+     "h": 267,
+     "role_hint": "slider",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/07/jsm.png",
+     "local": "assets/source/index/jsm.png",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/07/mbn.png",
+     "alt": "",
+     "w": 267,
+     "h": 267,
+     "role_hint": "slider",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/07/mbn.png",
+     "local": "assets/source/index/mbn.png",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/07/minou-pharm.png",
+     "alt": "",
+     "w": 267,
+     "h": 267,
+     "role_hint": "slider",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/07/minou-pharm.png",
+     "local": "assets/source/index/minou-pharm.png",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/07/medicalsys.png",
+     "alt": "",
+     "w": 267,
+     "h": 267,
+     "role_hint": "slider",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/07/medicalsys.png",
+     "local": "assets/source/index/medicalsys.png",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/07/umc-lab.png",
+     "alt": "",
+     "w": 267,
+     "h": 267,
+     "role_hint": "slider",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/07/umc-lab.png",
+     "local": "assets/source/index/umc-lab.png",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/07/vasco.png",
+     "alt": "",
+     "w": 267,
+     "h": 267,
+     "role_hint": "slider",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/07/vasco.png",
+     "local": "assets/source/index/vasco.png",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/07/yougara.png",
+     "alt": "",
+     "w": 267,
+     "h": 267,
+     "role_hint": "slider",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/07/yougara.png",
+     "local": "assets/source/index/yougara.png",
+     "role": "client-logo"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "heading": "Nos dernières actualités",
+   "body": "",
+   "cta": [],
+   "images": [
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2025/01/ERP-Algerie-Croissance-entreprise.jpeg",
+     "alt": "Le rôle des logiciels ERP dans la croissance des entreprises en Algérie",
+     "w": 1600,
+     "h": 1065,
+     "role_hint": "news-grid",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2025/01/ERP-Algerie-Croissance-entreprise.jpeg",
+     "local": "assets/source/index/ERP-Algerie-Croissance-entreprise.jpeg",
+     "role": "hero"
+    }
+   ]
+  },
+  {
+   "type": "news-grid",
+   "heading": "Le rôle des logiciels ERP dans la croissance des entreprises en Algérie",
+   "body": "Posted on janvier 5, 2025 by Amar Cherif Zemerli\nLes logiciels ERP (Enterprise Resource Planning ou Progiciel de Gestion Intégré) jouent un rôle esse…",
+   "cta": [],
+   "images": [
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/09/Quel-ERP-pour-vous-Site.jpg",
+     "alt": "Comment choisir l’ERP qui convient à votre entreprise ",
+     "w": 1367,
+     "h": 681,
+     "role_hint": "news-grid",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/09/Quel-ERP-pour-vous-Site.jpg",
+     "local": "assets/source/index/Quel-ERP-pour-vous-Site.jpg",
+     "role": "hero"
+    }
+   ]
+  },
+  {
+   "type": "news-grid",
+   "heading": "Comment choisir l’ERP qui convient à votre entreprise",
+   "body": "Posted on septembre 22, 2024 by Amar Cherif Zemerli\nLe choix d’un système ERP (Enterprise Resource Planning) est une décision cruciale pour toute …",
+   "cta": [],
+   "images": [
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/09/ERP-Alerie-Etat-Des-Lieux.jpg",
+     "alt": "ERP en Algérie: Etat  des lieux",
+     "w": 1920,
+     "h": 980,
+     "role_hint": "news-grid",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/09/ERP-Alerie-Etat-Des-Lieux.jpg",
+     "local": "assets/source/index/ERP-Alerie-Etat-Des-Lieux.jpg",
+     "role": "hero"
+    }
+   ]
+  },
+  {
+   "type": "news-grid",
+   "heading": "ERP en Algérie: Etat des lieux",
+   "body": "Posted on septembre 19, 2024 by Amar Cherif Zemerli\nLe marché des ERP en Algérie est en pleine évolution, poussé par la numérisation croissante des entr…",
+   "cta": [],
+   "images": [
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2026/02/WANASIS-AMTEX.jpeg",
+     "alt": "Retour sur le salon AMTEX Oran 2026 et nos Rencontres BtoB",
+     "w": 853,
+     "h": 568,
+     "role_hint": "news-grid",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2026/02/WANASIS-AMTEX.jpeg",
+     "local": "assets/source/index/WANASIS-AMTEX.jpeg",
+     "role": "hero"
+    }
+   ]
+  },
+  {
+   "type": "news-grid",
+   "heading": "Retour sur le salon AMTEX Oran 2026 et nos Rencontres BtoB",
+   "body": "Posted on février 9, 2026 by Amar Cherif Zemerli\nWanasis a eu le plaisir de participer aux rencontres BtoB organisées dans le cadre du salon AMTEX Or…",
+   "cta": [],
+   "images": [
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2025/08/Evexia-ERP.jpg",
+     "alt": "Evexia choisit notre solution ERP pour piloter sa croissance !",
+     "w": 960,
+     "h": 364,
+     "role_hint": "news-grid",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2025/08/Evexia-ERP.jpg",
+     "local": "assets/source/index/Evexia-ERP.jpg",
+     "role": "hero"
+    }
+   ]
+  },
+  {
+   "type": "news-grid",
+   "heading": "Evexia choisit notre solution ERP pour piloter sa croissance !",
+   "body": "Posted on août 6, 2025 by Amar Cherif Zemerli\nNous sommes fiers d’annoncer la mise en production réussie de notre solution ERP chez Evexia, un act…",
+   "cta": [],
+   "images": [
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2025/03/ERP-et-Gestion-de-Production.jpg",
+     "alt": "Le Rôle de l’ERP dans la Planification et le Contrôle de la Production",
+     "w": 2000,
+     "h": 1055,
+     "role_hint": "news-grid",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2025/03/ERP-et-Gestion-de-Production.jpg",
+     "local": "assets/source/index/ERP-et-Gestion-de-Production.jpg",
+     "role": "hero"
+    }
+   ]
+  },
+  {
+   "type": "news-grid",
+   "heading": "Le Rôle de l’ERP dans la Planification et le Contrôle de la Production",
+   "body": "Posted on mars 22, 2025 by Amar Cherif Zemerli\nIntroduction Les systèmes de Planification et de Contrôle de la Production (PCP) sont essentiels pou…",
+   "cta": [],
+   "images": []
+  }
+ ]
+}

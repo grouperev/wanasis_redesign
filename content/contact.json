@@ -1,0 +1,35 @@
+{
+ "route": "/contact/",
+ "title": "Contact",
+ "meta_description": null,
+ "date": "2020-01-27T08:29:32+00:00",
+ "author": null,
+ "category": null,
+ "sections": [
+  {
+   "type": "hero",
+   "heading": "Formulaire de contact",
+   "body": "",
+   "cta": [],
+   "images": [
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/contact-banner.jpg",
+     "alt": "erp-algerie",
+     "w": 1536,
+     "h": 614,
+     "role_hint": "hero",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/contact-banner.jpg",
+     "local": "assets/source/contact/contact-banner.jpg",
+     "role": "hero"
+    }
+   ]
+  },
+  {
+   "type": "banner",
+   "heading": "Nos coordonnées",
+   "body": "Cité El-hej Ahmed N°52 Sidi Mabrouk, Constantine\n+213 770 80 68 22 – +213 770 80 58 21 – +213 770 80 90 85\ncontact@wanasis.dz\nDim – Jeud: 8:00 am – 17:00 pm\nFacebook\nLinkedIn",
+   "cta": [],
+   "images": []
+  }
+ ]
+}

@@ -1,0 +1,109 @@
+{
+ "route": "/erp-agerie-team/",
+ "title": "Qui est Wanasis?",
+ "meta_description": "Accompagner les dirigeants en Algérie dans leurs projets ERP est notre mission, notre engagement et notre fierté.",
+ "date": "2020-01-23T18:21:52+00:00",
+ "author": null,
+ "category": null,
+ "sections": [
+  {
+   "type": "hero",
+   "heading": "« L’Algérie dans Nos Racines, L’ERP dans Nos Veines, Votre Réussite dans Nos Aspirations »",
+   "body": "",
+   "cta": [],
+   "images": [
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/about-banner.jpg",
+     "alt": "erp-algerie",
+     "w": 1921,
+     "h": 591,
+     "role_hint": "hero",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/about-banner.jpg",
+     "local": "assets/source/erp-agerie-team/about-banner.jpg",
+     "role": "hero"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/05/amar.jpg",
+     "alt": "erp-algerie",
+     "w": 180,
+     "h": 300,
+     "role_hint": "banner",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/05/amar.jpg",
+     "local": "assets/source/erp-agerie-team/amar.jpg",
+     "role": "team"
+    }
+   ]
+  },
+  {
+   "type": "banner",
+   "heading": "Amar Cherif Zemerli",
+   "body": "",
+   "cta": [],
+   "images": []
+  },
+  {
+   "type": "banner",
+   "heading": "Directeur général",
+   "body": "Conseiller les dirigeants des entreprises en Algérie, les accompagner dans leurs projets ERP et de transformation numérique, et les aider à construire un système d’information performant au service de leur stratégie d’affaires est une consécration et un accomplissement.\nLinkedIn",
+   "cta": [],
+   "images": [
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/05/hamza.jpg",
+     "alt": "erp-algerie",
+     "w": 180,
+     "h": 300,
+     "role_hint": "banner",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/05/hamza.jpg",
+     "local": "assets/source/erp-agerie-team/hamza.jpg",
+     "role": "team"
+    }
+   ]
+  },
+  {
+   "type": "banner",
+   "heading": "Hamza Khanfouf",
+   "body": "",
+   "cta": [],
+   "images": []
+  },
+  {
+   "type": "banner",
+   "heading": "Directeur de projet",
+   "body": "Depuis 19 ans, l’implémentation des solutions de gestion ERP en Algérie est ma vocation. Relever les défis techniques, fonctionnels et de gestion de projet fait partie de ma passion. La réussite des projets ERP de nos clients en Algérie est mon plus grand accomplissement.\nLinkedIn",
+   "cta": [],
+   "images": [
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/05/redha.jpg",
+     "alt": "erp-algerie",
+     "w": 180,
+     "h": 300,
+     "role_hint": "banner",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/05/redha.jpg",
+     "local": "assets/source/erp-agerie-team/redha.jpg",
+     "role": "team"
+    }
+   ]
+  },
+  {
+   "type": "banner",
+   "heading": "Redha Rezkoun",
+   "body": "",
+   "cta": [],
+   "images": []
+  },
+  {
+   "type": "banner",
+   "heading": "Directeur technique et R&D",
+   "body": "L’architecture applicative, le code source, les frameworks, et les outils de développement ERP sont ma source d’exaltation. Depuis 18 ans, relever le défi quotidien de créer des solutions ERP innovantes et performantes pour les entreprises en Algérie est ma véritable passion..\nLinkedIn",
+   "cta": [],
+   "images": []
+  },
+  {
+   "type": "banner",
+   "heading": "Wanasis Solutions : Votre Partenaire ERP en Algérie",
+   "body": "Conscients des réalités et des défis auxquels les entreprises en Algérie font face, nous nous dévouons à la création de solutions ERP modernes pour booster votre performance et votre compétitivité. Notre engagement quotidien est de vous fournir des outils ERP innovants et performants, susceptibles de devenir un avantage concurrentiel distinctif sur le marché algérien.\nGrâce à notre approche managériale spécialisée, nous comprenons vos enjeux spécifiques en Algérie et apportons des solutions ERP adaptées à vos stratégies de gestion. Nos consultants et ingénieurs, experts en ERP, maîtrisent les méthodologies et technologies de pointe pour développer des solutions d’affaires efficaces.\nNos projets internationaux ont renforcé notre expérience en ERP, nous donnant la maturité nécessaire pour intégrer les meilleures pratiques tout en adaptant nos solutions aux réalités locales de l’Algérie, qu’elles soient réglementaires, culturelles ou sociales.\nWanasis Solutions, spécialiste de l’ERP en Algérie, s’engage à rester toujours à l’avant-garde des innovations pour accélérer vos performances et vous accompagner vers le succès.",
+   "cta": [],
+   "images": []
+  }
+ ]
+}

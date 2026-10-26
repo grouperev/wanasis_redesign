@@ -1,0 +1,7 @@
+node_modules/
+.next/
+out/
+.env*
+!.env.example
+vendor/annnimate/*/preview.mp4
+.DS_Store

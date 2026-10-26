@@ -1,0 +1,928 @@
+{
+ "route": "/reference/",
+ "title": "Références",
+ "meta_description": null,
+ "date": "2024-06-05T09:49:53+00:00",
+ "author": null,
+ "category": null,
+ "sections": [
+  {
+   "type": "text",
+   "heading": null,
+   "body": "Nous tenons à exprimer notre profonde gratitude à tous nos clients en Algérie pour leur confiance et leur collaboration. Grâce à votre soutien, nous avons pu implémenter avec succès des solutions ERP innovantes et des systèmes d’information hospitaliers (HIS) de pointe. Votre engagement envers l’excellence nous motive à continuer de vous fournir des services de haute qualité et à innover constamment dans le domaine des technologies de l’information.\nMerci de faire partie de notre succès et de nous permettre de contribuer à l’amélioration de vos processus et de vos performances. Nous sommes fiers de travailler avec vous et de vous accompagner dans votre croissance et votre transformation digitale.",
+   "cta": [],
+   "images": [
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/chark-pharm.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/chark-pharm.jpg",
+     "local": "assets/source/index/chark-pharm.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/attiryak.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/attiryak.jpg",
+     "local": "assets/source/index/attiryak.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/biogalenic.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/biogalenic.jpg",
+     "local": "assets/source/reference/biogalenic.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/chermedic.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/chermedic.jpg",
+     "local": "assets/source/index/chermedic.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/bigdis.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/bigdis.jpg",
+     "local": "assets/source/index/bigdis.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/07/bg-avicenne.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/07/bg-avicenne.jpg",
+     "local": "assets/source/reference/bg-avicenne.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/skypharma.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/skypharma.jpg",
+     "local": "assets/source/reference/skypharma.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/el-thika.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/el-thika.jpg",
+     "local": "assets/source/index/el-thika.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/propharma.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/propharma.jpg",
+     "local": "assets/source/reference/propharma.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/epiocare.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/epiocare.jpg",
+     "local": "assets/source/reference/epiocare.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/dvpp.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/dvpp.jpg",
+     "local": "assets/source/reference/dvpp.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/mimapharm.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/mimapharm.jpg",
+     "local": "assets/source/reference/mimapharm.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/milimed.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/milimed.jpg",
+     "local": "assets/source/reference/milimed.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/bouchama.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/bouchama.jpg",
+     "local": "assets/source/reference/bouchama.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/atmosphere.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/atmosphere.jpg",
+     "local": "assets/source/reference/atmosphere.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/khawlapharm.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/khawlapharm.jpg",
+     "local": "assets/source/reference/khawlapharm.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/yahi-pharm.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/yahi-pharm.jpg",
+     "local": "assets/source/reference/yahi-pharm.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/curativa.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/curativa.jpg",
+     "local": "assets/source/reference/curativa.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/mounibpharm.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/mounibpharm.jpg",
+     "local": "assets/source/reference/mounibpharm.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/ibn_zohr.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/ibn_zohr.jpg",
+     "local": "assets/source/reference/ibn_zohr.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/dani-pharm.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/dani-pharm.jpg",
+     "local": "assets/source/reference/dani-pharm.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/cne_pharm.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/cne_pharm.jpg",
+     "local": "assets/source/reference/cne_pharm.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/cne_medic.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/cne_medic.jpg",
+     "local": "assets/source/reference/cne_medic.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/conceptas.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/conceptas.jpg",
+     "local": "assets/source/reference/conceptas.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/alimedic.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/alimedic.jpg",
+     "local": "assets/source/reference/alimedic.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/elisar.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/elisar.jpg",
+     "local": "assets/source/reference/elisar.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/seif-pharm.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/seif-pharm.jpg",
+     "local": "assets/source/reference/seif-pharm.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/somedest.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/somedest.jpg",
+     "local": "assets/source/reference/somedest.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/optimal.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/optimal.jpg",
+     "local": "assets/source/reference/optimal.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/hk.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/hk.jpg",
+     "local": "assets/source/reference/hk.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/cpm.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/cpm.jpg",
+     "local": "assets/source/reference/cpm.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/aylan.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/aylan.jpg",
+     "local": "assets/source/reference/aylan.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/ss.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/ss.jpg",
+     "local": "assets/source/reference/ss.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/laraba.jpg",
+     "alt": "References-erp-algerie",
+     "w": 2000,
+     "h": 2000,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/laraba.jpg",
+     "local": "assets/source/reference/laraba.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/yazan.jpg",
+     "alt": "References-erp-algerie",
+     "w": 2000,
+     "h": 2000,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/yazan.jpg",
+     "local": "assets/source/reference/yazan.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/amdp.jpg",
+     "alt": "References-erp-algerie",
+     "w": 480,
+     "h": 480,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/amdp.jpg",
+     "local": "assets/source/reference/amdp.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/07/jsm.png",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/07/jsm.png",
+     "local": "assets/source/index/jsm.png",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/ayred-med.jpg",
+     "alt": "References-erp-algerie",
+     "w": 480,
+     "h": 480,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/ayred-med.jpg",
+     "local": "assets/source/reference/ayred-med.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/zenith.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/zenith.jpg",
+     "local": "assets/source/reference/zenith.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/zedpharm.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/zedpharm.jpg",
+     "local": "assets/source/reference/zedpharm.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/commune-alger.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/commune-alger.jpg",
+     "local": "assets/source/reference/commune-alger.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/wanacomp.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/wanacomp.jpg",
+     "local": "assets/source/reference/wanacomp.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/vipro.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/vipro.jpg",
+     "local": "assets/source/reference/vipro.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/vecera.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/vecera.jpg",
+     "local": "assets/source/reference/vecera.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/tarros.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/tarros.jpg",
+     "local": "assets/source/reference/tarros.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/stradib-pharma.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/stradib-pharma.jpg",
+     "local": "assets/source/reference/stradib-pharma.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/soundous-pharm.png",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/soundous-pharm.png",
+     "local": "assets/source/reference/soundous-pharm.png",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/sopipharm.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/sopipharm.jpg",
+     "local": "assets/source/reference/sopipharm.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/slimane-pharm.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/slimane-pharm.jpg",
+     "local": "assets/source/reference/slimane-pharm.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/remede-medic.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/remede-medic.jpg",
+     "local": "assets/source/reference/remede-medic.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/physiopharm.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/physiopharm.jpg",
+     "local": "assets/source/reference/physiopharm.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/parashop.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/parashop.jpg",
+     "local": "assets/source/reference/parashop.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/nourmedic.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/nourmedic.jpg",
+     "local": "assets/source/reference/nourmedic.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/07/medicalsys.png",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/07/medicalsys.png",
+     "local": "assets/source/index/medicalsys.png",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/nadpharmadic.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/nadpharmadic.jpg",
+     "local": "assets/source/reference/nadpharmadic.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/07/mbn.png",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/07/mbn.png",
+     "local": "assets/source/index/mbn.png",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/oleasens.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/oleasens.jpg",
+     "local": "assets/source/index/oleasens.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/ilys.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/ilys.jpg",
+     "local": "assets/source/index/ilys.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/hbz.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/hbz.jpg",
+     "local": "assets/source/index/hbz.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/globalDistriMed.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/globalDistriMed.jpg",
+     "local": "assets/source/index/globalDistriMed.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/ethicare.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/ethicare.jpg",
+     "local": "assets/source/index/ethicare.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/enpi.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/enpi.jpg",
+     "local": "assets/source/index/enpi.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/07/acsmed.png",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/07/acsmed.png",
+     "local": "assets/source/index/acsmed.png",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/dermosens.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/dermosens.jpg",
+     "local": "assets/source/index/dermosens.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/07/vasco.png",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/07/vasco.png",
+     "local": "assets/source/index/vasco.png",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/cvm.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/cvm.jpg",
+     "local": "assets/source/index/cvm.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/07/minou-pharm.png",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/07/minou-pharm.png",
+     "local": "assets/source/index/minou-pharm.png",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/cnl.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/cnl.jpg",
+     "local": "assets/source/index/cnl.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/chark-cos.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/chark-cos.jpg",
+     "local": "assets/source/index/chark-cos.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/07/umc-lab.png",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/07/umc-lab.png",
+     "local": "assets/source/index/umc-lab.png",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/07/yougara.png",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/07/yougara.png",
+     "local": "assets/source/index/yougara.png",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/07/biomest.png",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/07/biomest.png",
+     "local": "assets/source/index/biomest.png",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/cec.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/cec.jpg",
+     "local": "assets/source/index/cec.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/bnm_parapharm.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/bnm_parapharm.jpg",
+     "local": "assets/source/index/bnm_parapharm.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/bcd-pharma.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/bcd-pharma.jpg",
+     "local": "assets/source/index/bcd-pharma.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/07/bcos.png",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/07/bcos.png",
+     "local": "assets/source/index/bcos.png",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/abpharmaceutical.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/abpharmaceutical.jpg",
+     "local": "assets/source/reference/abpharmaceutical.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/06/aadl.jpg",
+     "alt": "References-erp-algerie",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/06/aadl.jpg",
+     "local": "assets/source/reference/aadl.jpg",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2025/05/evexia-logo.png",
+     "alt": "",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2025/05/evexia-logo.png",
+     "local": "assets/source/reference/evexia-logo.png",
+     "role": "logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2025/05/pharmeline-logo.png",
+     "alt": "",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2025/05/pharmeline-logo.png",
+     "local": "assets/source/reference/pharmeline-logo.png",
+     "role": "logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2026/07/veno-pharm2.png",
+     "alt": "",
+     "w": 2000,
+     "h": 2000,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2026/07/veno-pharm2.png",
+     "local": "assets/source/reference/veno-pharm2.png",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2025/05/innova-parapharm.png",
+     "alt": "",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2025/05/innova-parapharm.png",
+     "local": "assets/source/reference/innova-parapharm.png",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2025/05/mima-pharm.png",
+     "alt": "",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2025/05/mima-pharm.png",
+     "local": "assets/source/reference/mima-pharm.png",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2025/05/esthelab.png",
+     "alt": "",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2025/05/esthelab.png",
+     "local": "assets/source/reference/esthelab.png",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2026/07/logo-bnsd2.png",
+     "alt": "",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2026/07/logo-bnsd2.png",
+     "local": "assets/source/reference/logo-bnsd2.png",
+     "role": "logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2026/07/logo-mondo3.png",
+     "alt": "",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2026/07/logo-mondo3.png",
+     "local": "assets/source/reference/logo-mondo3.png",
+     "role": "logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2026/07/logo-setifmedic-2.png",
+     "alt": "",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2026/07/logo-setifmedic-2.png",
+     "local": "assets/source/reference/logo-setifmedic-2.png",
+     "role": "logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2026/07/gpsk6.png",
+     "alt": "",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2026/07/gpsk6.png",
+     "local": "assets/source/reference/gpsk6.png",
+     "role": "client-logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2026/07/logo-arab.png",
+     "alt": "",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2026/07/logo-arab.png",
+     "local": "assets/source/reference/logo-arab.png",
+     "role": "logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2026/07/logo-genis-1.png",
+     "alt": "",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2026/07/logo-genis-1.png",
+     "local": "assets/source/reference/logo-genis-1.png",
+     "role": "logo"
+    },
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/07/white-bg.png",
+     "alt": "",
+     "w": 267,
+     "h": 267,
+     "role_hint": "gallery",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/07/white-bg.png",
+     "local": "assets/source/reference/white-bg.png",
+     "role": "client-logo"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "route": "/mobile-link/",
+ "title": "Mobile Link",
+ "meta_description": null,
+ "date": "2024-07-21T11:12:04+00:00",
+ "author": null,
+ "category": null,
+ "sections": [
+  {
+   "type": "hero",
+   "heading": "La solution WANASIS LINK",
+   "body": "La solution Wanasis Link est une application mobile conçue spécialement pour équiper les distributeurs de produits pharmaceutiques et paraphrastiques d’un outil puissant de mise en relation avec leurs clients, les pharmaciens d’officine . Wanasis Link est déployée sous forme de co-branding entre Wanasis et l’entreprise qui l’utilise. Elle possède une interface responsive offrant ainsi la possibilité de l’utiliser sur mobile, tablette et PC. L’offre Wanasis Link est proposée sous la forme d’un abonnement à un service cloud ce qui présente des avantages pertinent à son souscripteur:\nd’investissement initial : Il est inutile d’investir dans une solution qui serait très onéreuse à l’achat.\npayez que ce que vous consommez : Il est inutile d’investir dans une solution qui serait très onéreuse à l’achat.\nsans risque de sécurité : Wanasis Link vient avec une offre VPN intégrée qui vous décharge des tracas et des risques inhérents à la sécurité informatique.",
+   "cta": [],
+   "images": [
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/07/banner-link.jpg",
+     "alt": "link-erp-algerie",
+     "w": 1400,
+     "h": 500,
+     "role_hint": "hero",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/07/banner-link.jpg",
+     "local": "assets/source/mobile-link/banner-link.jpg",
+     "role": "hero"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "heading": "Une richesse fonctionnelle optimale. Gagnez la fidélité de vos clients",
+   "body": "Fidélisez vos clients Notre smartphone est toujours dans notre poche! Avoir une application permet aux clients d’avoir accès à leurs encours et toute votre offre n’importe quand et de n’importe où. De part cette proximité, cela fait de Wanasis Link un excellent outil de marketing. Augmentez la notoriété de votre l’entreprise Avoir une application mobile, fait de vous un acteur moderne et proche de son client. Le lancement d’une application mobile fait davantage parler de vous et rehausse votre image. des offres en notifications push Le taux de consultation des notifications push est à plus de 90% avec un taux de conversion très important. Sons, vibrations, bannières ou pastilles, le choix est large pour attirer l’attention du mobinaute.\nIdentification de l’utilisateur hautement sécurisée.\nSuivie des états des commandes, expéditions, factures, paiements , réclamations, chèques et traites bancaires.\nAnalyse de l’activité en terme de montant des achats, ….\nEmission de commandes simplifiée\nRéception d’offres promotionnelles et d’avis d’arrivé par notification push.\nEnvoi et suivi de réclamations.\nReprésentation graphique des données dans un Dashboard personnalisé.\nImpression instantanée de tous les documents.\nConsultation de l’historique des transactions à tout moment.\nModification et suppression des produits dans le panier.\nCommande prise en compte en l’envoyant à la préparation ou au service commercial (opératrice) .",
+   "cta": [],
+   "images": [
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/07/mob-link.png",
+     "alt": "link-erp-algerie",
+     "w": 480,
+     "h": 362,
+     "role_hint": "text",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/07/mob-link.png",
+     "local": "assets/source/mobile-link/mob-link.png",
+     "role": "module"
+    }
+   ]
+  }
+ ]
+}

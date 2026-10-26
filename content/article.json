@@ -1,0 +1,179 @@
+{
+ "route": "/article/",
+ "title": "Article - Wanasis",
+ "meta_description": null,
+ "date": null,
+ "author": "Amar Cherif Zemerli",
+ "category": "Article",
+ "sections": [
+  {
+   "type": "text",
+   "heading": "Article",
+   "body": "",
+   "cta": [],
+   "images": [
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2025/03/ERP-et-Gestion-de-Production.jpg",
+     "alt": "",
+     "w": 2000,
+     "h": 1055,
+     "role_hint": "text",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2025/03/ERP-et-Gestion-de-Production.jpg",
+     "local": "assets/source/index/ERP-et-Gestion-de-Production.jpg",
+     "role": "hero"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "heading": "Le Rôle de l’ERP dans la Planification et le Contrôle de la Production",
+   "body": "par Amar Cherif Zemerli\nArticle\nIntroduction Les systèmes de Planification et de Contrôle de la Production (PCP) sont essentiels pour garantir que les opérations de fabrication s’alignent sur les objectifs commerciaux, optimisent l’utilisation des ressources et répondent efficacement à la demande des clients. L’intégration d’un… Lire la suite » Le Rôle de l’ERP dans la Planification et le Contrôle de la Production",
+   "cta": [],
+   "images": [
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2025/02/ERP-Algerie-Hybride.jpg",
+     "alt": "",
+     "w": 1500,
+     "h": 857,
+     "role_hint": "text",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2025/02/ERP-Algerie-Hybride.jpg",
+     "local": "assets/source/actualites/ERP-Algerie-Hybride.jpg",
+     "role": "hero"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "heading": "Les Systèmes ERP Hybrides",
+   "body": "par Amar Cherif Zemerli\nArticle\nLes systèmes ERP (Enterprise Resource Planning) sont des logiciels utilisés par les entreprises pour gérer et intégrer les principales fonctions commerciales, telles que la comptabilité, les ressources humaines, la gestion des stocks, la production, la gestion des commandes et bien… Lire la suite » Les Systèmes ERP Hybrides",
+   "cta": [],
+   "images": [
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2025/01/Analyses-des-donnees-ERP-Algerie.jpg",
+     "alt": "",
+     "w": 1920,
+     "h": 1198,
+     "role_hint": "text",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2025/01/Analyses-des-donnees-ERP-Algerie.jpg",
+     "local": "assets/source/actualites/Analyses-des-donnees-ERP-Algerie.jpg",
+     "role": "hero"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "heading": "L’importance de la mesure dans la gestion",
+   "body": "par Amar Cherif Zemerli\nArticle\nLa gestion efficace nécessite une compréhension précise des éléments que l’on veut contrôler. Sans mesurer, il est impossible de savoir si les actions entreprises produisent les résultats attendus. Une entreprise ou une organisation qui ne dispose pas d’indicateurs clairs de… Lire la suite » L’importance de la mesure dans la gestion",
+   "cta": [],
+   "images": [
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2025/01/Impact-ERP-Algerie-Performances.jpg",
+     "alt": "",
+     "w": 1500,
+     "h": 843,
+     "role_hint": "text",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2025/01/Impact-ERP-Algerie-Performances.jpg",
+     "local": "assets/source/actualites/Impact-ERP-Algerie-Performances.jpg",
+     "role": "hero"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "heading": "Impact de l’implémentation d’un ERP sur les performances de l’entreprise",
+   "body": "par Amar Cherif Zemerli\nArticle\nL’implémentation d’un ERP peut avoir un impact significatif sur les performances d’une entreprise, à la fois pendant et après le processus. Voici une analyse des effets, en distinguant ces deux périodes : Impact pendant l’implémentation d’un ERP 1. Changements organisationnels… Lire la suite » Impact de l’implémentation d’un ERP sur les performances de l’entreprise",
+   "cta": [],
+   "images": [
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2025/01/ERP-Algerie-Croissance-entreprise.jpeg",
+     "alt": "",
+     "w": 1600,
+     "h": 1065,
+     "role_hint": "text",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2025/01/ERP-Algerie-Croissance-entreprise.jpeg",
+     "local": "assets/source/index/ERP-Algerie-Croissance-entreprise.jpeg",
+     "role": "hero"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "heading": "Le rôle des logiciels ERP dans la croissance des entreprises en Algérie",
+   "body": "par Amar Cherif Zemerli\nArticle\nLes logiciels ERP (Enterprise Resource Planning ou Progiciel de Gestion Intégré) jouent un rôle essentiel dans la croissance des entreprises en Algérie en rationalisant les opérations, en améliorant l’efficacité et en répondant aux particularités du marché local. Voici comment les… Lire la suite » Le rôle des logiciels ERP dans la croissance des entreprises en Algérie",
+   "cta": [],
+   "images": [
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/12/ERP-Algerie-Conformite.png",
+     "alt": "",
+     "w": 1920,
+     "h": 1080,
+     "role_hint": "text",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/12/ERP-Algerie-Conformite.png",
+     "local": "assets/source/actualites/ERP-Algerie-Conformite.png",
+     "role": "hero"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "heading": "Garantir la Conformité Comptable en Algérie grâce à un ERP",
+   "body": "par Amar Cherif Zemerli\nArticle\nIntroduction L’élaboration du bilan comptable de fin d’année est un exercice crucial pour toute entreprise algérienne. Il ne s’agit pas seulement d’un document financier, mais d’une obligation légale qui doit refléter avec exactitude la situation de l’entreprise tout en respectant… Lire la suite » Garantir la Conformité Comptable en Algérie grâce à un ERP",
+   "cta": [],
+   "images": [
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/12/ERP-Algerie-Project-Management.jpg",
+     "alt": "",
+     "w": 2120,
+     "h": 1414,
+     "role_hint": "text",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/12/ERP-Algerie-Project-Management.jpg",
+     "local": "assets/source/actualites/ERP-Algerie-Project-Management.jpg",
+     "role": "hero"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "heading": "De l’étude des besoins au déploiement : les étapes clés d’un projet ERP réussi",
+   "body": "par Amar Cherif Zemerli\nArticle\nLe déploiement d’un ERP (Enterprise Resource Planning) est une étape cruciale pour toute entreprise souhaitant améliorer ses processus internes, optimiser sa gestion et assurer une meilleure prise de décision. Cependant, un projet ERP réussi ne se limite pas à l’installation… Lire la suite » De l’étude des besoins au déploiement : les étapes clés d’un projet ERP réussi",
+   "cta": [],
+   "images": [
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/12/ERP-Algerie-International.jpg",
+     "alt": "",
+     "w": 1440,
+     "h": 1058,
+     "role_hint": "text",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/12/ERP-Algerie-International.jpg",
+     "local": "assets/source/article/ERP-Algerie-International.jpg",
+     "role": "hero"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "heading": "ERP local vs ERP international : Quel choix pour votre entreprise en Algérie",
+   "body": "par Amar Cherif Zemerli\nArticle\nUn ERP (Enterprise Resource Planning) est un outil essentiel pour la gestion des processus internes d’une entreprise. Mais le choix entre un ERP local et un ERP international peut être complexe, notamment pour les entreprises opérant dans des marchés locaux… Lire la suite » ERP local vs ERP international : Quel choix pour votre entreprise en Algérie",
+   "cta": [],
+   "images": [
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/11/Couts-Caches-ERP-Algerie.jpg",
+     "alt": "",
+     "w": 1536,
+     "h": 622,
+     "role_hint": "text",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/11/Couts-Caches-ERP-Algerie.jpg",
+     "local": "assets/source/article/Couts-Caches-ERP-Algerie.jpg",
+     "role": "hero"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "heading": "Les Coûts Cachés des Logiciels ERP : Ce que les Entreprises Doivent Savoir",
+   "body": "par Amar Cherif Zemerli\nArticle\nL’adoption d’un logiciel ERP (Enterprise Resource Planning) est souvent perçue comme une solution stratégique pour améliorer l’efficacité des entreprises en intégrant divers processus métiers dans une plateforme unique. Cependant, au-delà des coûts évidents de mise en œuvre — tels que… Lire la suite » Les Coûts Cachés des Logiciels ERP : Ce que les Entreprises Doivent Savoir\n1\n2\n3\n4\nSuivant »",
+   "cta": [],
+   "images": []
+  }
+ ]
+}

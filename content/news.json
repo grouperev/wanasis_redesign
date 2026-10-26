@@ -1,0 +1,53 @@
+{
+ "route": "/news/",
+ "title": "News - Wanasis",
+ "meta_description": null,
+ "date": null,
+ "author": "Amar Cherif Zemerli",
+ "category": "News",
+ "sections": [
+  {
+   "type": "text",
+   "heading": "News",
+   "body": "",
+   "cta": [],
+   "images": [
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2026/02/WANASIS-AMTEX.jpeg",
+     "alt": "",
+     "w": 853,
+     "h": 568,
+     "role_hint": "text",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2026/02/WANASIS-AMTEX.jpeg",
+     "local": "assets/source/index/WANASIS-AMTEX.jpeg",
+     "role": "hero"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "heading": "Retour sur le salon AMTEX Oran 2026 et nos Rencontres BtoB",
+   "body": "par Amar Cherif Zemerli\nNews\nWanasis a eu le plaisir de participer aux rencontres BtoB organisées dans le cadre du salon AMTEX Oran 2026, un événement particulièrement riche tant sur le plan professionnel qu’humain. Cette participation a été pour nous une occasion privilégiée d’échanger avec… Lire la suite » Retour sur le salon AMTEX Oran 2026 et nos Rencontres BtoB",
+   "cta": [],
+   "images": [
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2025/08/Evexia-ERP.jpg",
+     "alt": "",
+     "w": 960,
+     "h": 364,
+     "role_hint": "text",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2025/08/Evexia-ERP.jpg",
+     "local": "assets/source/index/Evexia-ERP.jpg",
+     "role": "hero"
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "heading": "Evexia choisit notre solution ERP pour piloter sa croissance !",
+   "body": "par Amar Cherif Zemerli\nNews\nNous sommes fiers d’annoncer la mise en production réussie de notre solution ERP chez Evexia, un acteur en pleine expansion dans le secteur des compléments alimentaires. Spécialiste de la formulation, production et distribution de produits naturels, Evexia avait besoin d’un… Lire la suite » Evexia choisit notre solution ERP pour piloter sa croissance !",
+   "cta": [],
+   "images": []
+  }
+ ]
+}

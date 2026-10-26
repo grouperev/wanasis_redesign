@@ -1,0 +1,96 @@
+{
+ "route": "/mobile-view/",
+ "title": "Mobile View",
+ "meta_description": null,
+ "date": "2024-07-21T11:12:02+00:00",
+ "author": null,
+ "category": null,
+ "sections": [
+  {
+   "type": "hero",
+   "heading": "Profitez des avantages de la BI n’importe où et à tout moment",
+   "body": "",
+   "cta": [],
+   "images": [
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/07/banner-view.jpg",
+     "alt": "view-erp-algerie",
+     "w": 1400,
+     "h": 500,
+     "role_hint": "hero",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/07/banner-view.jpg",
+     "local": "assets/source/mobile-view/banner-view.jpg",
+     "role": "hero"
+    }
+   ]
+  },
+  {
+   "type": "columns",
+   "heading": "Obtenez vos informations en temps réel pour pouvoir réagir plus rapidement.",
+   "body": "Avoir vos analyses disponibles sur votre appareil mobile vous donne accès à vos données et à vos performances à tout moment, n’importe où.",
+   "cta": [],
+   "images": []
+  },
+  {
+   "type": "columns",
+   "heading": "Prenez des décisions plus rapidement.",
+   "body": "Avec des données disponibles à tout moment, vous pouvez voir les changements et les tendances au fur et à mesure qu’ils se produisent.",
+   "cta": [],
+   "images": [
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/07/mob-view-dashboard.png",
+     "alt": "view-erp-algerie",
+     "w": 1024,
+     "h": 757,
+     "role_hint": "columns",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/07/mob-view-dashboard.png",
+     "local": "assets/source/mobile-view/mob-view-dashboard.png",
+     "role": "module"
+    }
+   ]
+  },
+  {
+   "type": "columns",
+   "heading": "Améliorez les performances de vos collaborateurs.",
+   "body": "Lorsque les KPI et les objectifs sont constamment affichés devant tout le monde sur leurs appareils mobiles, atteindre ces objectifs devient une priorité.",
+   "cta": [],
+   "images": []
+  },
+  {
+   "type": "columns",
+   "heading": "Améliorez la qualité de vos décisions.",
+   "body": "Lorsque des décisions doivent être prises loin du bureau, la BI mobile apporte des éléments concrets sur lesquelles la décision peut être basée.",
+   "cta": [],
+   "images": [
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/07/mob-view-alerts.png",
+     "alt": "view-erp-algerie",
+     "w": 1024,
+     "h": 757,
+     "role_hint": "columns",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/07/mob-view-alerts.png",
+     "local": "assets/source/mobile-view/mob-view-alerts.png",
+     "role": "module"
+    }
+   ]
+  },
+  {
+   "type": "columns",
+   "heading": "Prenez avantage sur vos concurrents avec plus de flexibilité et d’adaptabilité.",
+   "body": "Lorsque vous pouvez réagir au changement en temps réel où que vous soyez, vous obtenez un avantage significatif sur vos concurrents. Vous pouvez voir les opportunités plus tôt, voir les tendances au fur et à mesure qu’elles se produisent, atténuer les risques plus rapidement et adapter votre entreprise aux changements.",
+   "cta": [],
+   "images": [
+    {
+     "src": "https://wanasis.dz/wp-content/uploads/2024/07/mob-view-analyses.png",
+     "alt": "view-erp-algerie",
+     "w": 1024,
+     "h": 757,
+     "role_hint": "columns",
+     "src_as_in_html": "https://wanasis.dz/wp-content/uploads/2024/07/mob-view-analyses.png",
+     "local": "assets/source/mobile-view/mob-view-analyses.png",
+     "role": "module"
+    }
+   ]
+  }
+ ]
+}

@@ -34,7 +34,7 @@ export function Picture({ src, alt, sizes, className, imgClassName, priority, pl
         height={e.height}
         loading={priority ? "eager" : "lazy"}
         fetchPriority={priority ? "high" : undefined}
-        decoding="async"
+        decoding={priority ? "sync" : "async"}
         className={imgClassName}
         style={placeholder ? { backgroundImage: `url(${e.lqip})`, backgroundSize: "cover" } : undefined}
       />

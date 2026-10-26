@@ -12,9 +12,6 @@ import { colors } from "@/lib/motion";
  * New elements that appear later (lazy sections) are picked up by a MutationObserver.
  */
 const CSS = `
-@media (scripting: enabled) and (prefers-reduced-motion: no-preference) {
-  h1[data-reveal]:not([data-revealed]) { opacity: .2; }
-}
 .mr-sr { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
 .mr-scr { position: relative; display: inline-block; white-space: nowrap; }
 .mr-scr-spacer { visibility: hidden; }
@@ -24,6 +21,14 @@ const CSS = `
 `;
 
 const SELECTOR = "[data-reveal]:not([data-motion-done]), [data-scramble]:not([data-motion-done])";
+
+// The first page view paints its h1 at full strength (it is often the LCP); the word reveal plays on client
+// navigations only. GSAP is fetched when the main thread is idle, so it never competes with hydration.
+let firstView = true;
+const whenIdle = (fn: () => void) => {
+  if (typeof window.requestIdleCallback === "function") window.requestIdleCallback(fn, { timeout: 2000 });
+  else setTimeout(fn, 1200);
+};
 
 export function MotionRoot() {
   const pathname = usePathname();
@@ -37,10 +42,14 @@ export function MotionRoot() {
     const hasTargets = () => document.querySelector(SELECTOR) !== null;
     const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-    // Safety net: if the engine can't load, a pre-dimmed h1 must never stay dim.
-    const safety = window.setTimeout(() => {
-      document.querySelectorAll("h1[data-reveal]:not([data-revealed])").forEach((el) => el.setAttribute("data-revealed", ""));
-    }, 2500);
+    const initial = firstView;
+    firstView = false;
+    if (initial) {
+      document.querySelectorAll("h1[data-reveal]").forEach((el) => {
+        el.setAttribute("data-revealed", "");
+        el.setAttribute("data-motion-done", "");
+      });
+    }
 
     const start = async () => {
       if (cancelled || engine || !hasTargets()) return;
@@ -53,7 +62,8 @@ export function MotionRoot() {
     if (reduced) {
       document.querySelectorAll("h1[data-reveal]").forEach((el) => el.setAttribute("data-revealed", ""));
     } else {
-      void start();
+      if (initial) whenIdle(() => void start());
+      else void start();
       observer = new MutationObserver((records) => {
         // Ignore our own DOM edits and text ticks; react only to new nodes that carry (or contain) a target.
         const fresh = records.some((r) =>
@@ -71,7 +81,6 @@ export function MotionRoot() {
 
     return () => {
       cancelled = true;
-      window.clearTimeout(safety);
       cancelAnimationFrame(raf);
       observer?.disconnect();
       engine?.destroy();

@@ -1,0 +1,76 @@
+/* Image Fly-In (Annnimate), Wanasis tokens. Dark 3D depth field: logos fly in from deep inside the page
+   around a clear centre. All colours / radii come from app/globals.css tokens. */
+
+.ifi_section {
+  --ifi-bg: var(--color-depth);
+  --ifi-ink: #fff;
+  --ifi-radius: var(--radius-md);
+  --ifi-perspective: 1200px;
+}
+
+.ifi_section {
+  position: relative;
+  width: 100%;
+  min-height: min(100svh, 56rem);
+  box-sizing: border-box;
+  background-color: var(--ifi-bg);
+  background-image:
+    radial-gradient(60% 80% at 85% 10%, rgb(28 177 189 / 0.3), transparent 60%),
+    radial-gradient(70% 90% at 10% 100%, rgb(45 79 124 / 0.7), transparent 65%);
+  color: var(--ifi-ink);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  perspective: var(--ifi-perspective);
+}
+
+.ifi_stage {
+  position: absolute;
+  inset: 0;
+  transform-style: preserve-3d;
+  will-change: transform;
+  pointer-events: none;
+}
+
+.ifi_content {
+  position: relative;
+  z-index: 2;
+  width: min(100% - 2 * var(--gutter), 46rem);
+  margin: 0 auto;
+  padding-block: var(--section-y);
+}
+
+.ifi_card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: grid;
+  place-items: center;
+  padding: 10%;
+  background: var(--color-surface);
+  border-radius: var(--ifi-radius);
+  overflow: hidden;
+  transform-style: preserve-3d;
+  transform-origin: 50% 50%;
+  will-change: transform, opacity;
+  opacity: 0;
+  backface-visibility: hidden;
+  box-shadow: var(--shadow-e1);
+}
+
+.ifi_card_square_sm { width: clamp(88px, 8vw, 132px); aspect-ratio: 1 / 1; }
+.ifi_card_square_lg { width: clamp(132px, 12vw, 200px); aspect-ratio: 1 / 1; }
+
+@media (max-width: 767px), (pointer: coarse) {
+  .ifi_card_hide_mobile { display: none; }
+  .ifi_card_square_sm { width: clamp(64px, 18vw, 92px); }
+  .ifi_card_square_lg { width: clamp(88px, 24vw, 128px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ifi_card,
+  .ifi_stage {
+    will-change: auto;
+  }
+}

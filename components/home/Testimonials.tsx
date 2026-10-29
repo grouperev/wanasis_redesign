@@ -1,12 +1,17 @@
 import CurtainSlider from "@/components/annnimate/curtain-slider/curtain-slider";
-import { AssetSlot, Picture } from "@/components/ui/Picture";
+import { Picture } from "@/components/ui/Picture";
+import { logoFile } from "@/lib/clients";
 import { frTypo } from "@/lib/format";
 
-/** `image` is the Phase 4 hook: a manifest file name (see Picture). Until then the slide shows its T1-T4 slot. */
-type T = { quote: string; name: string; role: string; company: string; image?: string };
+type T = { quote: string; name: string; role: string; company: string };
 
-// Ambient industry backdrops (T1-T4). Never a person standing in for the quoted client.
-const SCENES = ["T1 · hub de distribution", "T2 · ligne de production", "T3 · quai logistique", "T4 · couloir de clinique"];
+// The quoted client's own logo (from the Références wall) — no stock scene behind a testimonial.
+const LOGOS: Record<string, string> = {
+  "Groupe Attiryak": "attiryak.jpg",
+  Biogalenic: "biogalenic.jpg",
+  "Chark Pharm": "chark-pharm.jpg",
+  "Clinique Avicenne": "bg-avicenne.jpg",
+};
 
 const LABELS = {
   prev: "Témoignage précédent",
@@ -17,22 +22,35 @@ const LABELS = {
 
 /** Testimonials on the curtain-slider: one slide per client, quote / name / role / company verbatim. */
 export function Testimonials({ title, items }: { title: string; items: T[] }) {
-  const slides = items.map((t, i) => ({
+  const slides = items.map((t) => ({
     key: t.company,
-    background: t.image ? (
-      <Picture src={t.image} alt="" sizes="100vw" placeholder={false} className="block size-full" imgClassName="size-full object-cover" />
-    ) : (
-      <AssetSlot label={SCENES[i % SCENES.length]} className="size-full place-items-end pr-[6%] pb-[14%] max-lg:hidden" />
-    ),
+    background: <div aria-hidden className="brand-mesh size-full" />,
     content: (
-      <figure className="max-w-[46rem]">
-        <blockquote className="text-lead text-white md:text-[1.5rem] md:leading-[1.5]">
-          <p>{frTypo(`« ${t.quote} »`)}</p>
+      <figure className="max-w-[52rem]">
+        <span aria-hidden className="block h-[0.45em] font-sans text-[clamp(5rem,3rem+6vw,8rem)] font-semibold leading-none text-teal">
+          “
+        </span>
+        <blockquote className="mt-2 text-lead text-white md:text-[1.625rem] md:leading-[1.5]">
+          <p>{frTypo(t.quote)}</p>
         </blockquote>
-        <figcaption className="mt-8 border-t border-hairline-dark pt-6">
-          <span className="block font-display text-h3">{t.name}</span>
-          <span className="text-white/80">
-            {t.role}, {t.company}
+        <figcaption className="mt-10 flex items-center gap-5 border-t border-hairline-dark pt-6">
+          {LOGOS[t.company] && (
+            <span className="grid size-20 shrink-0 place-items-center rounded-md bg-white p-2.5 md:size-24">
+              <Picture
+                src={logoFile(LOGOS[t.company])}
+                alt={t.company}
+                sizes="96px"
+                placeholder={false}
+                className="block size-full"
+                imgClassName="size-full object-contain mix-blend-multiply contrast-125 brightness-110"
+              />
+            </span>
+          )}
+          <span>
+            <span className="block font-display text-h3">{t.name}</span>
+            <span className="text-white/80">
+              {t.role}, {t.company}
+            </span>
           </span>
         </figcaption>
       </figure>

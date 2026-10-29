@@ -8,7 +8,6 @@ import { Testimonials } from "@/components/home/Testimonials";
 import { Photo } from "@/components/ui/Picture";
 import { PhotoBand } from "@/components/ui/PhotoHero";
 import home from "@/lib/content/home.json";
-import { photo } from "@/lib/photos";
 import { firstSentences, frTypo } from "@/lib/format";
 
 export const metadata: Metadata = {
@@ -118,7 +117,7 @@ export default function HomePage() {
 
       <Testimonials
         title={home.testimonials.title}
-        items={home.testimonials.items.map((t, i) => ({ ...t, image: photo(`T${i + 1}`)?.src }))}
+        items={home.testimonials.items}
       />
 
       <NewsRail title={home.news.title} />

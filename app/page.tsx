@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import RotatingWords from "@/components/annnimate/rotating-words/rotating-words";
 import { ClientStrip } from "@/components/home/ClientStrip";
-import { ModuleCloud } from "@/components/home/ModuleCloud";
 import { NewsRail } from "@/components/home/NewsRail";
 import { Stats } from "@/components/home/Stats";
 import { Testimonials } from "@/components/home/Testimonials";
@@ -113,7 +112,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      <ModuleCloud />
 
       <Stats title={home.stats.title} items={home.stats.items} />
 

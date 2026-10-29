@@ -88,10 +88,12 @@ export function ModuleExplorer({ families, modules }: { families: Family[]; modu
           {modules.map((m) => {
             const inner = (
               <>
-                {/* family band; the original tile color is the 24px chip inside it, so names never wrap around it */}
-                <span aria-hidden className={`relative block h-1 w-full shrink-0 ${FAMILY_BG[m.family]}`}>
-                  {m.chip && <span className="absolute left-6 top-0 h-1 w-6" style={{ backgroundColor: m.chip }} />}
-                </span>
+                {/* colour code: the module's own colour from the original diagram (family tone when it has none) */}
+                <span
+                  aria-hidden
+                  className={`relative block h-1.5 w-full shrink-0 ${m.chip ? "" : FAMILY_BG[m.family]}`}
+                  style={m.chip ? { backgroundColor: m.chip } : undefined}
+                />
                 <span className="flex min-w-0 flex-1 flex-col gap-1 p-4">
                   <span className="font-display text-h3">{m.name}</span>
                   <span className="truncate text-small text-ink-2">{familyLabel[m.family]}</span>

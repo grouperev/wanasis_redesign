@@ -169,6 +169,16 @@ for f in sorted(SRC.glob("*.json")):
             "excerpt": (d.get("meta_description") or "")[:200],
             "cover": covers.get(d["title"]) or (META.get(d["route"], {}).get("og", {}).get("og:image") or "").split("/")[-1] or None,
         })
+# Real event photography stays; every other post gets its own generated cover (no repeats, no stock/AI slop).
+REAL_COVERS = {
+    "retour-sur-le-salon-amtex-oran-2026-et-nos-rencontres-btob": "WANASIS-AMTEX.jpeg",
+    "evexia-choisit-notre-solution-erp-pour-piloter-sa-croissance": "Evexia-ERP.jpg",
+}
+for post in posts:
+    if post["slug"] in REAL_COVERS:
+        post["cover"] = REAL_COVERS[post["slug"]]
+    elif (ROOT / "assets/generated" / f"n-{post['slug']}.webp").exists():
+        post["cover"] = f"n-{post['slug']}.webp"
 for post in posts:
     if post["cover"]:
         post["cover"] = re.sub(r"-\d+x\d+(\.\w+)$", r"\1", post["cover"])

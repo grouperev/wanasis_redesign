@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Photo } from "@/components/ui/Picture";
+import { PhotoBand } from "@/components/ui/PhotoHero";
 import { ModuleExplorer } from "@/components/fusion/ModuleExplorer";
 import { MethodRail } from "@/components/fusion/ProcessRail";
 import type { Family, FusionModule } from "@/components/fusion/types";
@@ -80,6 +81,8 @@ export default function FusionErpPage() {
           ))}
         </div>
       </section>
+
+      <PhotoBand shot="W2" label="W2 · ligne de conditionnement pharmaceutique" />
 
       {/* 5 · Complète et modulaire — process-rail runs full width under the copy */}
       <section className="section-y bg-surface-2">

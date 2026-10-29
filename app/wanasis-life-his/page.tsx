@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { LifeMatrix, type MatrixGroup } from "@/components/product/LifeMatrix";
 import { Photo, Picture } from "@/components/ui/Picture";
+import { PhotoHero } from "@/components/ui/PhotoHero";
 import life from "@/lib/content/life.json";
 import { frTypo } from "@/lib/format";
 
@@ -17,30 +18,27 @@ export default function LifeHisPage() {
   const t = life.testimonial;
   return (
     <>
-      {/* 1 · Hero — type-led, no stock photo */}
-      <section className="brand-mesh-light bg-surface">
-        <div className="container-x py-16 lg:py-28">
-          <div className="flex items-center gap-4">
-            <Picture src="life-his.png" alt="" sizes="160px" priority placeholder={false} className="shrink-0" imgClassName="h-auto w-40" />
-            <p data-scramble className="eyebrow">
-              Life HIS
-            </p>
-          </div>
-          <h1 data-reveal className="mt-8 max-w-[22ch] font-display text-h1 lg:max-w-[20ch]">
-            {frTypo(life.hero.title)}
-          </h1>
-          <div className="mt-8 grid gap-8 lg:grid-cols-12 lg:gap-16">
-            <p className="text-lead lg:col-span-5">{frTypo(life.hero.lead)}</p>
-            <p className="measure text-ink-2 lg:col-span-6 lg:col-start-7">{frTypo(life.hero.intro[0])}</p>
-          </div>
-          <div className="mt-10 flex flex-wrap gap-3">
-            <Link href="/contact/" className="btn btn-action">
-              Demander une démo
-            </Link>
-            <Link href="/contact/" className="btn btn-ghost">
-              Nous contacter
-            </Link>
-          </div>
+      {/* 1 · Hero — full-bleed clinic photograph */}
+      <PhotoHero shot="LH" label="LH · hall de clinique">
+        <Picture src="life-his.png" alt="Life HIS" sizes="160px" priority placeholder={false} className="block w-40" imgClassName="h-auto w-40" />
+        <h1 data-reveal className="mt-8 font-display text-h1">
+          {frTypo(life.hero.title)}
+        </h1>
+        <p className="mt-6 text-lead text-ink-2">{frTypo(life.hero.lead)}</p>
+        <div className="mt-10 flex flex-wrap gap-3">
+          <Link href="/contact/" className="btn btn-action">
+            Demander une démo
+          </Link>
+          <Link href="/contact/" className="btn btn-ghost">
+            Nous contacter
+          </Link>
+        </div>
+      </PhotoHero>
+
+      <section className="section-y bg-surface-2">
+        <div className="container-x grid gap-8 lg:grid-cols-12">
+          <p className="font-display text-h3 text-navy lg:col-span-4">Life HIS</p>
+          <p className="measure text-lead text-ink-2 lg:col-span-7 lg:col-start-6">{frTypo(life.hero.intro[0])}</p>
         </div>
       </section>
 
@@ -54,9 +52,9 @@ export default function LifeHisPage() {
       {/* 3 · Scenes — asymmetric trio */}
       <section aria-label="Scènes" className="bg-surface-2 py-[var(--section-y)]">
         <div className="container-x grid gap-4 lg:grid-cols-12 lg:grid-rows-2 lg:gap-6">
-          <Photo shot="L1" sizes="(min-width: 1024px) 58vw, 100vw" label="L1 · accueil de clinique" className="aspect-[3/2] rounded-lg lg:col-span-7 lg:row-span-2 lg:aspect-auto lg:min-h-[420px]" />
-          <Photo shot="L2" sizes="(min-width: 1024px) 40vw, 100vw" label="L2 · poste infirmier, tablette" ratio="3/2" className="rounded-lg lg:col-span-5" />
-          <Photo shot="L3" sizes="(min-width: 1024px) 40vw, 100vw" label="L3 · réserve de pharmacie hospitalière" ratio="3/2" className="rounded-lg lg:col-span-5" />
+          <Photo shot="L1" sizes="(min-width: 1024px) 58vw, 100vw" label="L1 · accueil de clinique" className="unveil aspect-[3/2] rounded-lg lg:col-span-7 lg:row-span-2 lg:aspect-auto lg:min-h-[420px]" />
+          <Photo shot="L2" sizes="(min-width: 1024px) 40vw, 100vw" label="L2 · poste infirmier, tablette" ratio="3/2" className="unveil rounded-lg lg:col-span-5" />
+          <Photo shot="L3" sizes="(min-width: 1024px) 40vw, 100vw" label="L3 · réserve de pharmacie hospitalière" ratio="3/2" className="unveil rounded-lg lg:col-span-5" />
         </div>
       </section>
 

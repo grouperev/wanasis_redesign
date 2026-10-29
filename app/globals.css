@@ -216,3 +216,154 @@
     scroll-behavior: auto !important;
   }
 }
+
+/*
+ * Motion layer, CSS only: no JavaScript and no effect on LCP or TBT.
+ *  - page h1s rise in on load
+ *  - section headings, cards and photos reveal as they scroll into view (scroll-driven animations)
+ *  - photos inside .parallax drift slightly against the scroll
+ * Everything is gated on prefers-reduced-motion: no-preference; browsers without scroll timelines
+ * simply show the final state.
+ */
+@keyframes wn-rise {
+  from { opacity: 0; transform: translateY(0.35em); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes wn-reveal {
+  from { opacity: 0; transform: translateY(32px); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes wn-unveil {
+  from { clip-path: inset(12% 6% 12% 6% round 16px); transform: scale(1.08); }
+  to { clip-path: inset(0 0 0 0 round 0); transform: none; }
+}
+@keyframes wn-drift {
+  from { transform: translateY(-6%) scale(1.12); }
+  to { transform: translateY(6%) scale(1.12); }
+}
+@keyframes wn-kenburns {
+  from { transform: scale(1.08); }
+  to { transform: scale(1); }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  main h1 {
+    animation: wn-rise 0.9s var(--ease-out) both;
+  }
+  main h1 + *,
+  main h1 ~ p {
+    animation: wn-rise 0.9s var(--ease-out) 0.12s both;
+  }
+  .hero-media img {
+    animation: wn-kenburns 2.4s var(--ease-out) both;
+  }
+
+  @supports (animation-timeline: view()) {
+    main h2:not(.no-reveal),
+    main [data-rise],
+    main article,
+    main figure {
+      animation: wn-reveal linear both;
+      animation-timeline: view();
+      animation-range: entry 0% cover 28%;
+    }
+    main .unveil {
+      overflow: hidden;
+    }
+    main .unveil img {
+      animation: wn-unveil linear both;
+      animation-timeline: view();
+      animation-range: entry 0% cover 45%;
+    }
+    main .parallax {
+      overflow: hidden;
+    }
+    main .parallax img {
+      animation: wn-drift linear both;
+      animation-timeline: view();
+      animation-range: cover 0% cover 100%;
+    }
+  }
+}
+
+/* Références · geometric logo wall */
+.logo-wall {
+  border-top: 1px solid var(--color-hairline);
+  border-left: 1px solid var(--color-hairline);
+}
+.logo-cell {
+  position: relative;
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  border-right: 1px solid var(--color-hairline);
+  border-bottom: 1px solid var(--color-hairline);
+  background: var(--color-surface);
+  outline-offset: -2px;
+  isolation: isolate;
+}
+/* diagonal brand sweep + teal corner wedge, revealed on hover/focus */
+.logo-cell::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(135deg, rgb(28 177 189 / 0.10), rgb(45 79 124 / 0.04) 55%, transparent 70%);
+  transform: translate(-100%, -100%);
+  transition: transform 600ms var(--ease-out);
+}
+.logo-cell::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 28px;
+  height: 28px;
+  background: linear-gradient(135deg, var(--color-navy), var(--color-teal));
+  clip-path: polygon(100% 0, 100% 100%, 0 0);
+  transform: scale(0);
+  transform-origin: top right;
+  transition: transform 300ms var(--ease-out);
+}
+.logo-cell_mark {
+  width: 70%;
+  height: 58%;
+  transition: transform 450ms var(--ease-out);
+}
+.logo-cell_img {
+  mix-blend-mode: multiply;
+  /* burn the washed photo backgrounds of the legacy logo files out to white */
+  filter: grayscale(1) contrast(1.15) brightness(1.03);
+  opacity: 0.92;
+  transition: filter 300ms var(--ease-out), opacity 300ms var(--ease-out);
+}
+.logo-cell_name {
+  position: absolute;
+  inset-inline: 0;
+  bottom: 10px;
+  text-align: center;
+  font-size: 0.8125rem;
+  color: var(--color-ink-2);
+  transform: translateY(140%);
+  transition: transform 300ms var(--ease-out);
+}
+.logo-cell:hover::before,
+.logo-cell:focus-visible::before { transform: none; }
+.logo-cell:hover::after,
+.logo-cell:focus-visible::after { transform: scale(1); }
+.logo-cell:hover .logo-cell_mark,
+.logo-cell:focus-visible .logo-cell_mark { transform: translateY(-8%) scale(1.06); }
+.logo-cell:hover .logo-cell_img,
+.logo-cell:focus-visible .logo-cell_img { filter: none; opacity: 1; }
+.logo-cell:hover .logo-cell_name,
+.logo-cell:focus-visible .logo-cell_name { transform: none; }
+@media (prefers-reduced-motion: no-preference) {
+  @supports (animation-timeline: view()) {
+    .logo-cell {
+      animation: wn-reveal linear both;
+      animation-timeline: view();
+      animation-range: entry 0% cover 20%;
+    }
+  }
+}

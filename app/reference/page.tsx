@@ -5,6 +5,7 @@ import { Picture } from "@/components/ui/Picture";
 import { pageMetadata } from "@/components/news/meta";
 import content from "@/lib/content/reference.json";
 import { clientName, logoFile } from "@/lib/clients";
+import { photo } from "@/lib/photos";
 import { frTypo } from "@/lib/format";
 
 export const metadata = pageMetadata({ title: content.meta.title, route: content.meta.route, description: content.meta.description ?? firstSentences(content.paragraphs[0], 1)[0] });
@@ -15,16 +16,29 @@ const collator = new Intl.Collator("fr");
 const LOGOS = content.logos.filter((f) => f !== "white-bg.png");
 
 export default function ReferencePage() {
-  // Fly-in: a spread of 16 logos across the whole list; the full set is in the wall below.
-  const step = LOGOS.length / 16;
-  const flying = Array.from({ length: 16 }, (_, i) => LOGOS[Math.floor(i * step)]);
-  const cards = flying.map((file, i) => ({
-    aspect: (i % 3 === 0 ? "square_lg" : "square_sm") as "square_lg" | "square_sm",
-    hideMobile: i % 2 === 1,
-    node: (
-      <Picture src={logoFile(file)} alt="" sizes="200px" placeholder={false} className="block size-full" imgClassName="size-full object-contain" />
-    ),
-  }));
+  // Fly-in: the approved photography interleaved with clean client logos. Eager-loaded: lazy images inside
+  // the 3D field are never "in view" for the browser and stayed blank.
+  // FLY-* are second-choice variants shown nowhere else on the site (no image is repeated).
+  const shots = Array.from({ length: 11 }, (_, i) => `FLY-${String(i + 1).padStart(2, "0")}`);
+  const clean = LOGOS.filter((f) => logoFile(f) !== f);
+  let nextShot = 0;
+  let nextLogo = 0;
+  const cards = Array.from({ length: 16 }, (_, i) => {
+    const isPhoto = i % 3 !== 2 && nextShot < shots.length;
+    const ph = isPhoto ? photo(shots[nextShot++]) : null;
+    const logo = clean[(nextLogo++ * 7) % clean.length];
+    return {
+      aspect: (i % 3 === 0 ? "square_lg" : "square_sm") as "square_lg" | "square_sm",
+      hideMobile: i % 2 === 1,
+      node: ph ? (
+        <Picture src={ph.src} alt="" sizes="320px" priority className="block size-full" imgClassName="size-full object-cover" />
+      ) : (
+        <span className="grid size-full place-items-center bg-white p-6">
+          <Picture src={logoFile(logo)} alt="" sizes="200px" priority placeholder={false} className="block size-full" imgClassName="size-full object-contain" />
+        </span>
+      ),
+    };
+  });
 
   const wall: WallItem[] = LOGOS
     .map((file) => ({ file, name: clientName(file) }))
@@ -39,7 +53,7 @@ export default function ReferencePage() {
           sizes="(min-width: 1024px) 160px, (min-width: 640px) 25vw, 45vw"
           placeholder={false}
           className="block size-full"
-          imgClassName="size-full object-contain mix-blend-multiply grayscale transition duration-300 group-hover:grayscale-0 group-focus-within:grayscale-0"
+          imgClassName="logo-cell_img size-full object-contain"
         />
       ),
     }));

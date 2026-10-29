@@ -33,6 +33,28 @@ PICKS = {
   "t2-production-line": ("a", "T2", "", "b: machine dans la moitié droite"),
   "t3-logistics-dock": ("a", "T3", "", "b: équivalent"),
   "t4-clinic-corridor": ("a", "T4", "", "b: équivalent"),
+  # 29 Oct 2026 — more imagery pass
+  "lh-life-hero": ("b", "LH", "Médecin et cadre de santé échangeant dans le hall lumineux d'une clinique", "a: kept as LH2 (Home card)"),
+  "w1-warehouse-band": ("a", "W1", "Allée d'un entrepôt de distribution pharmaceutique avec sa ligne de sécurité turquoise", "b: used in the Références fly-in"),
+  "w2-production-band": ("a", "W2", "Ligne de conditionnement pharmaceutique en salle blanche", "b: used in the Références fly-in"),
+  "af-algerie-hero": ("b", "AF", "Consultante et dirigeant étudiant un plan face au pont suspendu de Constantine", "a: used in the Références fly-in"),
+  "ct-contact-hero": ("a", "CT", "Accueil des bureaux Wanasis à Constantine", "b: used in the Références fly-in"),
+  "rf-partner": ("b", "RF", "Poignée de main entre un commercial et une pharmacienne d'officine", "a: used in the Références fly-in"),
+}
+# Second-choice variants, each used once (Home Life HIS card, Références fly-in) — never a repeat of a shown image.
+EXTRA = {
+  "lh2-life-card": ("lh-life-hero-a.png", "LH2", "Médecin et confrère consultant une tablette dans une clinique"),
+  "fly-01": ("w1-warehouse-band-b.png", "FLY-01", ""),
+  "fly-02": ("w2-production-band-b.png", "FLY-02", ""),
+  "fly-03": ("af-algerie-hero-a.png", "FLY-03", ""),
+  "fly-04": ("ct-contact-hero-b.png", "FLY-04", ""),
+  "fly-05": ("rf-partner-a.png", "FLY-05", ""),
+  "fly-06": ("h2-fusion-hero-a.png", "FLY-06", ""),
+  "fly-07": ("m-crm-a.png", "FLY-07", ""),
+  "fly-08": ("l1-reception-a.png", "FLY-08", ""),
+  "fly-09": ("t3-logistics-dock-b.png", "FLY-09", ""),
+  "fly-10": ("m-production-a.png", "FLY-10", ""),
+  "fly-11": ("l2-nurse-station-a.png", "FLY-11", ""),
 }
 
 manifest = [m for m in json.loads((GEN / "manifest.json").read_text()) if m["slug"] not in PICKS]
@@ -51,6 +73,14 @@ for slug, (v, shot, alt, rej) in PICKS.items():
         "variant_chosen": v, "rejected": rej, "approved_by": "orchestrator",
         "alt_fr": alt, "size": list(im.size),
     })
+    listed.append(f"{slug}.webp")
+manifest = [m for m in manifest if m["slug"] not in EXTRA]
+for slug, (src, shot, alt) in EXTRA.items():
+    im = Image.open(GEN / "_candidates" / src).convert("RGB")
+    im.save(GEN / f"{slug}.webp", quality=84)
+    manifest.append({"slug": slug, "file": f"assets/generated/{slug}.webp", "shot": shot, "source": src,
+                     "mode": "B", "tool": "Magnific images_generate · Nano Banana 2.1 · 2k", "approved_by": "orchestrator",
+                     "alt_fr": alt, "size": list(im.size)})
     listed.append(f"{slug}.webp")
 (GEN / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n")
 (ROOT / "lib/content/generated.json").write_text(json.dumps(sorted(set(listed)), indent=2) + "\n")

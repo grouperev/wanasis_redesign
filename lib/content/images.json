@@ -919,6 +919,16 @@
     ],
     "lqip": "data:image/webp;base64,UklGRlIBAABXRUJQVlA4WAoAAAAQAAAADwAADwAAQUxQSJgAAAABgGJt2zLled5xT57cfSb54O7uEt3drZGIJKhsgcgGZkm4riAiJgD/kT8gSQUhJPkBGoMCJAiQANytZdOcRxHWm/UWFYDEpLP2ct2/v93XelKCQFqsj8/LZzdno0tH86Agez9SSeW2yrOV4IgLCnS8PD3crU5UF/ZPqxYIfLXb5o7e/obRYn7UCQA6BQkhvkkRAkIKPxD/GlZQOCCUAAAAUAIAnQEqEAAQAAOAWiWwAnQ4gDeECIlFW/5AAMwX5JpJFIuL4PB0WZ9s3hu3DIxCioonN0my94heWSoKRZtKgFWBggYN729MLSygne4gMxK5SIitGxiibIuWTbsdgMv2bxwpHPGhDRuI/1/8vX/U94f1gfQv/iJ/8MnfofwL14uGO3/pL2iwtZZDSYxEMr+YVnAAAA=="
   },
+  "WANASIS-AMTEX.jpeg": {
+    "name": "wanasis-amtex",
+    "width": 853,
+    "height": 568,
+    "widths": [
+      480,
+      853
+    ],
+    "lqip": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAABwAgCdASoQAAsAA4BaJYwCdH8AgoC/y9neuF/gAP7Q+euuahR6sg3JWocZw89URpyKpsJkxS71NlVj2X6ec8iabHifpFM6xRdpvosEWMtr4/009VwzuDAyKPyaVE2Q6PJMU4729DW3qOANkAA="
+  },
   "Evexia-ERP.jpg": {
     "name": "evexia-erp",
     "width": 960,
@@ -929,356 +939,368 @@
     ],
     "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACQAQCdASoQAAYAA4BaJZQAAWSqugAA/vOVIO2Y51QRCInjyRkDowDTmPZvhsE4X5qf5Y2SifN3jvLInEAAAA=="
   },
-  "ERP-et-Gestion-de-Production.jpg": {
-    "name": "erp-et-gestion-de-production",
-    "width": 2000,
-    "height": 1055,
+  "n-le-role-de-l-erp-dans-la-planification-et-le-controle-de-la-production.webp": {
+    "name": "n-le-role-de-l-erp-dans-la-planification-et-le-controle-de-la-production",
+    "width": 2528,
+    "height": 1696,
     "widths": [
       480,
       960,
       1280
     ],
-    "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAQAgCdASoQAAgAA4BaJQBOgB6ycwjQXYSAAP6wEGPDlXgVH0JXjtNsGyGR+NhVJONFq829dnPGqPR99HC77Wdd3LizYtKijhMtdAAA"
+    "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwAgCdASoQAAsAA4BaJYwC7AEfZZzSByBmAAD+8l+jriJdovb6p6rk8koz8nkIGUldR9SuRKgGvVZ2QJaYk+6xLijMtnw84ITJAo783BAOxWQA"
   },
-  "ERP-Algerie-Hybride.jpg": {
-    "name": "erp-algerie-hybride",
-    "width": 1500,
-    "height": 857,
+  "n-les-systemes-erp-hybrides.webp": {
+    "name": "n-les-systemes-erp-hybrides",
+    "width": 2528,
+    "height": 1696,
     "widths": [
       480,
       960,
       1280
     ],
-    "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQAgCdASoQAAkAA4BaJZgCdAEK3yNVt+UAAP7p/TZ9Tftm8TnbVz1g+4MW9DCCVA0lFdZRvxsR8QyavUF2CZrFI4u0gvNHpFGglYSBAAA="
+    "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAwAgCdASoQAAsAA4BaJQBOgMX1yXNG5I6WYAD+5miKgrm1cfzyd7GZZrzjPVSYTib0GVkrofc4rVBgjt9iFovo+SpQNihLnFATwBYgkqOuvT7lYTVJPtlCXIAAAA=="
   },
-  "Analyses-des-donnees-ERP-Algerie.jpg": {
-    "name": "analyses-des-donnees-erp-algerie",
-    "width": 1920,
-    "height": 1198,
+  "n-limportance-de-la-mesure-dans-la-gestion.webp": {
+    "name": "n-limportance-de-la-mesure-dans-la-gestion",
+    "width": 2528,
+    "height": 1696,
     "widths": [
       480,
       960,
       1280
     ],
-    "lqip": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAACQAgCdASoQAAoAA4BaJQBOjath4vH1wKLz3nO2AAD8tLCq++XLxWUKpiCOpTy56SFfsDj/JbyhfgdW9SbXthd65lik4/enbqoiryPeHpfzd894YjFPWMG7vfZY8BBjIvSKJaix7mtbbfetIFzP9/G69gTyT3JcAAA="
+    "lqip": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAADwAQCdASoQAAsAA4BaJYwCdACycmGnx0AA/j++AUn53HkPmzc0COyeKMprV2LW5Aw+AfBr3oRJcoIb7KJSLKbZdYe2rcDx1QclviT2migcPtFLWduG+jTLm99EM6MYkxf4AA=="
   },
-  "Impact-ERP-Algerie-Performances.jpg": {
-    "name": "impact-erp-algerie-performances",
-    "width": 1500,
-    "height": 843,
+  "n-impact-de-limplementation-dun-erp-sur-les-performances-de-lentreprise.webp": {
+    "name": "n-impact-de-limplementation-dun-erp-sur-les-performances-de-lentreprise",
+    "width": 2528,
+    "height": 1696,
     "widths": [
       480,
       960,
       1280
     ],
-    "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAwAgCdASoQAAkAA4BaJZQAAt4sNZ/c4icgAAD++G9A1Esp39d+S+o5Mx6Qs9VC8CDy7+V0qvX0o3NGuq2SM2KLIe/qb4CUnFiGhpOyaVF9sKgAAAA="
+    "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADwAQCdASoQAAsAA4BaJQBOgB6s4+AxXEAA+8V1x9j4d74lqQ6Nh6KTeAn7ctGdfgqKElY1mHclcSiWSjQJyFVmuuCGavGSQp3CJfEhReFbSJ6fuT9GcBqYk4D94CdAAAA="
   },
-  "Quel-ERP-pour-vous-Site.jpg": {
-    "name": "quel-erp-pour-vous-site",
-    "width": 1367,
-    "height": 681,
+  "n-erp-algerie-performances.webp": {
+    "name": "n-erp-algerie-performances",
+    "width": 2528,
+    "height": 1696,
     "widths": [
       480,
       960,
       1280
     ],
-    "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAQCdASoQAAgAA4BaJYgCdACwKoyrgAD+8odsZudDW+vQ/baAR47Gq5Jr+q0oD/PIRLqzHJyygvapayX/RDXYe689MyAA"
+    "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwAgCdASoQAAsAA4BaJZwAAxaPtRg4x2KsAAD+8KN3Y87kQlxs4qNvIN7jce8mvua3jbkL9hfhAhJzYcGVKPtX/gDU/eRaB+i6qZQrEIG84AAA"
   },
-  "ERP-Algerie-Conformite.png": {
-    "name": "erp-algerie-conformite",
-    "width": 1920,
-    "height": 1080,
+  "n-garantir-la-conformite-comptable-en-algerie-grace-a-un-erp.webp": {
+    "name": "n-garantir-la-conformite-comptable-en-algerie-grace-a-un-erp",
+    "width": 2528,
+    "height": 1696,
     "widths": [
       480,
       960,
       1280
     ],
-    "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAABQAgCdASoQAAkAA4BaJYgCdAYtB22A/EYMFyAA/vGGvmfgme0zvubrn2zvIZ6qXfs8goUAv3CSPm7vzqmupv0NNfHWnFF2+eowIJS0XqNRzyqJsYdgAA=="
+    "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAQCdASoQAAsAA4BaJZwAD5GqmCWiZoAA/vTxK7b9PP3o/nI+2ZkVbKNFVsu+84pRo1nrTkATTSoe4i3G6/APzF1wowz5HXFySHwSWqt9m7lGrwAAAA=="
   },
-  "ERP-Algerie-Project-Management.jpg": {
-    "name": "erp-algerie-project-management",
-    "width": 2120,
-    "height": 1414,
+  "n-de-letude-des-besoins-au-deploiement-les-etapes-cles-dun-projet-erp-reussi.webp": {
+    "name": "n-de-letude-des-besoins-au-deploiement-les-etapes-cles-dun-projet-erp-reussi",
+    "width": 2528,
+    "height": 1696,
     "widths": [
       480,
       960,
       1280
     ],
-    "lqip": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAABQAgCdASoQAAsAA4BaJYwCdAYuv2eP4ILPqAAA/pcnIIXQZMXhYHMIfx9Wa1M4FWI61iioeh/joIXZFdH35YBx2xx6k899b89uG3pL9uhPyd57ni7Tnmmk4t4fa85V2h/pPMGWSQVAAA=="
+    "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAwAgCdASoQAAsAA4BaJQBdg7QAQSB8oIxawAD+4pSZVhFmUTKR36G0Qf3rffytvDSfRQQVYX1Fk9FWiuzq2dkQa8y5uQ2kEcwdxIyq5K3cMSXUw2+qbPaoOrttLxdFwWYXWZlQAAA="
   },
-  "ERP-Algerie-International.jpg": {
-    "name": "erp-algerie-international",
-    "width": 1440,
-    "height": 1058,
+  "n-erp-local-vs-erp-international-comment-choisir-la-solution-adaptee-a-votre-marche.webp": {
+    "name": "n-erp-local-vs-erp-international-comment-choisir-la-solution-adaptee-a-votre-marche",
+    "width": 2528,
+    "height": 1696,
     "widths": [
       480,
       960,
       1280
     ],
-    "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADwAQCdASoQAAwAA4BaJQBOgCIjotEy0oAA/us2cX/iqYzvFBiq7NjPU2ywekiedlNc0if8CMuh5muhveNZadAn2u4BWAKQW1UfvbsfxJLPkDD2BHDX8VIjX54AHpCUAAA="
+    "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAABQAgCdASoQAAsAA4BaJYwCdAYv1vu0ayGE3gAA/vIQ7Q4ptjdN2ON1uRqzUcxtABabwf8OAz8QQOn5tpUcLATrqmIJKMTDpxYnSQqbaE18sHOAAAA="
   },
-  "Couts-Caches-ERP-Algerie.jpg": {
-    "name": "couts-caches-erp-algerie",
-    "width": 1536,
-    "height": 622,
+  "n-les-couts-caches-des-logiciels-erp-ce-que-les-entreprises-doivent-savoir.webp": {
+    "name": "n-les-couts-caches-des-logiciels-erp-ce-que-les-entreprises-doivent-savoir",
+    "width": 2528,
+    "height": 1696,
     "widths": [
       480,
       960,
       1280
     ],
-    "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAQAgCdASoQAAYAA4BaJbACdLoAAZvI3lSAAP5b96SWOENgjVU5A2Ok/Lesiq7uM8363vytE8Wz+C/xkXkIzZ6l92V5asarYYKyUgAA"
+    "lqip": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAAAQAgCdASoQAAsAA4BaJZQAD48KJ9hzJ2YQAP70BT4RPAhYb++fJ34s2+yoh+zuoUEsu7ESXXvo5ACHko8tuepU5/xlL+40IgwtAdl61BaKVcRPy25VspiiqnZadWX0iHaiDUXIyXWAmlmAAAA="
   },
-  "Etapes-Implementation-ERP-Algerie.jpg": {
-    "name": "etapes-implementation-erp-algerie",
-    "width": 1300,
-    "height": 863,
+  "n-les-etapes-cles-dun-projet-erp-reussi.webp": {
+    "name": "n-les-etapes-cles-dun-projet-erp-reussi",
+    "width": 2528,
+    "height": 1696,
     "widths": [
       480,
       960,
       1280
     ],
-    "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAwAgCdASoQAAsAA4BaJZACdAYqNvOni6VNAAD+9NFWbPh70m6waZX+Nv6VMUGOMCapdT0AkHwsa069/ds8vO8eJPyqNK5HWAA="
+    "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAQAgCdASoQAAsAA4BaJYwCdADjNeX9/CAAAM4y/i3Rz8Gepm22G3Fewy7X+ry067o4Tkah1/EiLja3FQnlwVKN/bZtseaVlNcbffdnCjqS9Iq1YyX7jXmN7t0eAA=="
   },
-  "5-erreurs-integration-ERP-Algerie.jpg": {
-    "name": "5-erreurs-integration-erp-algerie",
-    "width": 2119,
-    "height": 1414,
+  "n-5-erreurs-frequentes-a-eviter-lors-de-limplementation-dun-erp-en-algerie.webp": {
+    "name": "n-5-erreurs-frequentes-a-eviter-lors-de-limplementation-dun-erp-en-algerie",
+    "width": 2528,
+    "height": 1696,
     "widths": [
       480,
       960,
       1280
     ],
-    "lqip": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAABQAgCdASoQAAsAA4BaJZACdAYtpzWk46cVOgAA/ggoUTI2jiHdfjfZg8TSlmXY7ga2KcrRkb37BjhOc13RQnM0VKNyGA5bPvmfwG0BkDpUI3YXRtvDl6xYKwlkoilYamwAAA=="
+    "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAQAgCdASoQAAsAA4BaJYwCsADdhuyg8psAAP7uoeyKci3A0cx5xYtk/BY43FI+YoZKN1sANxvSx1z8Y7KOw5ux1Mqjv/DtNc+GYv+Ya/KTMTm+6mI+xH5vPWO/wazAAAA="
   },
-  "Wanasis-ERP-Gestion-des-Couts.jpg": {
-    "name": "wanasis-erp-gestion-des-couts",
-    "width": 1920,
-    "height": 1080,
+  "n-les-erp-des-allies-incontournables-pour-le-calcul-du-cout-de-production.webp": {
+    "name": "n-les-erp-des-allies-incontournables-pour-le-calcul-du-cout-de-production",
+    "width": 2528,
+    "height": 1696,
     "widths": [
       480,
       960,
       1280
     ],
-    "lqip": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAwAgCdASoQAAkAA4BaJZQAu/8WvXgehUMUJAD9v8JFr9s3quTrr5Ii6NqB6Oj9CjTRb7hmkGMp7SIk1WHj+KpmYeRwhcdz56IR5E9xdU/0qgjOOHCx1sVgDAFLEAAQXHboAAAA"
+    "lqip": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAQCdASoQAAsAA4BaJYwC7ADG9NO/r0AA/mw74ihh1hTlF+tXU4We2+ofAyvyMDw6SFEKja6tvvbf1nb6ThlIS2TV7qH8Na6mgBe0/gDSWhi6DM9gQAAA"
   },
-  "Wanasis-Agile-ERP-Methode.jpg": {
-    "name": "wanasis-agile-erp-methode",
-    "width": 1920,
-    "height": 1080,
+  "n-lapproche-agile-dans-lintegration-erp.webp": {
+    "name": "n-lapproche-agile-dans-lintegration-erp",
+    "width": 2528,
+    "height": 1696,
     "widths": [
       480,
       960,
       1280
     ],
-    "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAABQAgCdASoQAAkAA4BaJYwCdAYsjySYaf2s/hAA/uoBaO2vBCX7stxUAiZKBCERLrLz2e5hrHSUpV7H6gDPCLGyuJUZc/hN2rdHxfNFISVxsWz6a0TDLOAEcbUrwRDmtPaNRNegAAA="
+    "lqip": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAABwAgCdASoQAAsAA4BaJZQC/OdwLe+tcXl7UXrAAP7zrQ6eML/LpL/unwUi80BIyI2XK/KbLu0galweHkNYKQJprDgQhN4JhvaK80GkMihgw5IL8OoRsixoP/T67sj/8GNj5xI6ZBQuWfPwd2AAAA=="
   },
-  "ERP-V-Cycle.jpg": {
-    "name": "erp-v-cycle",
-    "width": 1400,
-    "height": 849,
+  "n-le-cycle-en-v-dans-la-mise-en-oeuvre-des-projets-erp.webp": {
+    "name": "n-le-cycle-en-v-dans-la-mise-en-oeuvre-des-projets-erp",
+    "width": 2528,
+    "height": 1696,
     "widths": [
       480,
       960,
       1280
     ],
-    "lqip": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAAAwAgCdASoQAAoAA4BaJZAC7AYt9dwdJE/QgAD+7Q7wuttR9KQlX/t9ba4rk3RJKT4Cu83pRIRFCve0I8c20l3bUpWx4aCbes39MhpmGm7W5vrBm+5v1vaJ3d4QH5yQGqSyCAlbsAAAAA=="
+    "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAABQAgCdASoQAAsAA4BaJQBOgMX6tsxIm5G36AAA/t4jkbledv+IuGqYcXb7aDTBwv1snZwXx0B9TIwx1CRnDrYUUQTZ/v9Lmo1It/mDOsnq2+QVyOM4dtOR+GVfNAHopAA="
   },
-  "Role-du-CRM-dans-le-RevOps-Site.jpeg": {
-    "name": "role-du-crm-dans-le-revops-site",
-    "width": 2560,
-    "height": 1416,
+  "n-le-role-crucial-du-crm-dans-le-revenue-operations-revops.webp": {
+    "name": "n-le-role-crucial-du-crm-dans-le-revenue-operations-revops",
+    "width": 2528,
+    "height": 1696,
     "widths": [
       480,
       960,
       1280
     ],
-    "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADwAQCdASoQAAkAA4BaJZACdAD0ZvZQpgAA/myQIq4YZHp88+jRLDb4XZeF4azrsPiGnPa85m33m7Wmo+BVt+TVKvHK0a1YsdTS9pFtPlkk0AxRfG4gBllh/GGMebQAAAA="
+    "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAQAgCdASoQAAsAA4BaJYwAAtrmJDDOw3MAAP7zl5nKL8tTBmZgj3LKeyxDf+pbZIfWPKQg4QuKDvMlO4ZhPq0zDrGli3dZx1kTZfvjr/cyaOGK6W4P+/ttRAmAIt4dh44Ey2EggAA="
   },
-  "Comment-choisir-lintegrateur-adequat-pour-votre-projet-ERP-Site.jpg": {
-    "name": "comment-choisir-lintegrateur-adequat-pour-votre-projet-erp-site",
-    "width": 2043,
-    "height": 1024,
+  "n-comment-choisir-lintegrateur-adequat-pour-votre-projet-erp.webp": {
+    "name": "n-comment-choisir-lintegrateur-adequat-pour-votre-projet-erp",
+    "width": 2528,
+    "height": 1696,
     "widths": [
       480,
       960,
       1280
     ],
-    "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoQAAgAA4BaJQBOgB8nVn4F8AAA/uz3Scn4jGUqBPghYj44Q9x+iEl99Wue9febDew7jTZghUdF6SCVCXI67SHNKJWU9idKAAA="
+    "lqip": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAADQAQCdASoQAAsAA4BaJZwAAsYv4/apAAD+1++3AZOXfbcwk9rdrzZS3bH3ZwD00dkggNuDVnBeWqpUKeuiUwCgnbdMs+PPP8gvOG5/ka5U5Btlx3y5Xbs29SU7dCwqaN8YPNUzgQAAAA=="
   },
-  "Limportance-de-lintegrateur-dans-votre-projet-ERP.png": {
-    "name": "limportance-de-lintegrateur-dans-votre-projet-erp",
-    "width": 2037,
-    "height": 1122,
+  "n-limportance-de-lintegrateur-dans-votre-projet-erp.webp": {
+    "name": "n-limportance-de-lintegrateur-dans-votre-projet-erp",
+    "width": 2528,
+    "height": 1696,
     "widths": [
       480,
       960,
       1280
     ],
-    "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAACwAQCdASoQAAkAA4BaJbACdABrYykAAP7ikWcGw9YJeOiIYeYQwMmDfKyF0TMJCRNafqb1cx3ezl16RdP6wINV+PpADf6nk2zuvGR/A981ZI6a9vtShfX4AAA="
+    "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAABwAgCdASoQAAsAA4BaJZwCw7EWWyvc8NTI8EIAAPz749nrSTuLN3HgsE5A+tl3Vc1mvQ7hVzD1Kk61yy+/pDGF1Oil2uGFMuaAglsBMsSq39ByTXjweHvL43zOeNSRgAA="
   },
-  "ERP-Alerie-Etat-Des-Lieux.jpg": {
-    "name": "erp-alerie-etat-des-lieux",
-    "width": 1920,
-    "height": 980,
+  "n-comment-choisir-lerp-qui-convient-a-votre-entreprise.webp": {
+    "name": "n-comment-choisir-lerp-qui-convient-a-votre-entreprise",
+    "width": 2528,
+    "height": 1696,
     "widths": [
       480,
       960,
       1280
     ],
-    "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADwAQCdASoQAAgAA4BaJZwC7AEfk171xkgA/vITLKgcVekaBs9aZAxmYRXnwvM77bx+XdDdOv5ikzQA"
+    "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAACwAQCdASoQAAsAA4BaJZQAAd71E6YAAP7onWWtZFXZ3hTOyAyjOCAUDzW8kb6Qpe+qLgGSrW/cbWQ2nfcyBEES9d1h/RVDooB/KHl79NzgYveAd7IAAA=="
   },
-  "Chef-de-projet-ERP-chez-Wanasis.jpg": {
-    "name": "chef-de-projet-erp-chez-wanasis",
-    "width": 1200,
-    "height": 673,
-    "widths": [
-      480,
-      960,
-      1200
-    ],
-    "lqip": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAQAgCdASoQAAkAA4BaJZQCdH8AFXY4oDQAAPzYXqKlT1fJ9IR/sKqg+InH/1ZhNi3E8d9k6yghLJmcZZrkKSI4zw5kl/IBNJXPc2HZrPAT6OuQ43wF4NYH3wPAlAAA"
-  },
-  "Product-Owner-Chez-Wanasis.png": {
-    "name": "product-owner-chez-wanasis",
-    "width": 1707,
-    "height": 1280,
+  "n-erp-en-algerie-etat-des-lieux.webp": {
+    "name": "n-erp-en-algerie-etat-des-lieux",
+    "width": 2528,
+    "height": 1696,
     "widths": [
       480,
       960,
       1280
     ],
-    "lqip": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAADwAQCdASoQAAwAA4BaJQBYdhk86V5rwWAA/OMgy7HhGou9rPY8GVlhDO0bIZ93fuTIalGv7zloI11+/fONYzCo8EG1kcVJhmg49ocESaIWyhivKhbALMmqUtjXwAoLyRxgAAAA"
+    "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAQAgCdASoQAAsAA4BaJZQC7B2gAfJsGKAAAP6jepfmn6Zb9SUqQOQo6NCH/eAPnrS3gaR640CX28R2nU6tO02MnaXY+Q5dEsCc9Xom6664JifNp6KHOPIydVbwAA=="
   },
-  "MRP-ERP-Wanasis-Algerie.jpg": {
-    "name": "mrp-erp-wanasis-algerie",
-    "width": 1500,
-    "height": 1000,
+  "n-le-chef-de-projet-erp-chez-wanasis.webp": {
+    "name": "n-le-chef-de-projet-erp-chez-wanasis",
+    "width": 2528,
+    "height": 1696,
     "widths": [
       480,
       960,
       1280
     ],
-    "lqip": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAQAgCdASoQAAsAA4BaJbACdAYtpnerCNpQAPgpGrLdYJA3jYwC8+geeNYsXqEo2Ss0Hw1phtKESCems19zBcV12Bz3gKigVS3GKi7DL8S+Opd/vEvqmfcmCggpQhbuCIAAAA=="
+    "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAQAgCdASoQAAsAA4BaJQBdgB4lz2TNbkxAAP6NjRRN38hDWwX+EDYdeVZKmXuE4DQXJevy5p3hOfO2Yt9BZB8Bbrs+rF0sN7NHyUAkgt/lm4y9vK9yOe6ySRkp/rgAAAA="
   },
-  "ERP-HIS-LIFE.webp": {
-    "name": "erp-his-life",
-    "width": 1280,
-    "height": 720,
+  "n-role-et-importance-du-product-owner-po-chez-wanasis.webp": {
+    "name": "n-role-et-importance-du-product-owner-po-chez-wanasis",
+    "width": 2528,
+    "height": 1696,
     "widths": [
       480,
       960,
       1280
     ],
-    "lqip": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAABQAgCdASoQAAkAA4BaJaACdAfwIt4gFdqVSIAA/OXEbYCiIl31t7zdv13rgstO/iHGHG+ZoZM6dkeuXeNt+h2zvh/G072tnPYDvjUmmt+gpizUCr/x/wMXuvN8WOTyRbGSDSt26ZiaUAAA"
+    "lqip": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAABQAgCdASoQAAsAA4BaJYwCw7YrnUhNFh/QowAA/plEMvsPs39TI95Zpo+2G2GfcuD7/ZOg2mJe8P+vW6csqs2C0KSyL8VKtT6l9g8JpQMu+qP6nytOh6busFjKlURWj+lNmN8hJGc9BOiNQoAAAA=="
   },
-  "ERP-Invasive-BI.jpg": {
-    "name": "erp-invasive-bi",
-    "width": 1920,
-    "height": 900,
+  "n-le-mrp-pilier-des-entreprises-manufacturieres.webp": {
+    "name": "n-le-mrp-pilier-des-entreprises-manufacturieres",
+    "width": 2528,
+    "height": 1696,
     "widths": [
       480,
       960,
       1280
     ],
-    "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAQCdASoQAAcAA4BaJZQC7ACq/bz7AAD+6ACkyHY5Sp6s8JKzKTLos4AGD7IgrmMZySRskX9V3ZUHQBvntPrpqnEAHk6lWhEaXrYK9iPAAA=="
+    "lqip": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAABQAgCdASoQAAsAA4BaJQBdgMXN3KoWyCjtWogA9rRrZU1P4+PXF63RIlSdG1+FJgt5etU3LT1l/ovRrlGwRumxzoPjEPLk4yRi7sN6c32/BXK8g5Vm+sZjkkKmsTykr/RBCcGbCAAAAA=="
   },
-  "Chef-de-projet-interne-dun-ERP.jpg": {
-    "name": "chef-de-projet-interne-dun-erp",
-    "width": 1800,
-    "height": 1200,
+  "n-limportance-de-lintegration-des-erp-au-systeme-dinformation-hospitalier-his.webp": {
+    "name": "n-limportance-de-lintegration-des-erp-au-systeme-dinformation-hospitalier-his",
+    "width": 2528,
+    "height": 1696,
     "widths": [
       480,
       960,
       1280
     ],
-    "lqip": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAQAgCdASoQAAsAA4BaJYwCdADdK/4vpiQAAP7t0BJai5uOZHRBOXrqb2y8ws1E+OW97fpqV+wjUsntfXCd4Aa0fom+TJg//K8dWdKkHrJpCnQwo8OBx68TfjUcGAAA"
+    "lqip": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAwAgCdASoQAAsAA4BaJZQC7AYuluFUk7tOgAD7paRIZfDqvk/YvTCygMuUpjCqvFzGQTcl2LfiAT46f2/Z+QIve4TIbkXJkmQ8bYtJH8EfGFjIp43Ha+S7mffdiTAL7ghwAA=="
   },
-  "limportance-des-erp-pour-les-commissaires-aux-comptes.jpg": {
-    "name": "limportance-des-erp-pour-les-commissaires-aux-comptes",
-    "width": 1254,
-    "height": 836,
-    "widths": [
-      480,
-      960,
-      1254
-    ],
-    "lqip": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAQAgCdASoQAAsAA4BaJQBOkCYiM6WGgHwAAP7XM/6VhqqM2KqkVjlFZmvWAEFGlX5m++mqKOVt5r2U+Yg89WokEdt5Jy2m20ye9AO4uLUpunTfwioCX7HbcXnFg1nMnP9xQAAA"
-  },
-  "erp-point-de-vue-managerial.webp": {
-    "name": "erp-point-de-vue-managerial",
-    "width": 2048,
-    "height": 1152,
+  "n-pervasive-bi-strategies-de-bi-propulsees-par-erp.webp": {
+    "name": "n-pervasive-bi-strategies-de-bi-propulsees-par-erp",
+    "width": 2528,
+    "height": 1696,
     "widths": [
       480,
       960,
       1280
     ],
-    "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoQAAkAA4BaJZACdAEClHWPn8AA/rem5K/IO2XOhbZE6t8gwvwuxwCJxpR75J/wHuEIaQLv8S1y9zSLDp7JCQcoG+VsbI5gAAA="
+    "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAQAgCdASoQAAsAA4BaJQBOgMXN4K560NtQAP7tK4HHBu0k0W5bL0+HxezmDZFk42rgyznw0ABfHqr0Xf25+uhAT7WlJE8CeZOd6x+I2wqlJ1uShytUfJi+RCJvtsPEAAA="
   },
-  "le-role-revolutionnaire-de-lintelligence-artificielle-dans-les-erp-du-futur.jpg": {
-    "name": "le-role-revolutionnaire-de-lintelligence-artificielle-dans-les-erp-du-futur",
-    "width": 2048,
-    "height": 1151,
+  "n-le-role-crucial-du-chef-de-projet-interne-lors-de-lintegration-dun-erp.webp": {
+    "name": "n-le-role-crucial-du-chef-de-projet-interne-lors-de-lintegration-dun-erp",
+    "width": 2528,
+    "height": 1696,
     "widths": [
       480,
       960,
       1280
     ],
-    "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAQCdASoQAAkAA4BaJaACdADNCQdJUgAA/To/ER3SgxDg9Dn7x//+f9ILRX6p7ibkINpfj2WiuVooL3+BfrXJkRV21om9tovOmIIURFstqrV8AAA="
+    "lqip": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAADwAQCdASoQAAsAA4BaJZwAAl3cO+L2bjAA/tgNYLKP5lkP6A7D9FcWThsYsuL3EZ95f14TGp5tyzlue84F8RItzDHAv9i+r9G/eqelXOgcf0WvRKf/n7mTCJGQjGR3uhm9O+DwEAC6asA4AAA="
   },
-  "role-des-erp-dans-la-modernisation-des-entreprises-familiales.jpg": {
-    "name": "role-des-erp-dans-la-modernisation-des-entreprises-familiales",
-    "width": 2048,
-    "height": 1365,
+  "n-limportance-des-erp-pour-les-commissaires-aux-comptes.webp": {
+    "name": "n-limportance-des-erp-pour-les-commissaires-aux-comptes",
+    "width": 2528,
+    "height": 1696,
     "widths": [
       480,
       960,
       1280
     ],
-    "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADQAQCdASoQAAsAA4BaJZQAAuXnCxVqGAD+9+gFfK4rm7jPkRLD4+usuZ0ZVBDgH/ttVCInsuh7T5W40PVOU7gX6rebLWI5jMWLixZZzGbAHpsOgSgAAA=="
+    "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAwAgCdASoQAAsAA4BaJZQAD48QWgai7Hc7AAD+ymJuYG+TYhPrt2GuEaI/8b7zYXkmqta/kVdR007bVqVoU+GqTqltm5LXIpxyDWIGv/sEbpeUDZOFzTALdAA="
   },
-  "le-bpm-au-service-de-la-competitivite.jpg": {
-    "name": "le-bpm-au-service-de-la-competitivite",
-    "width": 958,
-    "height": 638,
-    "widths": [
-      480,
-      958
-    ],
-    "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAwAgCdASoQAAsAA4BaJQBOgMW51PfrsuIoAAD+5fWZzgz7K20ccfZBpbpCNPoLyfyIHddOhtBPXAaASZmiAyOKppPrFGy3xywbfa8a1HfUa+xMiMZWVHhseQcxaSNM39gnMWI0AAA="
-  },
-  "strategie-erp-a-deux-tiers.jpg": {
-    "name": "strategie-erp-a-deux-tiers",
-    "width": 1600,
-    "height": 909,
+  "n-erp-point-de-vue-managerial.webp": {
+    "name": "n-erp-point-de-vue-managerial",
+    "width": 2528,
+    "height": 1696,
     "widths": [
       480,
       960,
       1280
     ],
-    "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAQCdASoQAAkAA4BaJaQAAp0uuS6qDAAA/pvuxLOzEU4q/XPdKa8tNw9Cqx0fglFof5xkUY2u+50KQqxApen5ddd5xt84suE4mCHW+5fVHGUG8LAAAA=="
+    "lqip": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAABQAgCdASoQAAsAA4BaJZwAD5Mw9qyPEkZFlQAA/usnadj+z2wYJ+Nu+W2T2XpW1Hh7PwN1yb9GqzcR/NurYRjUmVCndeFGmXe6WExz36/NQ0mKxar4RT9poy09RqgpGreLgAAA"
   },
-  "progiciel-SCM.jpg": {
-    "name": "progiciel-scm",
-    "width": 1600,
-    "height": 900,
+  "n-le-role-revolutionnaire-de-lintelligence-artificielle-dans-les-erp-du-futur.webp": {
+    "name": "n-le-role-revolutionnaire-de-lintelligence-artificielle-dans-les-erp-du-futur",
+    "width": 2528,
+    "height": 1696,
     "widths": [
       480,
       960,
       1280
     ],
-    "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAQAgCdASoQAAkAA4BaJQBOgMXclEmjudQAAPwGq6XN50k0qp5s8AVeO9mue0BcOPCXVyhYf+M3r8qV+clw+pTZI9aLEhSfJL1dqLi+E1kS/aKAj9EOIJWD/kAAAA=="
+    "lqip": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAABQAgCdASoQAAsAA4BaJQBOgMXI7LKJ9HRKLzgA/mTa5mhyvwnAlnF3ikjA97HNhHj+6e0SNNtRsvNTD5CRLAYXmBMBMfYboqVNbcXI/twDjns3DGnIxLKYiB3Gbu2dO9H2wAAA"
   },
-  "pourquoi-erp.jpg": {
-    "name": "pourquoi-erp",
-    "width": 2048,
-    "height": 1367,
+  "n-role-des-erp-dans-la-modernisation-des-entreprises-familiales.webp": {
+    "name": "n-role-des-erp-dans-la-modernisation-des-entreprises-familiales",
+    "width": 2528,
+    "height": 1696,
     "widths": [
       480,
       960,
       1280
     ],
-    "lqip": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAAAwAgCdASoQAAsAA4BaJZgCdAYstSHiExWygAD+wGX+80hD+fX9mVglcMG846jOu+cfDKqOhYt6F/32TPw7D+9pRZv0gJWjE74hjC1V0l5OyvPzlalOzxBSLCqXCrkofGWrUXOg+a46xQyMoLSAAA=="
+    "lqip": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAwAgCdASoQAAsAA4BaJYwAD5Asr080pw6zQAD9/HHz2HCgtw+3K7IIDvgurMO1KtfIWcTxyoSn6DeU/TgU/lJizzcXzb2Qiw1BmLCH484EMWQ4g2gyXLGwR9BfVI+Xh4ZzwgAA"
+  },
+  "n-le-bpm-au-service-de-la-competitivite.webp": {
+    "name": "n-le-bpm-au-service-de-la-competitivite",
+    "width": 2528,
+    "height": 1696,
+    "widths": [
+      480,
+      960,
+      1280
+    ],
+    "lqip": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAQAgCdASoQAAsAA4BaJQBOgMX61OYY0q+gAP6KWu8zzdMgHX6ja9HodgrqANPGrFUdN1zp7i76oHaPLhhapObhAdSzFgSeTwOatmQKREYMqlhRG+tBNnREpSTj7bqXNffya+AA"
+  },
+  "n-strategie-erp-a-deux-tiers.webp": {
+    "name": "n-strategie-erp-a-deux-tiers",
+    "width": 2528,
+    "height": 1696,
+    "widths": [
+      480,
+      960,
+      1280
+    ],
+    "lqip": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAABQAgCdASoQAAsAA4BaJYwC7AYvrUDzjud4MAAA/D8V0/WuYSiFmW2RyqBvZNUcIxR1x7U/AAkFHs5N1NcfFGXORYcLNq24ineDSHWseUfRDMEDcDMgzzl88IjHCXwoAQAAAA=="
+  },
+  "n-un-progiciel-scm-ca-sert-a-quoi.webp": {
+    "name": "n-un-progiciel-scm-ca-sert-a-quoi",
+    "width": 2528,
+    "height": 1696,
+    "widths": [
+      480,
+      960,
+      1280
+    ],
+    "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAQAgCdASoQAAsAA4BaJQBOgCPg/7U8UCsAAP7uFEwb0efYpb62MPWQoluQl+X8JYvAY76WVSKEqqWnR1PhE19b26kmKurl8oYW8YpWX5ADAhCnLwAAAA=="
+  },
+  "n-pourquoi-ai-je-besoin-dun-erp.webp": {
+    "name": "n-pourquoi-ai-je-besoin-dun-erp",
+    "width": 2528,
+    "height": 1696,
+    "widths": [
+      480,
+      960,
+      1280
+    ],
+    "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAQAgCdASoQAAsAA4BaJYwAD49q4RVPJycAAP7uys2jdCsiKO1xHmGtPfu3bmgTM92dNeE/nxguNa2qvlN6ZBhc5CwKVm4ANslsmImt8bEQzoh7/j3I7RJUQEAvN1N81AA="
   },
   "erp-module-crm.jpg": {
     "name": "erp-module-crm",
@@ -1523,6 +1545,162 @@
     ],
     "lqip": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAADQAwCdASoQABQAPu1iqU2ppaOiMAgBMB2JZwAAUWiT8p8xX/rALcAA/uqeH5T309dtyoX6uxU9W+kCLY89luqeb3nbvZ+q3MH3HQCiBOK/LfRg5Tp3d8NRNH9VvkRm5T0RLSAFDXzj4mSVlNmIim/QTuxYj7Uqw93wb125P7lp2RjgAAA="
   },
+  "af-algerie-hero.webp": {
+    "name": "af-algerie-hero",
+    "width": 2752,
+    "height": 1536,
+    "widths": [
+      640,
+      960,
+      1280,
+      1920
+    ],
+    "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAQCdASoQAAkAA4BaJZQAAevF3CxgAP32rs0qMSyi9p1tr6o038nyzabs4lOe3RyYEmHlQ3yscCWu5b+jHx6el9TFoAAA"
+  },
+  "ct-contact-hero.webp": {
+    "name": "ct-contact-hero",
+    "width": 2752,
+    "height": 1536,
+    "widths": [
+      640,
+      960,
+      1280,
+      1920
+    ],
+    "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQAgCdASoQAAkAA4BaJZQCw7EfoUb1lTowAP7yELaUjUOYNUI/ieqUYyfX/Q5+MwobVogxRS15gU0WKY6wC3w3xoxglIrdb/A6slniCZ7jd5rwODD8POYAAAA="
+  },
+  "fly-01.webp": {
+    "name": "fly-01",
+    "width": 3168,
+    "height": 1344,
+    "widths": [
+      640,
+      960,
+      1280,
+      1920
+    ],
+    "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAwAgCdASoQAAcAA4BaJbACdAEe/gXYs+4wAAD9mSdg0TBKwTwBytos4YrWWXCnY9pV8hgn5fSDVuL8H+UYIx/B1473C2RlllgAAA=="
+  },
+  "fly-02.webp": {
+    "name": "fly-02",
+    "width": 3168,
+    "height": 1344,
+    "widths": [
+      640,
+      960,
+      1280,
+      1920
+    ],
+    "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQAgCdASoQAAcAA4BaJZQCdAYtpLxJ1aU4APyxapeKsy2b6z44eG9cCfGzitDPJR/+Wo68XZ47I+CQnopCzKEq8iCcdPjSkaN6elgAAAA="
+  },
+  "fly-03.webp": {
+    "name": "fly-03",
+    "width": 2752,
+    "height": 1536,
+    "widths": [
+      640,
+      960,
+      1280,
+      1920
+    ],
+    "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACwAQCdASoQAAkAA4BaJZQAAdEV89YAAP71P/y9HS9l8lIlIRLbaqQk3TrQgkTEyvvFrM08iGu4gwI17Jlj16jZzr8WgB6Ny3lfrmQAAAA="
+  },
+  "fly-04.webp": {
+    "name": "fly-04",
+    "width": 2752,
+    "height": 1536,
+    "widths": [
+      640,
+      960,
+      1280,
+      1920
+    ],
+    "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAQCdASoQAAkAA4BaJZQCw7DDnPxmu+AA/u4x29xlqurjSKb0ddbI/sklBYVsFZky26DC7b65r81T4jyvo0iSM8BMou4+W1fdQKTZ/WZimm6cwAA="
+  },
+  "fly-05.webp": {
+    "name": "fly-05",
+    "width": 2752,
+    "height": 1536,
+    "widths": [
+      640,
+      960,
+      1280,
+      1920
+    ],
+    "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAQCdASoQAAkAA4BaJQBdgCFsNVLuWAAA/vJ9vMv8XrUI0ty971ffpe0dDwolt0X1vcg3qBqmeL/sh7odytwt+tSmynCG9KZKLW4kWuw8+MGIAAA="
+  },
+  "fly-06.webp": {
+    "name": "fly-06",
+    "width": 1856,
+    "height": 2304,
+    "widths": [
+      640,
+      960,
+      1280,
+      1856
+    ],
+    "lqip": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAADQAwCdASoQABQAPu1iqU2ppaOiMAgBMB2JYwAAUP9PB+LW12uc1AAA/lR4exZ5YfE7sWWGl+YyhzXCcyayXtam7Bf5x9d58TuRTRDoWz8Jw7vMbptd0DvLYzw//hJ+vuM3EKSLfQ919mIs9Ro9+UluaM0JjhkDaeDYlw0JRsMAAA=="
+  },
+  "fly-07.webp": {
+    "name": "fly-07",
+    "width": 2528,
+    "height": 1696,
+    "widths": [
+      640,
+      960,
+      1280,
+      1920
+    ],
+    "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAABQAgCdASoQAAsAA4BaJYwC7AYwxkrjeJUQL4AA/bD+aslDxQcp7vUNgFetM/dTR32vgSpRI+md3/br0lMj6A4ijOIu0I1NBb1u5PQrEYu3unpAb1fkmDRW43+BZyoXusujJkz2BAA="
+  },
+  "fly-08.webp": {
+    "name": "fly-08",
+    "width": 2528,
+    "height": 1696,
+    "widths": [
+      640,
+      960,
+      1280,
+      1920
+    ],
+    "lqip": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAQAgCdASoQAAsAA4BaJZQCsAYuvJ5xRPyAAP7hiykMwzsThSynhyUWLu7mWP8RWH7DGc6GNfvXlx3B6182QxEFWlUVujlQOoM6+bAn6DRK7wERVg0rXR4A"
+  },
+  "fly-09.webp": {
+    "name": "fly-09",
+    "width": 2528,
+    "height": 1696,
+    "widths": [
+      640,
+      960,
+      1280,
+      1920
+    ],
+    "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAQCdASoQAAsAA4BaJQBdgCFVO15UAAD0B0yuWcG2ZtN0iEP6g88laXLVT1tNp48NfUOjubVX4NzyU/pzMWgvWGgcX39qa90rN0uMsoAAAA=="
+  },
+  "fly-10.webp": {
+    "name": "fly-10",
+    "width": 2528,
+    "height": 1696,
+    "widths": [
+      640,
+      960,
+      1280,
+      1920
+    ],
+    "lqip": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAABwAgCdASoQAAsAA4BaJYwCw7dbPY9tRvo8nmKAAPlId4/uwcM5JC0+bZpHR9yRhnqKMA0FqCjplF4PPVvRb3Vd1xNvePxbQ4TUhLPlx5m3ypwJiCQIAAaYeNzdyeWiPZOyk7YSY6LwAA=="
+  },
+  "fly-11.webp": {
+    "name": "fly-11",
+    "width": 2528,
+    "height": 1696,
+    "widths": [
+      640,
+      960,
+      1280,
+      1920
+    ],
+    "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAABQAgCdASoQAAsAA4BaJZwAD5CRfn2A0a71rwAA/u5szAsTwO+NLtrZYuFCSt5+wXr1hsL8lFGmpal3oOC29FW+oVhr5lzClVG6wet8Q0NxQ6a6XLGVPagkytiblvQgAAA="
+  },
   "h1-home-hero.webp": {
     "name": "h1-home-hero",
     "width": 1856,
@@ -1594,6 +1772,30 @@
       1920
     ],
     "lqip": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAQCdASoQAAsAA4BaJQBOgBnywFtW/gAA4C5kybzuAFe0ayEix4mNOsmSA7LFGHWmd/ba/bxZ3+NBWJ1yvx161rXOjotB/++WjEah+XYokLo2rylXR0AA"
+  },
+  "lh-life-hero.webp": {
+    "name": "lh-life-hero",
+    "width": 2752,
+    "height": 1536,
+    "widths": [
+      640,
+      960,
+      1280,
+      1920
+    ],
+    "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAQCdASoQAAkAA4BaJYwC7AD0dBZAgAD+1rGSFSc9pfYTsKHiptRwGcxPpyZTVLw9wmeSxLa5NiZB7rxSQMMrAhpNMkUAAAA="
+  },
+  "lh2-life-card.webp": {
+    "name": "lh2-life-card",
+    "width": 2752,
+    "height": 1536,
+    "widths": [
+      640,
+      960,
+      1280,
+      1920
+    ],
+    "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADQAQCdASoQAAkAA4BaJZwAAn/TYgT2AAD+625yq1PWC4UWgiI9ufgXgfgUppiL4RW+DHsIu39Ruk6edtPuvfHXyUuBAQYQAAA="
   },
   "m-achat.webp": {
     "name": "m-achat",
@@ -1751,6 +1953,18 @@
     ],
     "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAwAgCdASoQAAsAA4BaJQBdgMWgxjfMSwSJwAD+7/np6JUVHmHwBYf/C7HyNfO03DqrmDxn91m3MpXOpzEW66KrBbt1+q4y/q4YVwWyBiKMOgTl/ZePBPeyUn3cBbcvAAA="
   },
+  "rf-partner.webp": {
+    "name": "rf-partner",
+    "width": 2752,
+    "height": 1536,
+    "widths": [
+      640,
+      960,
+      1280,
+      1920
+    ],
+    "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADQAQCdASoQAAkAA4BaJQBWAP4AgYj8AAD+7dZArSsDjvsVbNW8oujbIOB6SpbnkjxEKphHSvQ/JcpleSKOHE6JWeLPrdv+SF/mDnlkxlGIaYpYDA8AAA=="
+  },
   "t1-distribution-hub.webp": {
     "name": "t1-distribution-hub",
     "width": 2528,
@@ -1798,6 +2012,30 @@
       1920
     ],
     "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAQAgCdASoQAAsAA4BaJYwC7ADG4te00vYQAP6X7THeau4YkHvA2U2HfaT4lYrOEoTch8J+Qm0te7dXEEtvFB39rtzUtva/+5/MXYAA"
+  },
+  "w1-warehouse-band.webp": {
+    "name": "w1-warehouse-band",
+    "width": 3168,
+    "height": 1344,
+    "widths": [
+      640,
+      960,
+      1280,
+      1920
+    ],
+    "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAQCdASoQAAcAA4BaJQBOgMWWyLgPAGAA+Mg4JLjNIQdS8Q3t0ooalerW1q0kqCQSMp/51gsfa4LTKolD9a0/tVTd61I7O7z8i311bmnEpAAA"
+  },
+  "w2-production-band.webp": {
+    "name": "w2-production-band",
+    "width": 3168,
+    "height": 1344,
+    "widths": [
+      640,
+      960,
+      1280,
+      1920
+    ],
+    "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADQAQCdASoQAAcAA4BaJQBOgBn0SmaowADMjNLho4tGw8DbCNEQfQNpPmeX6mqDvd9LdsMUITrsaKI3IGQ6ZPRIgAA="
   },
   "aadl.png": {
     "name": "aadl",

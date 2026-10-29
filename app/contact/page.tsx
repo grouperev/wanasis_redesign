@@ -1,3 +1,4 @@
+import { PhotoHero } from "@/components/ui/PhotoHero";
 import { Form } from "@/components/forms/Form";
 import { pageMetadata } from "@/components/news/meta";
 import content from "@/lib/content/contact.json";
@@ -12,13 +13,11 @@ const tel = (p: string) => `tel:${p.replace(/[^\d+]/g, "")}`;
 export default function ContactPage() {
   return (
     <>
-      <section className="brand-mesh-light bg-surface">
-        <div className="container-x pb-6 pt-16 lg:pt-24">
-          <h1 data-reveal className="font-display text-h1">
-            {frTypo(c.h1)}
-          </h1>
-        </div>
-      </section>
+      <PhotoHero shot="CT" label="CT · accueil des bureaux">
+        <h1 data-reveal className="font-display text-h1">
+          {frTypo(c.h1)}
+        </h1>
+      </PhotoHero>
 
       <section className="container-x grid gap-16 pb-[var(--section-y)] pt-10 lg:grid-cols-12 lg:gap-12">
         <div className="lg:col-span-7">

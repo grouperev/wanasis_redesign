@@ -44,7 +44,8 @@ export function MotionRoot() {
 
     const initial = firstView;
     firstView = false;
-    if (initial) {
+    // Page h1s rise in through CSS (globals.css, motion layer); the engine only handles other targets.
+    {
       document.querySelectorAll("h1[data-reveal]").forEach((el) => {
         el.setAttribute("data-revealed", "");
         el.setAttribute("data-motion-done", "");

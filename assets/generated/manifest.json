@@ -457,5 +457,275 @@
       2528,
       1696
     ]
+  },
+  {
+    "slug": "lh-life-hero",
+    "file": "assets/generated/lh-life-hero.webp",
+    "shot": "LH",
+    "source": "",
+    "prompt_file": "garden-gpt-image-2/prompt/lh-life-hero-20261026.md",
+    "mode": "B",
+    "tool": "Magnific images_generate · Nano Banana 2.1 · 2k",
+    "variant_chosen": "b",
+    "rejected": "a: kept as LH2 (Home card)",
+    "approved_by": "orchestrator",
+    "alt_fr": "Médecin et cadre de santé échangeant dans le hall lumineux d'une clinique",
+    "size": [
+      2752,
+      1536
+    ]
+  },
+  {
+    "slug": "w1-warehouse-band",
+    "file": "assets/generated/w1-warehouse-band.webp",
+    "shot": "W1",
+    "source": "",
+    "prompt_file": "garden-gpt-image-2/prompt/w1-warehouse-band-20261026.md",
+    "mode": "B",
+    "tool": "Magnific images_generate · Nano Banana 2.1 · 2k",
+    "variant_chosen": "a",
+    "rejected": "b: used in the Références fly-in",
+    "approved_by": "orchestrator",
+    "alt_fr": "Allée d'un entrepôt de distribution pharmaceutique avec sa ligne de sécurité turquoise",
+    "size": [
+      3168,
+      1344
+    ]
+  },
+  {
+    "slug": "w2-production-band",
+    "file": "assets/generated/w2-production-band.webp",
+    "shot": "W2",
+    "source": "",
+    "prompt_file": "garden-gpt-image-2/prompt/w2-production-band-20261026.md",
+    "mode": "B",
+    "tool": "Magnific images_generate · Nano Banana 2.1 · 2k",
+    "variant_chosen": "a",
+    "rejected": "b: used in the Références fly-in",
+    "approved_by": "orchestrator",
+    "alt_fr": "Ligne de conditionnement pharmaceutique en salle blanche",
+    "size": [
+      3168,
+      1344
+    ]
+  },
+  {
+    "slug": "af-algerie-hero",
+    "file": "assets/generated/af-algerie-hero.webp",
+    "shot": "AF",
+    "source": "",
+    "prompt_file": "garden-gpt-image-2/prompt/af-algerie-hero-20261026.md",
+    "mode": "B",
+    "tool": "Magnific images_generate · Nano Banana 2.1 · 2k",
+    "variant_chosen": "b",
+    "rejected": "a: used in the Références fly-in",
+    "approved_by": "orchestrator",
+    "alt_fr": "Consultante et dirigeant étudiant un plan face au pont suspendu de Constantine",
+    "size": [
+      2752,
+      1536
+    ]
+  },
+  {
+    "slug": "ct-contact-hero",
+    "file": "assets/generated/ct-contact-hero.webp",
+    "shot": "CT",
+    "source": "",
+    "prompt_file": "garden-gpt-image-2/prompt/ct-contact-hero-20261026.md",
+    "mode": "B",
+    "tool": "Magnific images_generate · Nano Banana 2.1 · 2k",
+    "variant_chosen": "a",
+    "rejected": "b: used in the Références fly-in",
+    "approved_by": "orchestrator",
+    "alt_fr": "Accueil des bureaux Wanasis à Constantine",
+    "size": [
+      2752,
+      1536
+    ]
+  },
+  {
+    "slug": "rf-partner",
+    "file": "assets/generated/rf-partner.webp",
+    "shot": "RF",
+    "source": "",
+    "prompt_file": "garden-gpt-image-2/prompt/rf-partner-20261026.md",
+    "mode": "B",
+    "tool": "Magnific images_generate · Nano Banana 2.1 · 2k",
+    "variant_chosen": "b",
+    "rejected": "a: used in the Références fly-in",
+    "approved_by": "orchestrator",
+    "alt_fr": "Poignée de main entre un commercial et une pharmacienne d'officine",
+    "size": [
+      2752,
+      1536
+    ]
+  },
+  {
+    "slug": "lh2-life-card",
+    "file": "assets/generated/lh2-life-card.webp",
+    "shot": "LH2",
+    "source": "lh-life-hero-a.png",
+    "mode": "B",
+    "tool": "Magnific images_generate · Nano Banana 2.1 · 2k",
+    "approved_by": "orchestrator",
+    "alt_fr": "Médecin et confrère consultant une tablette dans une clinique",
+    "size": [
+      2752,
+      1536
+    ]
+  },
+  {
+    "slug": "fly-01",
+    "file": "assets/generated/fly-01.webp",
+    "shot": "FLY-01",
+    "source": "w1-warehouse-band-b.png",
+    "mode": "B",
+    "tool": "Magnific images_generate · Nano Banana 2.1 · 2k",
+    "approved_by": "orchestrator",
+    "alt_fr": "",
+    "size": [
+      3168,
+      1344
+    ]
+  },
+  {
+    "slug": "fly-02",
+    "file": "assets/generated/fly-02.webp",
+    "shot": "FLY-02",
+    "source": "w2-production-band-b.png",
+    "mode": "B",
+    "tool": "Magnific images_generate · Nano Banana 2.1 · 2k",
+    "approved_by": "orchestrator",
+    "alt_fr": "",
+    "size": [
+      3168,
+      1344
+    ]
+  },
+  {
+    "slug": "fly-03",
+    "file": "assets/generated/fly-03.webp",
+    "shot": "FLY-03",
+    "source": "af-algerie-hero-a.png",
+    "mode": "B",
+    "tool": "Magnific images_generate · Nano Banana 2.1 · 2k",
+    "approved_by": "orchestrator",
+    "alt_fr": "",
+    "size": [
+      2752,
+      1536
+    ]
+  },
+  {
+    "slug": "fly-04",
+    "file": "assets/generated/fly-04.webp",
+    "shot": "FLY-04",
+    "source": "ct-contact-hero-b.png",
+    "mode": "B",
+    "tool": "Magnific images_generate · Nano Banana 2.1 · 2k",
+    "approved_by": "orchestrator",
+    "alt_fr": "",
+    "size": [
+      2752,
+      1536
+    ]
+  },
+  {
+    "slug": "fly-05",
+    "file": "assets/generated/fly-05.webp",
+    "shot": "FLY-05",
+    "source": "rf-partner-a.png",
+    "mode": "B",
+    "tool": "Magnific images_generate · Nano Banana 2.1 · 2k",
+    "approved_by": "orchestrator",
+    "alt_fr": "",
+    "size": [
+      2752,
+      1536
+    ]
+  },
+  {
+    "slug": "fly-06",
+    "file": "assets/generated/fly-06.webp",
+    "shot": "FLY-06",
+    "source": "h2-fusion-hero-a.png",
+    "mode": "B",
+    "tool": "Magnific images_generate · Nano Banana 2.1 · 2k",
+    "approved_by": "orchestrator",
+    "alt_fr": "",
+    "size": [
+      1856,
+      2304
+    ]
+  },
+  {
+    "slug": "fly-07",
+    "file": "assets/generated/fly-07.webp",
+    "shot": "FLY-07",
+    "source": "m-crm-a.png",
+    "mode": "B",
+    "tool": "Magnific images_generate · Nano Banana 2.1 · 2k",
+    "approved_by": "orchestrator",
+    "alt_fr": "",
+    "size": [
+      2528,
+      1696
+    ]
+  },
+  {
+    "slug": "fly-08",
+    "file": "assets/generated/fly-08.webp",
+    "shot": "FLY-08",
+    "source": "l1-reception-a.png",
+    "mode": "B",
+    "tool": "Magnific images_generate · Nano Banana 2.1 · 2k",
+    "approved_by": "orchestrator",
+    "alt_fr": "",
+    "size": [
+      2528,
+      1696
+    ]
+  },
+  {
+    "slug": "fly-09",
+    "file": "assets/generated/fly-09.webp",
+    "shot": "FLY-09",
+    "source": "t3-logistics-dock-b.png",
+    "mode": "B",
+    "tool": "Magnific images_generate · Nano Banana 2.1 · 2k",
+    "approved_by": "orchestrator",
+    "alt_fr": "",
+    "size": [
+      2528,
+      1696
+    ]
+  },
+  {
+    "slug": "fly-10",
+    "file": "assets/generated/fly-10.webp",
+    "shot": "FLY-10",
+    "source": "m-production-a.png",
+    "mode": "B",
+    "tool": "Magnific images_generate · Nano Banana 2.1 · 2k",
+    "approved_by": "orchestrator",
+    "alt_fr": "",
+    "size": [
+      2528,
+      1696
+    ]
+  },
+  {
+    "slug": "fly-11",
+    "file": "assets/generated/fly-11.webp",
+    "shot": "FLY-11",
+    "source": "l2-nurse-station-a.png",
+    "mode": "B",
+    "tool": "Magnific images_generate · Nano Banana 2.1 · 2k",
+    "approved_by": "orchestrator",
+    "alt_fr": "",
+    "size": [
+      2528,
+      1696
+    ]
   }
 ]

@@ -5,8 +5,8 @@ import { ClientStrip } from "@/components/home/ClientStrip";
 import { NewsRail } from "@/components/home/NewsRail";
 import { Stats } from "@/components/home/Stats";
 import { Testimonials } from "@/components/home/Testimonials";
-import { Divider } from "@/components/motion/Divider";
 import { Photo } from "@/components/ui/Picture";
+import { PhotoBand } from "@/components/ui/PhotoHero";
 import home from "@/lib/content/home.json";
 import { photo } from "@/lib/photos";
 import { firstSentences, frTypo } from "@/lib/format";
@@ -76,8 +76,9 @@ export default function HomePage() {
             ))}
           </div>
         </div>
-        <Divider className="absolute inset-x-0 bottom-0 z-10 translate-y-1/2" />
       </section>
+
+      <PhotoBand shot="W1" label="W1 · entrepôt de distribution pharmaceutique" />
 
       {/* Products */}
       <section className="section-y bg-surface-2" aria-labelledby="solutions">
@@ -87,8 +88,8 @@ export default function HomePage() {
           </h2>
           <div className="mt-12 grid gap-6 lg:grid-cols-2">
             {[
-              { badge: "fusion-erp", name: "Fusion ERP", lead: fusionLead, rest: fusionRest, href: "/wanasis-fusion-erp-modules/", shot: "M-production" },
-              { badge: "life-his", name: "Life HIS", lead: lifeLead, rest: lifeRest, href: "/wanasis-life-his/", shot: "L2" },
+              { badge: "fusion-erp", name: "Fusion ERP", lead: fusionLead, rest: fusionRest, href: "/wanasis-fusion-erp-modules/", shot: "RF" },
+              { badge: "life-his", name: "Life HIS", lead: lifeLead, rest: lifeRest, href: "/wanasis-life-his/", shot: "LH2" },
             ].map((p) => (
               <article key={p.name} className="flex flex-col rounded-lg border border-hairline bg-surface p-6 md:p-10">
                 <h3 className="flex items-center gap-4">
@@ -102,7 +103,7 @@ export default function HomePage() {
                     <p className="mt-3">{p.rest}</p>
                   </details>
                 )}
-                <Photo shot={p.shot} label={p.shot} sizes="(min-width: 1024px) 560px, 100vw" className="mt-8 aspect-[4/3] w-full rounded-md" />
+                <Photo shot={p.shot} label={p.shot} sizes="(min-width: 1024px) 560px, 100vw" className="unveil mt-8 aspect-[4/3] w-full rounded-md" />
                 <Link href={p.href} className="btn btn-ghost mt-8 self-start">
                   En savoir plus<span className="sr-only"> sur {p.name}</span>
                 </Link>

@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ModuleDiagram } from "@/components/product/ModuleDiagram";
 import type { Family, FusionModule } from "@/components/fusion/types";
 import { Picture } from "@/components/ui/Picture";
+import { PhotoHero } from "@/components/ui/PhotoHero";
 import page from "@/lib/content/fusion-algerie.json";
 import fusion from "@/lib/content/fusion.json";
 import { frTypo } from "@/lib/format";
@@ -27,23 +28,21 @@ export default function ErpAlgerieFusionPage() {
   return (
     <>
       {/* 1 · Hero */}
-      <section className="brand-mesh-light bg-surface">
-        <div className="container-x py-16 lg:py-28">
-          <Picture src="fusion-erp.png" alt="Fusion ERP" sizes="160px" priority placeholder={false} imgClassName="h-auto w-40" />
-          <h1 data-reveal className="mt-8 max-w-[22ch] font-display text-h1">
-            {frTypo(page.hero.title)}
-          </h1>
-          <p className="mt-6 max-w-[48ch] font-display text-h3 text-ink-2">{frTypo(page.hero.lead)}</p>
-          <div className="mt-10 flex flex-wrap gap-3">
-            <Link href="/contact/" className="btn btn-action">
-              Demander une démo
-            </Link>
-            <Link href={page.brochure.url} className="btn btn-ghost">
-              {page.brochure.text}
-            </Link>
-          </div>
+      <PhotoHero shot="AF" label="AF · bureau face au pont de Constantine">
+        <Picture src="fusion-erp.png" alt="Fusion ERP" sizes="160px" priority placeholder={false} imgClassName="h-auto w-40" />
+        <h1 data-reveal className="mt-8 font-display text-h1">
+          {frTypo(page.hero.title)}
+        </h1>
+        <p className="mt-6 font-display text-h3 text-ink-2">{frTypo(page.hero.lead)}</p>
+        <div className="mt-10 flex flex-wrap gap-3">
+          <Link href="/contact/" className="btn btn-action">
+            Demander une démo
+          </Link>
+          <Link href={page.brochure.url} className="btn btn-ghost">
+            {page.brochure.text}
+          </Link>
         </div>
-      </section>
+      </PhotoHero>
 
       {/* 2 · Copy beside the module diagram */}
       <section className="section-y bg-surface-2">
